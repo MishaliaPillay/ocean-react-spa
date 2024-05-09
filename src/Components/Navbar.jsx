@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
-
+//Reference for the Navbar: hitensharma. (n.d.). Responsive Animated Navbar [CodePen]. CodePen. https://codepen.io/hitensharma/pen/dybryGE
 const Navbar = ({ pages }) => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +12,7 @@ const Navbar = ({ pages }) => {
     setIsOpen(!isOpen);
   };
 
+  //After the user navigates to a page , the is open state is false
   const navigateTo = (page) => {
     navigate(`/${page}`);
     setIsOpen(false); // Close the navbar after navigating
@@ -20,7 +21,7 @@ const Navbar = ({ pages }) => {
   return (
     <nav>
       <div className="logo">
-        <img src="logo.svg" alt="Logo Image" />
+        <img src="whale.png" alt="whale" />
       </div>
       <div
         className={`hamburger ${isOpen ? "toggle" : ""}`}

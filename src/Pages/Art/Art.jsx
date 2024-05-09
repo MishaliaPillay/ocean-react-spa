@@ -4,7 +4,7 @@ const Art = () => {
   return (
     <div>
       
-
+edddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
     </div>
   )
 }

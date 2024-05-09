@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Design = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div>eeeeeefgtjuuuuuuuuuuuuuuuuuuuuuuu</div>;
+};
 
-export default Design
+export default Design;

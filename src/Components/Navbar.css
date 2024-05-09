@@ -1,3 +1,5 @@
+/*Reference for the Navbar: hitensharma. (n.d.). Responsive Animated Navbar [CodePen]. CodePen. https://codepen.io/hitensharma/pen/dybryGE*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,10 @@
   font-weight: 300;
 }
 body {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
   overflow-x: hidden;
 }
 nav {
@@ -39,17 +45,23 @@ nav {
   align-items: center;
   text-transform: uppercase;
 }
-.nav-links li a {
+.nav-links li button {
   text-decoration: none;
   margin: 0 0.7vw;
 }
-.nav-links li a:hover {
+.nav-links li button:hover {
   color: #61dafb;
 }
 .nav-links li {
   position: relative;
 }
-.nav-links li a::before {
+button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  background: none;
+}
+.nav-links li button::before {
   content: "";
   display: block;
   height: 3px;
@@ -59,7 +71,7 @@ nav {
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
 }
-.nav-links li a:hover::before {
+.nav-links li button:hover::before {
   width: 80%;
 }
 
@@ -114,6 +126,7 @@ nav {
     z-index: 3;
   }
   .hamburger {
+    border: none;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -123,6 +136,12 @@ nav {
     z-index: 2;
     transition: all 0.7s ease;
   }
+  .hamburger:hover {
+    transition: all 0s ease;
+    border-radius: 40%;
+    border: rgb(4, 254, 254) 2px solid;
+  }
+
   .nav-links {
     display: flex;
     position: fixed;
