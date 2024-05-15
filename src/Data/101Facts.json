@@ -257,27 +257,27 @@
     },
     {
       "id": 52,
-      "fact": "The ocean floor is not flat but has mountains, valleys, ridges, and other features similar to the land on the continents.",
+      "fact": "The blue whale is the largest animal that exists, or has ever existed, on Earth. This majestic mammal travels all over the world's oceans.",
       "image": "ocean_floor.jpg"
     },
     {
       "id": 53,
-      "fact": "The ocean's surface is home to a variety of currents, some of which are predictable and used for navigation. The Gulf Stream, for example, helps ships travel from Florida to Europe faster.",
+      "fact": "Jacques-Yves Cousteau built and inhabited the first undersea habitat. He and another oceanaut lived in the underwater structure, named Conshelf One, for a week in 1962.",
       "image": "ocean_currents.jpg"
     },
     {
       "id": 54,
-      "fact": "Every year, over 8 million metric tons of plastic waste end up in the oceans, contributing to a vast 'plastic soup' of debris. This waste harms marine life and can enter the human food chain through seafood.",
+      "fact": "Sometimes coastal waters will turn red because they are suddenly overrun by algal growth. These red tides can overwhelm the water, killing millions of fish and other marine life in the process.",
       "image": "plastic_waste_ocean.jpg"
     },
     {
       "id": 55,
-      "fact": "The ocean is a place of incredible beauty and diversity. Coral reefs, for example, are home to a quarter of all marine life and provide vital protection to coastlines against storms and erosion.",
+      "fact": "Hurricanes are born through the interaction of Earth's winds and her oceans. When winds happen upon a pocket of warm sea water, the result is often a massive storm that can sweep inland and devastate coastal areas.",
       "image": "coral_reef.jpg"
     },
     {
       "id": 56,
-      "fact": "The blue whale, which can grow up to 100 feet long and weigh over 200 tons, is the largest animal ever known to have existed on Earth.",
+      "fact": "Carrageenan, a seaweed extract, is used as an emulsifier in a variety of common products like peanut butter, toothpaste, and cosmetics.",
       "image": "blue_whale.jpg"
     },
     {
@@ -287,32 +287,32 @@
     },
     {
       "id": 58,
-      "fact": "The sea holds a special place in literature, symbolizing both the vastness of human possibility and the mystery of the unknown. Many authors, from Herman Melville to Ernest Hemingway, have drawn inspiration from the sea.",
+      "fact": "In Genesis, the first animals God creates are aquatic, which accords with the contemporary scientific view that all life originated in the primordial oceans.",
       "image": "literature_sea.jpg"
     },
     {
       "id": 59,
-      "fact": "For centuries, sailors navigated using the stars. Even today, celestial navigation is taught as a backup to modern GPS systems.",
+      "fact": "For a long time it was believed that Venus was oceanic like Earth, partly because of the swirling clouds that cover the planet.",
       "image": "celestial_navigation.jpg"
     },
     {
       "id": 60,
-      "fact": "The first successful transatlantic telegraph cable was completed in 1858, connecting North America and Europe for the first time in history. Before that, communication between the continents took weeks by ship.",
+      "fact": "In his dialogue Timaeus, Plato tells the story of a fantastically wealthy city called Atlantis, which sank into the sea. The legend has inspired treasure and adventure seekers for the past two thousand years.",
       "image": "telegraph_cable.jpg"
     },
     {
       "id": 61,
-      "fact": "The Bermuda Triangle, a loosely defined region in the western part of the North Atlantic Ocean, is the site of numerous mysterious disappearances of ships and aircraft. However, there is no scientific evidence to support the idea of supernatural phenomena in this area.",
+      "fact": "Norse mythology held that the end of the world would come about through a massive flood caused by Jörmungandr, the great serpent who circles the world.",
       "image": "bermuda_triangle.jpg"
     },
     {
       "id": 62,
-      "fact": "The ocean is a crucial regulator of the Earth's climate, absorbing about 30% of the carbon dioxide produced by human activities and about 90% of the excess heat trapped by greenhouse gases.",
+      "fact": "Tsunami is a Japanese word derived from the term great harbor wave.",
       "image": "ocean_climate.jpg"
     },
     {
       "id": 63,
-      "fact": "The ocean's 'biological pump' is responsible for removing carbon dioxide from the atmosphere and storing it in the deep ocean. This process helps to regulate the Earth's climate by reducing the amount of greenhouse gases in the atmosphere.",
+      "fact": "One of the largest tsunamis in history occurred in 1883, when the Indonesian volcano Krakatoa erupted. The resulting waves, one of which reached 133 feet high, devastated the coasts of Java and Sumatra, killing 36,000 people. One of the waves reportedly carried a boat two miles inland.",
       "image": "biological_pump.jpg"
     },
     {
@@ -322,142 +322,142 @@
     },
     {
       "id": 65,
-      "fact": "The ocean is home to many strange and fascinating creatures, including the blobfish, which has been called the world's ugliest animal. This gelatinous fish lives at depths of up to 4,000 feet off the coast of Australia and Tasmania.",
+      "fact": "Tsunamis, or seismic sea waves, are huge, devastating waves caused by earthquakes, underwater landslides, or volcanic eruptions.",
       "image": "blobfish.jpg"
     },
     {
       "id": 66,
-      "fact": "Ocean acidification, caused by the absorption of carbon dioxide from the atmosphere, poses a serious threat to marine life. It can harm coral reefs, shellfish, and other marine organisms by making seawater more acidic.",
+      "fact": "Sir Francis Drake, the infamous sea-dog and beloved personal pirate of Queen Elizabeth I, was the first Englishman to circumnavigate the globe, and he was licensed by the British crown to harass Spanish shipping vessels.",
       "image": "ocean_acidification.jpg"
     },
     {
       "id": 67,
-      "fact": "The ocean's deepest known volcanic eruption occurred in 2012 at the West Mata volcano, located about 4,000 feet (1,200 meters) below the surface of the Pacific Ocean.",
+      "fact": "One of the most serious dangers associated with deep sea diving is decompression sickness, commonly known as the bends. If a diver returns too quickly to the surface, bubbles can form in the blood or body tissues, blocking off circulation and leading to pain, paralysis, or even death.",
       "image": "west_mata_volcano.jpg"
     },
     {
       "id": 68,
-      "fact": "The ocean's saltiness is caused by the erosion of rocks on land, which releases minerals and salts that are carried into the ocean by rivers and streams.",
+      "fact": "Sir Francis Drake, the infamous sea-dog and beloved personal pirate of Queen Elizabeth I, was the first Englishman to circumnavigate the globe, and he was licensed by the British crown to harass Spanish shipping vessels.",
       "image": "salt_erosion.jpg"
     },
     {
       "id": 69,
-      "fact": "The Titanic, which sank in 1912 after hitting an iceberg, lies at a depth of about 12,500 feet (3,800 meters) in the North Atlantic Ocean. It was discovered in 1985 by oceanographer Robert Ballard.",
+      "fact": "The origins of the modern submarine date all the way back to Ancient Greece. Legend holds that Alexander the Great had his men lower him into the sea in a glass barrel so that he could study fish.",
       "image": "titanic.jpg"
     },
     {
       "id": 70,
-      "fact": "The ocean's currents play a crucial role in regulating the Earth's climate by transporting heat from the equator to the poles. They also help to distribute nutrients and oxygen throughout the ocean, which are essential for marine life.",
+      "fact": "It is estimated that between one million and three million ships have sunk to the bottom of the ocean over the course of human history, less than 1% of which have been salvaged.",
       "image": "ocean_currents_climate.jpg"
     },
     {
       "id": 71,
-      "fact": "The ocean's surface absorbs about 50% of the sunlight that reaches it, while the rest is reflected back into space or absorbed by clouds and atmospheric gases.",
+      "fact": "The famous French pirate L'Olonnais terrorized the Caribbean seas in the late 1600s. Known for his cruelty, legend holds that he once cut a suspected traitor's heart out and ate it.",
       "image": "ocean_sunlight.jpg"
     },
     {
       "id": 72,
-      "fact": "The ocean's salinity varies from place to place and depends on factors such as temperature, rainfall, and evaporation. In general, the ocean is saltiest near the equator and least salty near the poles.",
+      "fact": "Modern submarines first appeared in the early 1600s. William Bourne, a British innkeeper and mathematician proposed the idea, and Dutch inventor Cornelius von Drebble built the first workable submarine.",
       "image": "ocean_salinity.jpg"
     },
     {
       "id": 73,
-      "fact": "The ocean's waves are caused by the wind blowing over the surface of the water. They can travel thousands of miles across the ocean and can be as tall as a six-story building.",
+      "fact": "Submarines have been used for military purposes, to varying degrees of success, since 1776, when a one-man American craft called the Turtle unsuccessfully attacked a British warship. Since then, submarines have revolutionized naval battle.",
       "image": "ocean_waves.jpg"
     },
     {
       "id": 74,
-      "fact": "The ocean's deepest point is located in the Mariana Trench, which reaches a depth of about 36,070 feet (10,994 meters). This is deeper than Mount Everest is tall.",
+      "fact": "Recent geological evidence suggests that there is a hidden ocean buried in Earth's mantle. The water is trapped inside a substance called ringwoodite, and some believe that there is as much water below the surface as there is in the oceans.",
       "image": "mariana_trench_deepest_point.jpg"
     },
     {
       "id": 75,
-      "fact": "The ocean's temperature varies depending on factors such as location, depth, and time of year. In general, surface waters near the equator are warmest, while deep waters near the poles are coldest.",
+      "fact": "Drinking sea water in large amounts can be deadly for human beings, as the kidneys cannot handle such high levels of sodium.",
       "image": "ocean_temperature.jpg"
     },
     {
       "id": 76,
-      "fact": "The ocean's color is determined by several factors, including the presence of microscopic plants called phytoplankton, dissolved organic matter, and the depth of the water. In general, deeper waters appear blue, while shallow waters appear green.",
+      "fact": "The scuba system, which has allowed human beings to intimately explore the underwater world, is actually an acronym: S.C.U.B.A. stands for Self-Contained Underwater Breathing Apparatus.",
       "image": "ocean_color.jpg"
     },
     {
       "id": 77,
-      "fact": "The ocean's oxygen comes primarily from photosynthesis by marine plants, such as phytoplankton and seaweed. These plants produce oxygen as a byproduct of photosynthesis, which is then dissolved in the water and made available to marine animals.",
+      "fact": "Whaling, or the hunting of the ocean's whales, has a long history. Norwegians hunted whales as early as 2,000 BC, and the practice has deep historical roots among the Japanese and Inuit peoples as well.",
       "image": "ocean_oxygen.jpg"
     },
     {
       "id": 78,
-      "fact": "The ocean's pressure increases with depth, reaching up to 16,000 pounds per square inch (psi) at the bottom of the Mariana Trench. This is equivalent to the weight of about 50 jumbo jets.",
+      "fact": "Uncegila was the name of a gigantic water snake in the folklore of the Native American Lakota tribe. This monster flooded the land with salt water so that nothing could grow, before being killed by a pair of brave twins.",
       "image": "ocean_pressure.jpg"
     },
     {
       "id": 79,
-      "fact": "The ocean's surface is constantly in motion, with waves, currents, and tides moving water around the globe. This motion helps to distribute heat, nutrients, and oxygen throughout the ocean, creating a dynamic and interconnected ecosystem.",
+      "fact": "Whaling reached its peak in the 1800s, when whale oil was heavily used as a power source. The industry declined with the rise of fossil fuels. Concern over diminishing whale populations led many countries to heavily regulate or outlaw the practice in the mid-20th century.",
       "image": "ocean_motion.jpg"
     },
     {
       "id": 80,
-      "fact": "The ocean's surface area is approximately 139.7 million square miles (361.9 million square kilometers), making it the largest continuous body of water on Earth.",
+      "fact": "Lightning hits dry land more often than the ocean, but when it does hit the sea, the water can act as a conductor, electrocuting marine life near the surface.",
       "image": "ocean_surface_area.jpg"
     },
     {
       "id": 81,
-      "fact": "The ocean's surface is home to a wide variety of life, including fish, mammals, birds, and plankton. These organisms play important roles in the ocean ecosystem, such as regulating nutrient cycling, oxygen production, and carbon sequestration.",
+      "fact": "Many science fiction writers wrote stories about human settlement of Venus, believing it to be covered with oceans and capable of sustaining life. When it was discovered in 1968 that there were no oceans on our sister planet, sci-fi author Brian Aldiss released a compilation of stories entitled Farewell, Fantastic Venus!",
       "image": "ocean_surface_life.jpg"
     },
     {
       "id": 82,
-      "fact": "The ocean's surface temperature affects weather patterns and climate around the world. Warmer waters near the equator contribute to the formation of tropical storms and hurricanes, while cooler waters near the poles influence the movement of ocean currents and atmospheric circulation.",
+      "fact": "The tuna-fishing industry harms many creatures besides the fish. It is estimated that for every 1000 tuna nets used, approximately 654 billfish, 102 sea turtles, 13,958 sharks, and 2 dolphins are killed.",
       "image": "ocean_surface_temperature.jpg"
     },
     {
       "id": 83,
-      "fact": "The ocean's surface is home to a vast array of habitats, including coral reefs, kelp forests, mangrove swamps, and seagrass meadows. These habitats support a diverse range of species and provide important ecosystem services, such as coastal protection, nutrient cycling, and carbon sequestration.",
+      "fact": "Shrimp fishing boats, or trawlers, kill and dump two to four times more shrimp than they catch and keep.",
       "image": "ocean_surface_habitats.jpg"
     },
     {
       "id": 84,
-      "fact": "The ocean's surface is constantly changing due to natural processes such as tides, waves, and currents, as well as human activities such as fishing, shipping, and pollution. These changes can have profound effects on marine ecosystems and the services they provide to society.",
+      "fact": "The deepest part of the ocean is the Marianas Trench, which is over 36,000 feet deep. If Mount Everest were dropped into the trench, its peak would still be over a mile underwater.",
       "image": "ocean_surface_changes.jpg"
     },
     {
       "id": 85,
-      "fact": "The ocean's surface is a critical part of the Earth's climate system, acting as a heat sink and carbon reservoir. It plays a key role in regulating the planet's temperature, weather patterns, and atmospheric composition.",
+      "fact": "Sailors use unique maps of the ocean called nautical charts. These charts provide specific information about ocean depth, anchorages, and coastline shape and configuration.",
       "image": "ocean_surface_climate.jpg"
     },
     {
       "id": 86,
-      "fact": "The ocean's surface is a dynamic and complex environment, shaped by a wide range of physical, chemical, and biological processes. These processes interact with each other in intricate ways, creating the rich tapestry of life that exists in the ocean.",
+      "fact": "Unusually high tides are known as king tides.",
       "image": "ocean_surface_complexity.jpg"
     },
     {
       "id": 87,
-      "fact": "The ocean's surface is a vast and mysterious realm, covering more than 70% of the Earth's surface and containing more than 97% of the planet's water. Despite its importance to life on Earth, much of the ocean remains unexplored and poorly understood.",
+      "fact": "Perhaps the most famous European sea monster, the kraken, is a favorite pirate myth. The giant squid-like creature was said to live off of the Norwegian coast.",
       "image": "ocean_surface_mystery.jpg"
     },
     {
       "id": 88,
-      "fact": "The ocean's surface is a source of inspiration and wonder for people around the world, with its beauty, power, and diversity capturing the imagination of artists, poets, scientists, and adventurers alike.",
+      "fact": "The atmospheric pressure at the bottom of the Marianas Trench is roughly 1,000 times what it is at the surface.",
       "image": "ocean_surface_inspiration.jpg"
     },
     {
       "id": 89,
-      "fact": "The ocean's surface is a valuable resource for humanity, providing food, transportation, recreation, and other benefits to billions of people around the world. However, human activities such as overfishing, pollution, and climate change are putting increasing pressure on the ocean and threatening its health and sustainability.",
+      "fact": "Human beings have been to the bottom of the Marianas Trench—the deepest point in the world's oceans—only twice. In 1960, Jacques Piccard and Don Walsh descended in the naval bathyscaphe Trieste. In 2012, James Cameron made the dive solo in his vertical torpedo sub.",
       "image": "ocean_surface_resource.jpg"
     },
     {
       "id": 90,
-      "fact": "The ocean's surface is a fragile and vulnerable ecosystem, facing numerous threats from human activities such as overfishing, pollution, habitat destruction, and climate change. These threats are putting the health and sustainability of the ocean at risk, with potentially devastating consequences for marine life and human society.",
+      "fact": "To date, human beings have only explored 5% of Earth's oceans.",
       "image": "ocean_surface_vulnerability.jpg"
     },
     {
       "id": 91,
-      "fact": "The ocean's surface is a global commons, belonging to all people and nations and governed by international law. It is essential that we work together to protect and preserve this precious resource for future generations.",
+      "fact": "The Bermuda Triangle is an infamous area of the Atlantic, between Miami, Bermuda, and Puerto Rico. Though many ships and planes have been lost in this particular section of the sea, there is really no evidence that accidents are more frequent here than in other heavily trafficked areas of the sea.",
       "image": "ocean_surface_commons.jpg"
     },
     {
       "id": 92,
-      "fact": "The ocean's surface is a key component of the Earth's climate system, playing a critical role in regulating the planet's temperature, weather patterns, and atmospheric composition. It acts as a heat sink and carbon reservoir, absorbing and storing large amounts of heat and carbon dioxide from the atmosphere.",
+      "fact": "Every now and then people discover giant, unknown corpses on shore. While these are sometimes fearfully called sea monsters, they are often dead Basking Sharks, which decay quickly, leaving an eerie skeleton.",
       "image": "ocean_surface_climate_system.jpg"
     },
     {
