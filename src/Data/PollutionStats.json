@@ -1,0 +1,66 @@
+{
+  "pollutionStats": [
+    [
+      {
+        "id": 1,
+        "fact": "Up to 12.7 million tons of plastic are washed into the seas each year."
+      },
+      {
+        "id": 2,
+        "fact": "UK visitors to the beach leave behind 5,559 tons of plastic waste each year."
+      },
+      {
+        "id": 3,
+        "fact": "More than 100,000 marine animals die every year due to plastic debris in the ocean."
+      },
+      {
+        "id": 4,
+        "fact": "70% of marine litter is estimated to end up on the seabed"
+      },
+      {
+        "id": 5,
+        "fact": "The United Nations estimates that by 2050, there could be more plastic than fish in our oceans, by weight."
+      },
+      {
+        "id": 6,
+        "fact": "More than 1.3 million microplastic particles per square meter were found on three Spanish beaches."
+      },
+      {
+        "id": 7,
+        "fact": "China and Indonesia are the primary contributors to plastic pollution in global waters, together responsible for over a third of plastic debris like bottles and bags obstructing international sea routes."
+      },
+      {
+        "id": 8,
+        "fact": "In 2017, there were approximately 52.4 billion plastic water bottles consumed in the U.S alone, a significant amount of which ended up polluting beaches."
+      },
+      {
+        "id": 9,
+        "fact": "80% of beach litter in the Mediterranean is plastic."
+      },
+      {
+        "id": 10,
+        "fact": "In 2016, 31.8 million tons of plastic waste was mismanaged in coastal regions."
+      },
+      {
+        "id": 11,
+        "fact": "Nearly 13,000 pieces of plastic litter are found on every kilometer of beach throughout Britain."
+      },
+      {
+        "id": 12,
+        "fact": "It’s estimated that by 2050, nearly 99% of all seabird species will have ingested plastic, much of which originates from polluted beaches."
+      },
+      {
+        "id": 13,
+        "fact": "During the Great British Beach Cleanup, it was found on average, there were 509 items of litter found on every 100 meters of beach."
+      },
+      {
+        "id": 14,
+        "fact": "428 beach cleans took place over the 10-day period, with 5,416 volunteers turning up to help clean up our coastline."
+      },
+      {
+        "id": 15,
+        "fact": "The amount of plastic bags found during beach cleans has been reduced by more than half since supermarkets started charging for them. "
+      }
+    ]
+  ]
+}

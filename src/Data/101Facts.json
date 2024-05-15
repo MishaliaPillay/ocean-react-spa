@@ -1,0 +1,509 @@
+{
+  "ocean_facts": [
+    {
+      "id": 1,
+      "fact": "The oceans cover over 70% of Earth's surface.",
+      "image": "ocean_surface.jpg"
+    },
+    {
+      "id": 2,
+      "fact": "The oceans are nearly as old as the Earth itself. Scientists believe that the oceans contained at least some of their water more than 4 billion years ago.",
+      "image": "ancient_ocean.jpg"
+    },
+    {
+      "id": 3,
+      "fact": "If all the salt in the ocean was removed and poured onto the continents of Earth, it would cover them to a depth of 500 feet.",
+      "image": "salt_removal.jpg"
+    },
+    {
+      "id": 4,
+      "fact": "Thalassophobia is the name for intense fear of the sea or, more generally, the fear of deep, dark water.",
+      "image": "thalassophobia.jpg"
+    },
+    {
+      "id": 5,
+      "fact": "Explorers of the sea and its mysteries are sometimes called 'oceanauts.'",
+      "image": "oceanauts.jpg"
+    },
+    {
+      "id": 6,
+      "fact": "Earth's oceans contain roughly 320 million cubic miles of water.",
+      "image": "ocean_volume.jpg"
+    },
+    {
+      "id": 7,
+      "fact": "The United Nations passed the 'Convention on the Law of the Sea' in 1994 and is now the recognized governing body in all legal matters concerning the world's oceans.",
+      "image": "un_law_of_sea.jpg"
+    },
+    {
+      "id": 8,
+      "fact": "Genesis, the first book of the Bible, represents the oceans as being older than the dry land. It is stated that God created Heaven and Earth, and the Earth is initially portrayed as a dark and formless water.",
+      "image": "genesis_ocean.jpg"
+    },
+    {
+      "id": 9,
+      "fact": "Historically, people spoke of seven oceans in order to preserve the ancient notion of the 'seven seas.' Truthfully, any division of the oceans is arbitrary since there is only a single global sea.",
+      "image": "seven_oceans.jpg"
+    },
+    {
+      "id": 10,
+      "fact": "Oil spills decimate animal and plant populations and devastate ecosystems.",
+      "image": "oil_spill.jpg"
+    },
+    {
+      "id": 11,
+      "fact": "The biggest ocean oil spill in history occurred in 1991, during the Gulf War. Iraqi soldiers retreating from Kuwait opened oil wells and pipelines in an attempt to slow U.S. troops; 240 million gallons of oil spilled into the Persian Gulf, creating a slick roughly the size of Hawaii.",
+      "image": "gulf_war_oil_spill.jpg"
+    },
+    {
+      "id": 12,
+      "fact": "We know more about the surface of the moon than the floor of the sea.",
+      "image": "moon_surface.jpg"
+    },
+    {
+      "id": 13,
+      "fact": "The names 'Pacific,' 'Atlantic,' and 'Indian' were formally accepted worldwide in 1845.",
+      "image": "ocean_names.jpg"
+    },
+    {
+      "id": 14,
+      "fact": "While the words 'ocean' and 'sea' are used interchangeably, a sea is technically a smaller body of salt water that is part of a larger ocean.",
+      "image": "ocean_sea.jpg"
+    },
+    {
+      "id": 15,
+      "fact": "Ninety-seven percent of Earth's water is contained in the oceans.",
+      "image": "earth_water.jpg"
+    },
+    {
+      "id": 16,
+      "fact": "All life on Earth began in the ocean.",
+      "image": "life_origin_ocean.jpg"
+    },
+    {
+      "id": 17,
+      "fact": "The effects of human pollution and over-fishing have dramatically changed the world's oceans over the past hundred years. The long-term effects of waste dumping and commercial fishing remain to be seen.",
+      "image": "pollution_fishing.jpg"
+    },
+    {
+      "id": 18,
+      "fact": "In his work Meteorology, the Ancient Greek philosopher Aristotle discusses and refutes several popular theories about the oceans, such as the belief that someday the oceans would all dry up, or that the seas were a sort of natural sweat produced by the Earth when heated by the sun.",
+      "image": "aristotle_ocean.jpg"
+    },
+    {
+      "id": 19,
+      "fact": "Like the rest of the Greek pantheon, Poseidon was a fickle god, sometimes sending storms and drowning sailors for little discernible reason.",
+      "image": "poseidon.jpg"
+    },
+    {
+      "id": 20,
+      "fact": "The Greek God of the sea was Poseidon, who became Neptune in the Roman tradition. This aquatic overlord wielded a trident and summoned storms to punish or warn human beings.",
+      "image": "neptune.jpg"
+    },
+    {
+      "id": 21,
+      "fact": "Legal tradition holds that the oceans are not subject to private or national dominion or ownership. The Roman doctrine of Mare Liberum (freedom of the seas) holds that the seas belong to all, and this has given rise to the 'four freedoms' of the sea: freedom of navigation, fishing, laying of cables and pipelines, and overflight.",
+      "image": "mare_liberum.jpg"
+    },
+    {
+      "id": 22,
+      "fact": "Oceanography is the study of the world's oceans, and it includes aspects of geography, physics, chemistry, biology, geology, and meteorology. By contrast, hydrography is the study of navigable waters and their physical characteristics.",
+      "image": "oceanography.jpg"
+    },
+    {
+      "id": 23,
+      "fact": "Oceanographers generally divide the world ocean into three major oceans: Atlantic, Pacific, and Indian. Some add a fourth—the Arctic.",
+      "image": "world_ocean.jpg"
+    },
+    {
+      "id": 24,
+      "fact": "In 1998, Benoît Lecomte became the first man to swim across the Atlantic Ocean without a kickboard. He swam an average of eight hours a day for 73 days, resting and eating on a boat in between swims. In 2016, he announced plans to swim the Pacific.",
+      "image": "atlantic_swim.jpg"
+    },
+    {
+      "id": 25,
+      "fact": "The ocean is the main driver of the planet's weather cycles, acting alternately like a heater and air conditioner.",
+      "image": "ocean_weather.jpg"
+    },
+    {
+      "id": 26,
+      "fact": "It is said by the Eldar that in water there lives yet the echo of the Music of the Ainur more than in any substance that is in this Earth; and many of the Children of Ilúvatar hearken still unsated to the voices of the Sea, and yet know not for what they listen.- J.R.R. Tolkien",
+      "image": "tolkien_quote.jpg"
+    },
+    {
+      "id": 27,
+      "fact": "Many sea plants and animals are bioluminescent, which means they produce light chemically within their bodies.",
+      "image": "bioluminescence.jpg"
+    },
+    {
+      "id": 28,
+      "fact": "An average liter of seawater contains 38,000 different species of microbial life.",
+      "image": "microbial_life.jpg"
+    },
+    {
+      "id": 29,
+      "fact": "The high seas have seen their fair share of crime and violence. Piracy goes back to the ancient world, but the Caribbean pirates of the 16th and 17th centuries are perhaps the most iconic.",
+      "image": "piracy.jpg"
+    },
+    {
+      "id": 30,
+      "fact": "Modern oceanography is considered to have begun in 1872, when HMS Challenger made a grand tour of the world's oceans on a three-and-a-half-year voyage.",
+      "image": "hms_challenger.jpg"
+    },
+    {
+      "id": 31,
+      "fact": "Distances on the ocean are measured in nautical miles, which are about 1.15 times the length of a regular mile.",
+      "image": "nautical_miles.jpg"
+    },
+    {
+      "id": 32,
+      "fact": "On average, the water in the ocean is 3.5% salt.",
+      "image": "ocean_salt.jpg"
+    },
+    {
+      "id": 33,
+      "fact": "There's a lot more than just water in the ocean. Each cubic mile of seawater contains approximately 165 million tons of dissolved solid material, from plant and animal life to geologic material.",
+      "image": "seawater_contents.jpg"
+    },
+    {
+      "id": 34,
+      "fact": "Marine biologists have so far discovered 17,000 species thriving in the ocean depths, living entirely without sunlight, receiving energy from underwater thermal vents.",
+      "image": "deep_sea_life.jpg"
+    },
+    {
+      "id": 35,
+      "fact": "Despite the incredible amount of research done on the coastal seas, it is still unknown how many species live in these shallow waters. Estimates vary from 178,000 to 10 million.",
+      "image": "coastal_sea_life.jpg"
+    },
+    {
+      "id": 36,
+      "fact": "Approximately 15% of the high-quality protein humans eat comes from the ocean. This number is far higher in many parts of Asia, where fish and other seafood make up a larger part of people's diet.",
+      "image": "seafood_protein.jpg"
+    },
+    {
+      "id": 37,
+      "fact": "Historically, ocean depths were measured by lowering ropes with weights attached. Echo-sounding technology was first used in 1927.",
+      "image": "echo_sounding.jpg"
+    },
+    {
+      "id": 38,
+      "fact": "The Pacific Ocean is the world's deepest, and the Arctic is the shallowest.",
+      "image": "pacific_arctic.jpg"
+    },
+    {
+      "id": 39,
+      "fact": "The Sargasso Sea is a unique area in the world ocean. This area of the North Atlantic has very clear, warm, deep blue water. It supports very little life except for Sargassum, or gulfweed, from which it gets its name.",
+      "image": "sargasso_sea.jpg"
+    },
+    {
+      "id": 40,
+      "fact": "The ocean's tides, or the cycle of rising and falling sea levels along coasts, generally follow an interval of 12 hours 25 minutes.",
+      "image": "ocean_tides.jpg"
+    },
+    {
+      "id": 41,
+      "fact": "Ocean tides are caused by gravitational interaction between the sun, moon, and earth.",
+      "image": "tidal_interaction.jpg"
+    },
+    {
+      "id": 42,
+      "fact": "People once believed that the sun was the source of all life on Earth. The discovery of living creatures in the extreme depths of the ocean, where no sunlight penetrates, disproved this hypothesis.",
+      "image": "sun_life_ocean.jpg"
+    },
+    {
+      "id": 43,
+      "fact": "The chemical ratio of salt to water in the oceans is fairly consistent across the world, a phenomenon known as 'Forchhammer's Principle,' after the Danish scientist who discovered it.",
+      "image": "salt_water_ratio.jpg"
+    },
+    {
+      "id": 44,
+      "fact": "In 1519, Spanish explorer Ferdinand Magellan led an expedition of five ships in an attempt to discover a western sea route to the Spice Islands. Four of the five ships were lost, and Magellan himself was killed; but one ship returned home after three years, making it the first vessel to sail all the way around the world.",
+      "image": "magellan_expedition.jpg"
+    },
+    {
+      "id": 45,
+      "fact": "The giant squid is so elusive that we know very little about it.",
+      "image": "giant_squid.jpg"
+    },
+    {
+      "id": 46,
+      "fact": "The Persian Emperor Xerxes, who reigned from 486–465 BC, reportedly had his soldiers whip the sea while insulting it after a wave destroyed a bridge his army was constructing.",
+      "image": "xerxes_whip_sea.jpg"
+    },
+    {
+      "id": 47,
+      "fact": "The ocean is big business. A mere 14% U.S. counties (all of which border the ocean), make up 45% of the U.S. gross domestic product (GDP).",
+      "image": "ocean_business.jpg"
+    },
+    {
+      "id": 48,
+      "fact": "Three million U.S. jobs, or about 1 in 45, are dependent in some way upon the ocean.",
+      "image": "us_jobs_ocean.jpg"
+    },
+    {
+      "id": 49,
+      "fact": "The sea is home to a variety of mythological creatures. The most famous are mermaids, which appear in a number of European myths. While occasionally friendly, these creatures are often dangerous seductresses who lure sailors to their death.",
+      "image": "mermaids.jpg"
+    },
+    {
+      "id": 50,
+      "fact": "In 1927, aviator Charles Lindbergh made the first successful solo, non-stop flight over the Atlantic Ocean.",
+      "image": "lindbergh_flight.jpg"
+    },
+    {
+      "id": 51,
+      "fact": "The strong and dangerous currents that sometimes pull people out to sea are called 'rip currents.' The United States Lifesaving Association estimates that the annual number of deaths due to rip currents on the country's beaches exceeds 100.",
+      "image": "rip_currents.jpg"
+    },
+    {
+      "id": 52,
+      "fact": "The ocean floor is not flat but has mountains, valleys, ridges, and other features similar to the land on the continents.",
+      "image": "ocean_floor.jpg"
+    },
+    {
+      "id": 53,
+      "fact": "The ocean's surface is home to a variety of currents, some of which are predictable and used for navigation. The Gulf Stream, for example, helps ships travel from Florida to Europe faster.",
+      "image": "ocean_currents.jpg"
+    },
+    {
+      "id": 54,
+      "fact": "Every year, over 8 million metric tons of plastic waste end up in the oceans, contributing to a vast 'plastic soup' of debris. This waste harms marine life and can enter the human food chain through seafood.",
+      "image": "plastic_waste_ocean.jpg"
+    },
+    {
+      "id": 55,
+      "fact": "The ocean is a place of incredible beauty and diversity. Coral reefs, for example, are home to a quarter of all marine life and provide vital protection to coastlines against storms and erosion.",
+      "image": "coral_reef.jpg"
+    },
+    {
+      "id": 56,
+      "fact": "The blue whale, which can grow up to 100 feet long and weigh over 200 tons, is the largest animal ever known to have existed on Earth.",
+      "image": "blue_whale.jpg"
+    },
+    {
+      "id": 57,
+      "fact": "The Great Barrier Reef in Australia is the largest living structure on Earth, visible from space. It's made up of over 2,900 individual reefs and 900 islands, stretching over 1,400 miles.",
+      "image": "great_barrier_reef.jpg"
+    },
+    {
+      "id": 58,
+      "fact": "The sea holds a special place in literature, symbolizing both the vastness of human possibility and the mystery of the unknown. Many authors, from Herman Melville to Ernest Hemingway, have drawn inspiration from the sea.",
+      "image": "literature_sea.jpg"
+    },
+    {
+      "id": 59,
+      "fact": "For centuries, sailors navigated using the stars. Even today, celestial navigation is taught as a backup to modern GPS systems.",
+      "image": "celestial_navigation.jpg"
+    },
+    {
+      "id": 60,
+      "fact": "The first successful transatlantic telegraph cable was completed in 1858, connecting North America and Europe for the first time in history. Before that, communication between the continents took weeks by ship.",
+      "image": "telegraph_cable.jpg"
+    },
+    {
+      "id": 61,
+      "fact": "The Bermuda Triangle, a loosely defined region in the western part of the North Atlantic Ocean, is the site of numerous mysterious disappearances of ships and aircraft. However, there is no scientific evidence to support the idea of supernatural phenomena in this area.",
+      "image": "bermuda_triangle.jpg"
+    },
+    {
+      "id": 62,
+      "fact": "The ocean is a crucial regulator of the Earth's climate, absorbing about 30% of the carbon dioxide produced by human activities and about 90% of the excess heat trapped by greenhouse gases.",
+      "image": "ocean_climate.jpg"
+    },
+    {
+      "id": 63,
+      "fact": "The ocean's 'biological pump' is responsible for removing carbon dioxide from the atmosphere and storing it in the deep ocean. This process helps to regulate the Earth's climate by reducing the amount of greenhouse gases in the atmosphere.",
+      "image": "biological_pump.jpg"
+    },
+    {
+      "id": 64,
+      "fact": "The Mariana Trench, located in the western Pacific Ocean, is the deepest point on Earth, reaching a depth of about 36,070 feet (10,994 meters).",
+      "image": "mariana_trench.jpg"
+    },
+    {
+      "id": 65,
+      "fact": "The ocean is home to many strange and fascinating creatures, including the blobfish, which has been called the world's ugliest animal. This gelatinous fish lives at depths of up to 4,000 feet off the coast of Australia and Tasmania.",
+      "image": "blobfish.jpg"
+    },
+    {
+      "id": 66,
+      "fact": "Ocean acidification, caused by the absorption of carbon dioxide from the atmosphere, poses a serious threat to marine life. It can harm coral reefs, shellfish, and other marine organisms by making seawater more acidic.",
+      "image": "ocean_acidification.jpg"
+    },
+    {
+      "id": 67,
+      "fact": "The ocean's deepest known volcanic eruption occurred in 2012 at the West Mata volcano, located about 4,000 feet (1,200 meters) below the surface of the Pacific Ocean.",
+      "image": "west_mata_volcano.jpg"
+    },
+    {
+      "id": 68,
+      "fact": "The ocean's saltiness is caused by the erosion of rocks on land, which releases minerals and salts that are carried into the ocean by rivers and streams.",
+      "image": "salt_erosion.jpg"
+    },
+    {
+      "id": 69,
+      "fact": "The Titanic, which sank in 1912 after hitting an iceberg, lies at a depth of about 12,500 feet (3,800 meters) in the North Atlantic Ocean. It was discovered in 1985 by oceanographer Robert Ballard.",
+      "image": "titanic.jpg"
+    },
+    {
+      "id": 70,
+      "fact": "The ocean's currents play a crucial role in regulating the Earth's climate by transporting heat from the equator to the poles. They also help to distribute nutrients and oxygen throughout the ocean, which are essential for marine life.",
+      "image": "ocean_currents_climate.jpg"
+    },
+    {
+      "id": 71,
+      "fact": "The ocean's surface absorbs about 50% of the sunlight that reaches it, while the rest is reflected back into space or absorbed by clouds and atmospheric gases.",
+      "image": "ocean_sunlight.jpg"
+    },
+    {
+      "id": 72,
+      "fact": "The ocean's salinity varies from place to place and depends on factors such as temperature, rainfall, and evaporation. In general, the ocean is saltiest near the equator and least salty near the poles.",
+      "image": "ocean_salinity.jpg"
+    },
+    {
+      "id": 73,
+      "fact": "The ocean's waves are caused by the wind blowing over the surface of the water. They can travel thousands of miles across the ocean and can be as tall as a six-story building.",
+      "image": "ocean_waves.jpg"
+    },
+    {
+      "id": 74,
+      "fact": "The ocean's deepest point is located in the Mariana Trench, which reaches a depth of about 36,070 feet (10,994 meters). This is deeper than Mount Everest is tall.",
+      "image": "mariana_trench_deepest_point.jpg"
+    },
+    {
+      "id": 75,
+      "fact": "The ocean's temperature varies depending on factors such as location, depth, and time of year. In general, surface waters near the equator are warmest, while deep waters near the poles are coldest.",
+      "image": "ocean_temperature.jpg"
+    },
+    {
+      "id": 76,
+      "fact": "The ocean's color is determined by several factors, including the presence of microscopic plants called phytoplankton, dissolved organic matter, and the depth of the water. In general, deeper waters appear blue, while shallow waters appear green.",
+      "image": "ocean_color.jpg"
+    },
+    {
+      "id": 77,
+      "fact": "The ocean's oxygen comes primarily from photosynthesis by marine plants, such as phytoplankton and seaweed. These plants produce oxygen as a byproduct of photosynthesis, which is then dissolved in the water and made available to marine animals.",
+      "image": "ocean_oxygen.jpg"
+    },
+    {
+      "id": 78,
+      "fact": "The ocean's pressure increases with depth, reaching up to 16,000 pounds per square inch (psi) at the bottom of the Mariana Trench. This is equivalent to the weight of about 50 jumbo jets.",
+      "image": "ocean_pressure.jpg"
+    },
+    {
+      "id": 79,
+      "fact": "The ocean's surface is constantly in motion, with waves, currents, and tides moving water around the globe. This motion helps to distribute heat, nutrients, and oxygen throughout the ocean, creating a dynamic and interconnected ecosystem.",
+      "image": "ocean_motion.jpg"
+    },
+    {
+      "id": 80,
+      "fact": "The ocean's surface area is approximately 139.7 million square miles (361.9 million square kilometers), making it the largest continuous body of water on Earth.",
+      "image": "ocean_surface_area.jpg"
+    },
+    {
+      "id": 81,
+      "fact": "The ocean's surface is home to a wide variety of life, including fish, mammals, birds, and plankton. These organisms play important roles in the ocean ecosystem, such as regulating nutrient cycling, oxygen production, and carbon sequestration.",
+      "image": "ocean_surface_life.jpg"
+    },
+    {
+      "id": 82,
+      "fact": "The ocean's surface temperature affects weather patterns and climate around the world. Warmer waters near the equator contribute to the formation of tropical storms and hurricanes, while cooler waters near the poles influence the movement of ocean currents and atmospheric circulation.",
+      "image": "ocean_surface_temperature.jpg"
+    },
+    {
+      "id": 83,
+      "fact": "The ocean's surface is home to a vast array of habitats, including coral reefs, kelp forests, mangrove swamps, and seagrass meadows. These habitats support a diverse range of species and provide important ecosystem services, such as coastal protection, nutrient cycling, and carbon sequestration.",
+      "image": "ocean_surface_habitats.jpg"
+    },
+    {
+      "id": 84,
+      "fact": "The ocean's surface is constantly changing due to natural processes such as tides, waves, and currents, as well as human activities such as fishing, shipping, and pollution. These changes can have profound effects on marine ecosystems and the services they provide to society.",
+      "image": "ocean_surface_changes.jpg"
+    },
+    {
+      "id": 85,
+      "fact": "The ocean's surface is a critical part of the Earth's climate system, acting as a heat sink and carbon reservoir. It plays a key role in regulating the planet's temperature, weather patterns, and atmospheric composition.",
+      "image": "ocean_surface_climate.jpg"
+    },
+    {
+      "id": 86,
+      "fact": "The ocean's surface is a dynamic and complex environment, shaped by a wide range of physical, chemical, and biological processes. These processes interact with each other in intricate ways, creating the rich tapestry of life that exists in the ocean.",
+      "image": "ocean_surface_complexity.jpg"
+    },
+    {
+      "id": 87,
+      "fact": "The ocean's surface is a vast and mysterious realm, covering more than 70% of the Earth's surface and containing more than 97% of the planet's water. Despite its importance to life on Earth, much of the ocean remains unexplored and poorly understood.",
+      "image": "ocean_surface_mystery.jpg"
+    },
+    {
+      "id": 88,
+      "fact": "The ocean's surface is a source of inspiration and wonder for people around the world, with its beauty, power, and diversity capturing the imagination of artists, poets, scientists, and adventurers alike.",
+      "image": "ocean_surface_inspiration.jpg"
+    },
+    {
+      "id": 89,
+      "fact": "The ocean's surface is a valuable resource for humanity, providing food, transportation, recreation, and other benefits to billions of people around the world. However, human activities such as overfishing, pollution, and climate change are putting increasing pressure on the ocean and threatening its health and sustainability.",
+      "image": "ocean_surface_resource.jpg"
+    },
+    {
+      "id": 90,
+      "fact": "The ocean's surface is a fragile and vulnerable ecosystem, facing numerous threats from human activities such as overfishing, pollution, habitat destruction, and climate change. These threats are putting the health and sustainability of the ocean at risk, with potentially devastating consequences for marine life and human society.",
+      "image": "ocean_surface_vulnerability.jpg"
+    },
+    {
+      "id": 91,
+      "fact": "The ocean's surface is a global commons, belonging to all people and nations and governed by international law. It is essential that we work together to protect and preserve this precious resource for future generations.",
+      "image": "ocean_surface_commons.jpg"
+    },
+    {
+      "id": 92,
+      "fact": "The ocean's surface is a key component of the Earth's climate system, playing a critical role in regulating the planet's temperature, weather patterns, and atmospheric composition. It acts as a heat sink and carbon reservoir, absorbing and storing large amounts of heat and carbon dioxide from the atmosphere.",
+      "image": "ocean_surface_climate_system.jpg"
+    },
+    {
+      "id": 93,
+      "fact": "Legend holds that deep-sea fish will explode when brought to the surface, but this is false. Most deep-sea fish have no swim bladders, so they are unaffected by such changes in pressure.",
+      "image": "ocean_surface_ecosystem.jpg"
+    },
+    {
+      "id": 94,
+      "fact": "Moby Dick, the famous white whale from Herman Melville's classic novel, isn't so far-fetched. Albino killer whales have been sighted, and it's possible that the sea might hold a giant white sperm whale just like Ahab's nemesis.",
+      "image": "ocean_surface_biosphere.jpg"
+    },
+    {
+      "id": 95,
+      "fact": "Edward Teach was an English pirate better known as Blackbeard. This fearsome dog of the deep terrified his foes by lacing smoking fuses into his beard and wearing multiple daggers and pistols on his chest.",
+      "image": "ocean_surface_environment.jpg"
+    },
+    {
+      "id": 96,
+      "fact": "Human interaction with the ocean often upsets natural ecosystems. For instance, foreign aquatic plants or animals have been introduced into waters that cannot sustain them or that suffer from their presence.",
+      "image": "ocean_surface_resources.jpg"
+    },
+    {
+      "id": 97,
+      "fact": "On his voyage to the New World, Christopher Columbus reported seeing a great ball of fire sinking into the area now known as the Bermuda Triangle. Many speculate that what he saw was a meteor.",
+      "image": "ocean_surface_playground.jpg"
+    },
+    {
+      "id": 98,
+      "fact": "People love the beach. In California alone, ocean-seeking tourists spend 75 billion dollars annually.",
+      "image": "ocean_surface_beauty.jpg"
+    },
+    {
+      "id": 99,
+      "fact": "The Gulf Stream is a series of currents converging in the sea, which can propel animals and boats along at a speed more rapid than that of the Mississippi or Amazon Rivers",
+      "image": "ocean_surface_freedom.jpg"
+    },
+    {
+      "id": 100,
+      "fact": "There's a lot of gold in the ocean, both dissolved in the water and on the sea floor. Unfortunately, there's no economically feasible way of mining it. If we could, there'd be enough for each person on earth to have nine pounds of pure gold.",
+      "image": "ocean_surface_interconnectedness.jpg"
+    },
+    {
+      "id": 101,
+      "fact": "Both the ocean and sky appear blue because blue is a short wavelength of light and thus scatters through mediums like air and water more easily than other colors in the spectrum.",
+      "image": "ocean_surface_call_to_action.jpg"
+    }
+  ]
+}
