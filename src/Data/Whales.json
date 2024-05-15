@@ -1,0 +1,184 @@
+{
+  "whales": [
+    {
+      "name": "Humpback Whale ' &apos;",
+      "where_found": "Worldwide",
+      "interesting_fact": "Humpback whales can live up to 80 to 90 years",
+      "image": "./images/whales/humpback_whale.jpg",
+      "additional_information": {
+        "description": "Humpback whales are known for their complex songs, which can last for hours and be heard for miles. They migrate with the seasons, so they’re found throughout the world, with winter breeding grounds around the equator, in places like the Hawaiian island of Maui and locations in Central America. Some non-migrating breeds have been found in the Persian Gulf and near the coasts of Pakistan and India."
+      }
+    },
+    {
+      "name": "Orca (Killer Whale)",
+      "where_found": "Iceland, Norway, Alaska, Antarctic",
+      "interesting_fact": "Orcas are technically a type of dolphin rather than a whale",
+      "image": "killer_whale.jpg",
+      "additional_information": {
+        "description": "The name killer whale is actually quite deceptive. Orcas are not a threat to humans, and there’s never been a recorded fatality between wild orcas and humans. Orcas are the largest member of the oceanic dolphin family. While orcas are found worldwide, they’re most abundant in colder waters, like the ones surrounding the San Juan Islands in Washington, Iceland, Norway, Alaska, and Antarctica."
+      }
+    },
+    {
+      "name": "Beluga Whale",
+      "where_found": "Arctic Ocean",
+      "interesting_fact": "Beluga whales are also known as white whales because of their rare color",
+      "image": "beluga_whale.jpg",
+      "additional_information": {
+        "description": "Beluga whales are known for their distinctive white color and ability to make a variety of vocalizations. Because the whales live in such cold waters, the best place to see beluga whales in the wild are in Arctic regions, like northern Canada, Greenland, and Norway’s Svalbard archipelago."
+      }
+    },
+    {
+      "name": "Sperm Whale",
+      "where_found": "Iceland, Norway, and New Zealand",
+      "interesting_fact": "Sperm whales are the largest of all toothed whales",
+      "image": "sperm_whale.jpg",
+      "additional_information": {
+        "description": "A toothed whale has to be extremely large to be considered the world’s biggest, and sperm whales are just that. The largest males of the species can weigh up to 50 tons. Not only do they have large bodies, but sperm whales have the largest brains of any creature on the planet. Sperm whales are found in all oceans worldwide, but some of the standout spots to catch sight of the largest-toothed whale are Reykjavik and Húsavik, Iceland, Andenes, Norway, and off the coast of New Zealand’s South Island."
+      }
+    },
+    {
+      "name": "Blue Whale",
+      "where_found": "The Pacific, Indian, and Atlantic Oceans",
+      "interesting_fact": "Blue whales are the largest animals to have ever existed",
+      "image": "blue_whale.jpg",
+      "additional_information": {
+        "description": "There’s no mistaking the Blue whale if you’ve ever spotted one — the whales, which can live to be up to 90 years old, is by far the largest animal that’s ever existed in the world’s history, often weighing up to 330 thousand pounds. As they’re found in every ocean except for the Arctic Ocean, Blue whales can be found in a wide variety of places, but some of the best locations for Blue whale watching during the summer are off the coast of California in places like Monterey Bay and San Diego, as well as Baja California in Mexico and the Azores in Portugal."
+      }
+    },
+    {
+      "name": "Fin Whale",
+      "where_found": "Worldwide",
+      "interesting_fact": "The Fin whale is classified as an endangered species",
+      "image": "fin_whale.jpg",
+      "additional_information": {
+        "description": "Fin whales are known for their speed and are the second largest whale species after the blue whale. The Fin whale was heavily hunted during the 1900s, which led to a drastic population decrease and the eventual classification of the animal as an endangered species. Currently, the global population of the Fin whale is estimated to be between 100 thousand to 119 thousand. As there are so few Fin whales, sightings are rare, but they’re most frequently found in the waters of the North Atlantic Ocean, near Greenland, although they live in every ocean."
+      }
+    },
+    {
+      "name": "Bowhead Whale",
+      "where_found": "Polar arctic waters",
+      "interesting_fact": "Bowhead whales have been known to live up to 200 years",
+      "image": "bowhead_whale.jpg",
+      "additional_information": {
+        "description": "Bowhead whales filter feed on small organisms such as krill and plankton using comb-like plates in their mouths instead of hunting with teeth. The Bowhead whale is identified through its dark color and its extremely large head, which can be more than 16 feet long. This type of whale uses its large head to break through polar ice, as its main habitat is in polar waters."
+      }
+    },
+    {
+      "name": "Bryde’s Whale",
+      "where_found": "Pacific, Atlantic, and Indian Oceans",
+      "interesting_fact": "Bryde’s whales are named after their discoverer, Johan Bryde",
+      "image": "brydes_whale.jpg",
+      "additional_information": {
+        "description": "Bryde’s whales are found in warm temperate and tropical waters around the world and feed on small fish and plankton. One of the most notable features of Bryde’s whales is their coloring — with a smoky gray body and a pale underside, as well as the whale’s flippers, which are notably smaller than other types of whales. Despite having been discovered by and named for a Norwegian man, Bryde’s whales tend to live in tropical and subtropical waters, not reaching as far north as Scandinavia."
+      }
+    },
+    {
+      "name": "Gray Whale",
+      "where_found": "North Pacific Ocean",
+      "interesting_fact": "Gray whales migrate the longest distance of any mammal, traveling up to 12,000 miles annually",
+      "image": "gray_whale.jpg",
+      "additional_information": {
+        "description": "Gray whales migrate along the North American coastline, from the Bering Sea near Alaska down to the warmer waters of Baja California. Depending on the season, anywhere along the west coasts of Canada, the United States, and Mexico would be ideal for spotting Gray whales."
+      }
+    },
+    {
+      "name": "Antarctic Minke Whale",
+      "where_found": "Primarily near Antarctica",
+      "interesting_fact": "This whale was ignored by the whaling industry because of its small size",
+      "image": "antarctic_minke_whale.jpg",
+      "additional_information": {
+        "description": "The Antarctic Minke whale is the most abundant baleen whale in the world because it was left alone during the heyday of the whaling industry, and the type of whale now numbers in the hundreds of thousands. This type of whale is found in all of the seas in the southern hemisphere, but as its name suggests, the best place to have a sighting of the small whale is near Antarctica."
+      }
+    },
+    {
+      "name": "Pygmy Sperm Whale",
+      "where_found": "Worldwide",
+      "interesting_fact": "This whale is similar looking to a Dwarf Sperm whale; both are considered very rare",
+      "image": "pygmy_sperm_whale.jpg",
+      "additional_information": {
+        "description": "Pygmy sperm whales are deep-diving whales that feed on squid and small fish and are known for producing a distinctive &apos;clicking&apos; vocalization. The whale is rarely spotted in seas, but despite this, the best area to potentially catch a glimpse of one would be in the more southern reaches of the southern hemisphere, including off the coasts of South Africa, Chile, and Uruguay."
+      }
+    },
+    {
+      "name": "Strap-Toothed Whale",
+      "where_found": "In the Antarctic Ocean",
+      "interesting_fact": "Male Strap-toothed whales use their teeth to compete for mating access to females",
+      "image": "strap_toothed_whale.jpg",
+      "additional_information": {
+        "description": "These whales are known for and named for a large, flat tusk that develops in the males, as the female Strap-toothed whales surprisingly don’t retain teeth. As the Strap-toothed whale is mostly found in the Antarctic Ocean, an Antarctic cruise would be the best opportunity for spotting these whales. However, they’ve also been seen off the coasts of Argentina, the Falkland Islands, New Zealand, and southern Australia."
+      }
+    },
+    {
+      "name": "Sei Whale",
+      "where_found": "Atlantic, Indian, and Pacific Oceans",
+      "interesting_fact": "It’s internationally protected after more than 225 thousand whales were killed in the 18th and 19th centuries",
+      "image": "sei_whale.jpg",
+      "additional_information": {
+        "description": "Sei whales are large baleen whales that can reach up to 60 feet in length and feed on small fish and squid in the open ocean. Because Sei whales are often found swimming near pollock, they’re named after the Norwegian word for pollock, “seje.” The whales are found in temperate waters in the world’s three largest oceans, but the best places to spot Sei whales are off the coast of the eastern United States, especially in the Gulf of Maine during the summer."
+      }
+    },
+    {
+      "name": "Long-Finned Pilot Whale",
+      "where_found": "North Atlantic Ocean and throughout the Southern hemisphere",
+      "interesting_fact": "Pilot whales are very social and live in large pods",
+      "image": "long_finned_pilot_whale.jpg",
+      "additional_information": {
+        "description": "Long-finned Pilot whales are social, highly intelligent whales that live in family groups and feed on squid and fish. Due to their names, it’s easy to think that the only difference between Long-Finned Pilot whales and Short-Finned Pilot whales are the length of their fins, but they also have completely different habitats. Long-finned Pilot whales prefer cooler waters, like those of the North Atlantic and more southern parts of the southern hemisphere. One of the best locations to spot Long-Finned Pilot whales is near the Strait of Gibraltar and along the Atlantic coast of southern Spain."
+      }
+    },
+    {
+      "name": "Short-Finned Pilot Whale",
+      "where_found": "In tropical and temperate waters worldwide",
+      "interesting_fact": "The Short-Finned Pilot whale lives in groups, often ranging from 25 to 50",
+      "image": "short_finned_pilot_whale.jpg",
+      "additional_information": {
+        "description": "Short-finned pilot whales are known for their highly vocal social behavior and unique communication patterns within their family groups. The Short-finned Pilot whale’s diet mainly consists of squid, so their habitat is in tropical waters where squid is abundant. The best areas to see the animal in the wild are off the coasts of the United States, especially surrounding the Hawaiian islands."
+      }
+    },
+    {
+      "name": "Southern Right Whale",
+      "where_found": "In oceans south of the equator",
+      "interesting_fact": "The Southern Right Whale’s calluses on its skin work as a sort of fingerprint, and they can be identified through them",
+      "image": "southern_right_whale.jpg",
+      "additional_information": {
+        "description": "Southern right whales are baleen whales that are known for their large size and distinctive callosities (rough patches of skin) on their heads. In recent years, the Southern Right whale has begun to recover from years of whale hunting that decimated its population. The best place for spotting Southern Right whales is near the Valdes Peninsula in southern Argentina, as that’s where a third of the whales go to mate and give birth between May and December."
+      }
+    },
+    {
+      "name": "Blainville’s Beaked Whale",
+      "where_found": "Primarily near Hawaii, the North Atlantic Ocean, and the Gulf of Mexico",
+      "interesting_fact": "The whale can weigh between 1,800 and 2,300 pounds",
+      "image": "blainvilles_beaked_whale.jpg",
+      "additional_information": {
+        "description": "Blainville&apos;s beaked whales are deep-diving whales that feed on squid and small fish. It’s been difficult to track populations of the whales fully, so they’re broken up into three main categories — Hawaiian whales, Northern Gulf of Mexico whales, and Western North Atlantic whales. The best places to see the whales are near the Spanish island of Tenerife and the Hawaiian islands."
+      }
+    },
+    {
+      "name": "Omura’s Whale",
+      "where_found": "In subtropical waters near Asia",
+      "interesting_fact": "The whale species is named for Japanese cetologist Hideo Omura",
+      "image": "omuras_whale.jpg",
+      "additional_information": {
+        "description": "Omura&apos;s whales are the most recently-identified whale species. Originally classified as pygmy Bryde’s whales, Omura’s whales weren’t classified as their own distinct type of whale until 2003. Sightings of Omura’s whales are rare, but the best place to catch a glimpse is near the southern coast of Japan from May through October and Indonesia and Thailand from November through April."
+      }
+    },
+    {
+      "name": "Narwhal",
+      "where_found": "Arctic Canada, Svalbard, Norway, Greenland, Russia",
+      "interesting_fact": "Called the unicorn of the sea for the long tusk that protrudes from its head",
+      "image": "narwhal.jpg",
+      "additional_information": {
+        "description": "Narwhals can weigh up to 4,200 pounds and grow as long as 17 feet. It’s not as impossible to see the unicorn of the sea as it is to see a unicorn, but it’s still pretty tricky as Narwhals are only found in Arctic waters. The best spots to see Narwhals in the wild are near the Norwegian archipelago Svalbard and off the coasts of northern Canada, Greenland, and Russia."
+      }
+    },
+    {
+      "name": "North Pacific Right Whale",
+      "where_found": "Gulf of Alaska and the Bering Sea",
+      "interesting_fact": "The North Pacific Right Whale’s total population is estimated to be 30 whales",
+      "image": "north_pacific_right_whale.jpg",
+      "additional_information": {
+        "description": "North Pacific Right whales have been listed as endangered since 1970 due to whaling. These large, slow whales are named the North Pacific Right Whale because they were considered the right whales to be hunting. Their population was decimated throughout the 19th century, and now they’re one of the rarest animals in the world, with only 30 whales believed to be living. As the population is so low, it’s difficult to spot North Pacific Right Whales in the wild, but it’s only possible off the shores of Alaska and Russia, surrounding the Bering Sea."
+      }
+    }
+  ]
+}

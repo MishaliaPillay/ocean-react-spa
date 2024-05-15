@@ -1,0 +1,77 @@
+{
+  "turtles": [
+    [
+      {
+        "name": "Leatherback Sea Turtle",
+        "interesting_fact": "Apart from being the largest of the sea turtle species, leatherback turtles are unique in a variety of ways. They have a soft, oily, leather-like shell that is highly pliable.",
+        "additional_info": {
+          "size": "Up to 2,000 lbs",
+          "distribution": "Nearly all tropical and subtropical waters",
+          "speed": "Approximately 22 mph",
+          "feeding_habit": "Primarily jellyfish"
+        },
+        "image": "images/turtles/leatherback_sea_turtle.jpg"
+      },
+      {
+        "name": "Green Sea Turtle",
+        "interesting_fact": "Green turtles are the only turtle species that feed primarily on plant material. They are known to scavenge on sponges, invertebrates, and fish remnants.",
+        "additional_info": {
+          "size": "Up to 4 feet in length and up to 500 lbs",
+          "distribution": "Primarily Pacific and Atlantic Oceans, also Indian Ocean",
+          "feeding_habit": "Primarily algae and seagrass"
+        },
+        "image": "images/turtles/green_sea_turtle.jpg"
+      },
+      {
+        "name": "Hawksbill Sea Turtle",
+        "interesting_fact": "Hawksbill turtles have a highly specialized diet, feeding almost entirely on sea sponges by using their bird-like beak to reach through cracks and crevices.",
+        "additional_info": {
+          "size": "Up to 3 feet in length and up to 200 lbs",
+          "distribution": "Tropical and some subtropical regions in the Atlantic, Pacific Ocean, and Indian Oceans",
+          "nesting_frequency": "Approximately four times a year"
+        },
+        "image": "images/turtles/hawksbill_sea_turtle.jpg"
+      },
+      {
+        "name": "Loggerhead Sea Turtle",
+        "interesting_fact": "Loggerhead turtles get their name from their large head and strong jaws. Feeding on hard-shelled prey such as crabs, conchs, and whelks, adult loggerheads are carnivorous.",
+        "additional_info": {
+          "size": "Ranges from 200 – 400 lbs",
+          "distribution": "Every ocean on the planet",
+          "nesting_sites": "Largest nesting occurs on Masirah Island off the coast of Oman"
+        },
+        "image": "images/turtles/loggerhead_sea_turtle.jpg"
+      },
+      {
+        "name": "Olive Ridley Sea Turtle",
+        "interesting_fact": "Olive ridley turtles have a fascinating nesting behavior known as arribadas, where thousands of nesting turtles gather on a single shoreline during nesting season.",
+        "additional_info": {
+          "size": "Less than 110 lbs",
+          "distribution": "Primarily warm waters of the Indo-Pacific, with small populations in the Atlantic Ocean",
+          "feeding_habit": "Omnivorous, feeding on a variety of sea life"
+        },
+        "image": "images/turtles/olive_ridley_sea_turtle.jpg"
+      },
+      {
+        "name": "Kemp’s Ridley Sea Turtle",
+        "interesting_fact": "Kemp’s ridley turtles are the rarest and smallest sea turtle species. They reach maturity within 10 – 15 years and can successfully mate within that time frame.",
+        "additional_info": {
+          "size": "Between 75 and 100 lbs",
+          "distribution": "Primarily Gulf of Mexico and along the Atlantic coast",
+          "nesting_behavior": "Form large nesting groups during the day"
+        },
+        "image": "images/turtles/kemps_ridley_sea_turtle.jpg"
+      },
+      {
+        "name": "Flatback Sea Turtle",
+        "interesting_fact": "Flatbacks have a flat carapace (the area at the top of the shell), which is different from the rounded shell of other turtles. They are found breeding and nesting only on the coast of Australia.",
+        "additional_info": {
+          "size": "Approximately 200 lbs",
+          "distribution": "Coast of Australia",
+          "conservation_status": "Vulnerable"
+        },
+        "image": "images/turtles/flatback_sea_turtle.jpg"
+      }
+    ]
+  ]
+}

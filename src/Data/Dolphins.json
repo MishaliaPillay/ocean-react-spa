@@ -1,0 +1,113 @@
+{
+  "dolphins": [
+    {
+      "name": "Long-Beaked Common Dolphin",
+      "abundance": "The Long-beaked Common dolphin is the most abundant dolphin species on earth",
+      "population": "There are approximately 6 million Common Dolphins in the ocean",
+      "interesting_fact": "The Long-beaked Common dolphin, as its name suggests, is one of the most abundant cetacean species found in the ocean.",
+      "physical_characteristics": {
+        "size": "6 – 8.5 feet long",
+        "location": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters"
+      },
+      "additional_info": {
+        "habitat": "Shallow waters close to the shoreline",
+        "behavior": "Often seen in groups called pods",
+        "diet": "Fish and squid"
+      },
+      "image": "images/long_beaked_common_dolphin.jpg"
+    },
+    {
+      "name": "Short-Beaked Common Dolphin",
+      "speed": "The Short-Beaked Common Dolphin is the fastest dolphin species, reaching up to 37 mph",
+      "lifespan": "The Short-Beaked Common Dolphin lives between 35 and 40 years",
+      "interesting_fact": "Short-beaked Common dolphins, making up the rest of the Common dolphin population, were once believed to be the same species as the Long-beaked Common dolphin but have since been established as their own.",
+      "physical_characteristics": {
+        "size": "Less than 6 feet",
+        "distinguishing_features": "Shorter beaks, distinct coloring, rounder heads and bodies"
+      },
+      "additional_info": {
+        "habitat": "Wide-ranging habitats, including open ocean and coastal areas",
+        "behavior": "Social animals that often leap and play in the wake of boats",
+        "diet": "Fish and squid"
+      },
+      "image": "images/short_beaked_common_dolphin.jpg"
+    },
+    {
+      "name": "Bottlenose Dolphin",
+      "fact": "Bottlenose dolphins are often used in aquariums and Hollywood productions thanks to their high intelligence",
+      "intelligence": "A bottlenose dolphin’s brain is larger than a humans",
+      "interesting_fact": "Although it may not be the most abundant dolphin species on earth, the bottlenose dolphin has made a name for itself as the go-to when someone thinks of a dolphin.",
+      "physical_characteristics": {
+        "color": "Mostly grey but can range on a spectrum to almost black when reaching their dorsal fins and nearly white on their belly",
+        "size": "Varies, with a short thick beak"
+      },
+      "additional_info": {
+        "habitat": "Warmer tropical waters, often in harbors, bays, and estuaries",
+        "behavior": "Highly intelligent and often engage in complex social behaviors",
+        "diet": "Fish, squid, and crustaceans"
+      },
+      "image": "images/bottlenose_dolphin.jpg"
+    },
+    {
+      "name": "Hector’s Dolphin",
+      "population": "There are approximately only 7,000 Hector’s dolphins in the ocean",
+      "name_origin": "Named after a New Zealand scientist, Sir James Hector",
+      "interesting_fact": "Hector’s dolphins are both the smallest and the rarest dolphin species in the world, reaching only 4 – 5 feet as adults.",
+      "physical_characteristics": {
+        "size": "4 – 5 feet",
+        "coloration": "White on the belly and gray on the upper body, with a gray streak running along the center body to cover the tail and a black band around the eye that extends to the flipper"
+      },
+      "additional_info": {
+        "habitat": "Coastal waters of New Zealand",
+        "behavior": "Social animals that often travel in small groups",
+        "diet": "Fish and squid"
+      },
+      "image": "images/hectors_dolphin.jpg"
+    },
+    {
+      "name": "Atlantic Humpbacked Dolphin",
+      "family_size": "Pods of 10 – 15 individuals",
+      "communication": "Their hump may play an important role in social recognition among individuals",
+      "interesting_fact": "The Atlantic Humpbacked dolphin is endemic to the Atlantic Ocean, where it can be found only in the tropical and subtropical waters of the West African coast, with its range spreading from Morocco to Angola.",
+      "physical_characteristics": {
+        "habitat": "Coastal regions less than 30 meters deep",
+        "coloration": "Gray or white, with an iconic hump under their dorsal fin"
+      },
+      "additional_info": {
+        "behavior": "Often found in shallow coastal waters, including bays and estuaries",
+        "diet": "Fish and cephalopods"
+      },
+      "image": "images/atlantic_humpbacked_dolphin.jpg"
+    },
+    {
+      "name": "Orca",
+      "size": "Up to 27 feet (8.2m), 3 – 4 tons",
+      "unique_fact": "The Orca is the largest species of dolphin",
+      "interesting_fact": "The Orca, also known as the Killer Whale, is the largest of the dolphin family, often reaching sizes up to 27 feet (8.2m) with a weight of 3 – 4 tons.",
+      "physical_characteristics": {
+        "coloration": "White underbelly with a shiny black back, a white patch above each eye, and a tall, triangular-shaped dorsal fin"
+      },
+      "additional_info": {
+        "habitat": "Wide-ranging habitats, from polar to tropical regions",
+        "behavior": "Highly social animals that live in complex family groups",
+        "diet": "Varies by region, including fish, seals, and other marine mammals"
+      },
+      "image": "images/orca.jpg"
+    },
+    {
+      "name": "Irrawaddy Dolphin",
+      "unique_anatomy": "The Irrawaddy’s blow hole opens to the front, unlike other dolphins",
+      "name_origin": "The Irrawaddy dolphin gets its name from a subspecies that is found in the Irrawaddy river",
+      "interesting_fact": "Found in the coastal areas of South and Southeast Asia, the Irrawaddy dolphin is another interesting dolphin species that brings its own unique touch.",
+      "physical_characteristics": {
+        "size": "Varies, gray-to-blue-gray, distinctly rounded head with no beak, short blunt dorsal fin"
+      },
+      "additional_info": {
+        "habitat": "Brackish water near coastlines, estuaries, and river mouths",
+        "behavior": "Capable of spending time in freshwater and saltwater habitats",
+        "diet": "Fish and crustaceans"
+      },
+      "image": "images/irrawaddy_dolphin.jpg"
+    }
+  ]
+}

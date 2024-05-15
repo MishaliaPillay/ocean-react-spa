@@ -1,0 +1,116 @@
+{
+  "sharks": [
+    [
+      {
+        "name": "Pacific Sleeper Shark",
+        "average_length": "12 feet (3.9 meters)",
+        "average_weight": "750 lbs (340 kilograms)",
+        "interesting_fact": "The Pacific sleeper shark is one of the largest sharks in the world’s oceans, reaching an average length of 12 feet. They are both scavengers and predators and feed by sucking and cutting their prey.",
+        "additional_info": {
+          "habitat": "North Pacific, Arctic, and some temperate waters",
+          "feeding_behavior": "Sucking and cutting prey"
+        },
+        "image": "images/pacific_sleeper_shark.jpg"
+      },
+      {
+        "name": "Bluntnose Sixgill Shark",
+        "average_length": "15 feet (4.5 meters)",
+        "average_weight": "1,102 lbs (500 kilograms)",
+        "interesting_fact": "The bluntnose sixgill shark, sometimes also known as a cow shark, is the largest of all hexanchoid sharks.",
+        "additional_info": {
+          "habitat": "Atlantic, Indian, and Pacific Oceans",
+          "unique_features": "Six rows of gills"
+        },
+        "image": "images/bluntnose_sixgill_shark.jpg"
+      },
+      {
+        "name": "Common Thresher Shark",
+        "average_length": "15 feet (4.5 meters)",
+        "average_weight": "440 lbs (200 kilograms)",
+        "interesting_fact": "The thresher shark is a unique-looking shark that has an elongated tailfin and lives in the world’s temperate as well as tropical oceans.",
+        "additional_info": {
+          "habitat": "Temperate and tropical oceans",
+          "feeding_behavior": "Uses its tail to stun prey"
+        },
+        "image": "images/common_thresher_shark.jpg"
+      },
+      {
+        "name": "Great Hammerhead Shark",
+        "average_length": "16 feet (4.8 meters)",
+        "average_weight": "500 lbs (227 kilograms)",
+        "interesting_fact": "The great hammerhead shark is the largest of the hammerhead species. They have large, hammer-shaped heads and feed on everything from crustaceans to smaller sharks.",
+        "additional_info": {
+          "habitat": "Tropical waters",
+          "reproduction": "Can have up to 50 pups every two years"
+        },
+        "image": "images/great_hammerhead_shark.jpg"
+      },
+      {
+        "name": "Tiger Shark",
+        "average_length": "13 feet (3.9 meters)",
+        "average_weight": "1,000 lbs (454 kilograms)",
+        "interesting_fact": "Tiger sharks are well-known for the dark stripes down their body that resemble a tiger’s stripes.",
+        "additional_info": {
+          "habitat": "Tropical waters, central Pacific Islands",
+          "feeding_behavior": "Feed on fish, birds, seals, and sometimes trash"
+        },
+        "image": "images/tiger_shark.jpg"
+      },
+      {
+        "name": "Greenland Shark",
+        "average_length": "12 feet (3.6 meters)",
+        "average_weight": "880 lbs (400 kilograms)",
+        "interesting_fact": "The Greenland shark has the longest known lifespan of any vertebrate species, between 250-500 years.",
+        "additional_info": {
+          "habitat": "Arctic and North Atlantic oceans",
+          "feeding_behavior": "Eats anything it comes across in the depths"
+        },
+        "image": "images/greenland_shark.jpg"
+      },
+      {
+        "name": "Great White Shark",
+        "average_length": "15.5 feet (4.7 meters)",
+        "average_weight": "Females: 4,500 lbs (2041 kgs), Males: 1,400 lbs (635 kgs)",
+        "interesting_fact": "The great white shark is perhaps the best-known of all the large species of sharks in the earth’s oceans.",
+        "additional_info": {
+          "habitat": "Coastal and offshore waters",
+          "feeding_behavior": "Predator at the top of the food chain"
+        },
+        "image": "images/great_white_shark.jpg"
+      },
+      {
+        "name": "Megamouth Shark",
+        "average_length": "16 feet (4.8 meters)",
+        "average_weight": "1,760 lbs (798 kilograms)",
+        "interesting_fact": "The megamouth shark has a stout body and bulbous head with a mouth that extends behind its eyes.",
+        "additional_info": {
+          "habitat": "Tropical and temperate waters",
+          "feeding_behavior": "Filter feeder"
+        },
+        "image": "images/megamouth_shark.jpg"
+      },
+      {
+        "name": "Basking Shark",
+        "average_length": "25 feet (7.6 meters)",
+        "average_weight": "38,000 lbs (17,237 kilograms)",
+        "interesting_fact": "The basking shark is one of the largest sharks in the world and is a filter feeder.",
+        "additional_info": {
+          "habitat": "Coastal waters",
+          "feeding_behavior": "Filter feeder"
+        },
+        "image": "images/basking_shark.jpg"
+      },
+      {
+        "name": "Whale Shark",
+        "average_length": "33 feet (10 meters)",
+        "average_weight": "41,000 lbs (18,597 kilograms)",
+        "interesting_fact": "The whale shark is the most well-known largest shark in the earth’s oceans.",
+        "additional_info": {
+          "habitat": "Tropical waters",
+          "feeding_behavior": "Filter feeder"
+        },
+        "image": "images/whale_shark.jpg"
+      }
+    ]
+  ]
+}
