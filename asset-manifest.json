@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ocean-react-spa/static/css/main.6b4a35a3.css",
+    "main.js": "/ocean-react-spa/static/js/main.0389b466.js",
+    "static/js/453.d245626a.chunk.js": "/ocean-react-spa/static/js/453.d245626a.chunk.js",
+    "index.html": "/ocean-react-spa/index.html",
+    "main.6b4a35a3.css.map": "/ocean-react-spa/static/css/main.6b4a35a3.css.map",
+    "main.0389b466.js.map": "/ocean-react-spa/static/js/main.0389b466.js.map",
+    "453.d245626a.chunk.js.map": "/ocean-react-spa/static/js/453.d245626a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b4a35a3.css",
+    "static/js/main.0389b466.js"
+  ]
+}
