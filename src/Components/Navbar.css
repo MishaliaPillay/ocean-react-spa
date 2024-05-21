@@ -200,3 +200,10 @@ button {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+.nav-links li button.active {
+  color: #61dafb; /* Or any color you want for the active link */
+}
+
+.nav-links li button.active::before {
+  width: 100%;
+}

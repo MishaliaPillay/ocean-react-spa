@@ -9,7 +9,7 @@ import Quiz from "./Pages/Quiz/Quiz";
 import Theory from "./Pages/Theory/Theory";
 const App = () => {
   const pages = [
-    { name: "Home", route: "home" },
+    { name: "Home", route: "" },
     { name: "Design", route: "design" },
     { name: "Art", route: "art" },
     { name: "Quiz", route: "quiz" },
