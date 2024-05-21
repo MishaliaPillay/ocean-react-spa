@@ -12,7 +12,7 @@ const Navbar = ({ pages }) => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-
+//After the user navigates to a page , the is open state is false
   const navigateTo = (page) => {
     if (page.route === "") {
       navigate("/");
