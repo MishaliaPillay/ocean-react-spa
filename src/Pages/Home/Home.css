@@ -30,7 +30,8 @@ body {
   padding: 20px;
 }
 
-.homeTitle {  color: #f2f5f7;
+.homeTitle {
+  color: #f2f5f7;
   font-size: 2vw;
   margin: 0;
   padding: 0;
@@ -56,11 +57,13 @@ body {
   }
 }
 
-.aboutUs {
-  color: black;
-}
 .headings {
+  font-size: 5vh;
+  font-weight: bold;
   margin: 5%;
   text-align: center;
   color: black;
+}
+.blurb {
+  margin: 10%;
 }

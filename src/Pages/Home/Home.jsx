@@ -19,9 +19,23 @@ const Home = () => {
           </h2>
         </div>
       </div>
-      <section className="aboutUs">
+      <section>
+        <h2 className="headings">Cards</h2>
+      </section>
+      <section>
+        <h2 className="headings">About Us</h2>
+        <p className="blurb">
+          ddddddddddddddddddddddipisicing elit. Quibusdam doloremque et cum,
+          iusto quasi quos quaerat praesentium hic quam aspernatur porro fugit
+          obcaecatidipisicing elit. Quibusdam doloremque et cum, iusto quasi
+          quos quaerat praesentium hic quam aspernatur porro fugit
+          obcaecatidipisicing elit. Quibusdam doloremque et cum, iusto quasi
+          quos quaerat praesentium hic quam aspernatur porro fugit obcaecati
+        </p>
+      </section>
+      <section>
         <h2 className="headings">cheese</h2>
-        <p>
+        <p className="blurb">
           ddddddddddddddddddddddipisicing elit. Quibusdam doloremque et cum,
           iusto quasi quos quaerat praesentium hic quam aspernatur porro fugit
           obcaecatidipisicing elit. Quibusdam doloremque et cum, iusto quasi

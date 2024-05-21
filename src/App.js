@@ -7,6 +7,7 @@ import Art from "./Pages/Art/Art";
 import Design from "./Pages/Design/Design";
 import Quiz from "./Pages/Quiz/Quiz";
 import Theory from "./Pages/Theory/Theory";
+import SeaTurtle from "./Pages/SeaTurles/SeaTurtle";
 const App = () => {
   const pages = [
     { name: "Home", route: "" },
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/design" element={<Design />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/theory" element={<Theory />} />
+          <Route path="/seaturtle" element={<SeaTurtle />} />
         </Routes>
       </BrowserRouter>
     </>
