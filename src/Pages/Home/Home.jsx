@@ -19,6 +19,17 @@ const Home = () => {
           </h2>
         </div>
       </div>
+      <section className="aboutUs">
+        <h2 className="headings">cheese</h2>
+        <p>
+          ddddddddddddddddddddddipisicing elit. Quibusdam doloremque et cum,
+          iusto quasi quos quaerat praesentium hic quam aspernatur porro fugit
+          obcaecatidipisicing elit. Quibusdam doloremque et cum, iusto quasi
+          quos quaerat praesentium hic quam aspernatur porro fugit
+          obcaecatidipisicing elit. Quibusdam doloremque et cum, iusto quasi
+          quos quaerat praesentium hic quam aspernatur porro fugit obcaecati
+        </p>
+      </section>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./Navbar.css";
-
+import whale from "./whale.png";
 // Reference for the Navbar: hitensharma. (n.d.). Responsive Animated Navbar [CodePen]. CodePen. https://codepen.io/hitensharma/pen/dybryGE
 
 const Navbar = ({ pages }) => {
@@ -12,7 +12,7 @@ const Navbar = ({ pages }) => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-//After the user navigates to a page , the is open state is false
+  //After the user navigates to a page , the is open state is false
   const navigateTo = (page) => {
     if (page.route === "") {
       navigate("/");
@@ -25,7 +25,7 @@ const Navbar = ({ pages }) => {
   return (
     <nav>
       <div className="logo">
-        <img src="././whale.png" alt="whale" />
+        <img src={whale} alt="whale" />
       </div>
       <div
         className={`hamburger ${isOpen ? "toggle" : ""}`}

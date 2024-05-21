@@ -1,8 +1,11 @@
 .home {
+  color: #000;
   padding-top: 90px;
   position: relative;
 }
-
+body {
+  color: #000;
+}
 .videoContainer {
   position: relative;
   width: 100%;
@@ -27,7 +30,7 @@
   padding: 20px;
 }
 
-.homeTitle {
+.homeTitle {  color: #f2f5f7;
   font-size: 2vw;
   margin: 0;
   padding: 0;
@@ -51,4 +54,13 @@
     color: white;
     font-size: 16px;
   }
+}
+
+.aboutUs {
+  color: black;
+}
+.headings {
+  margin: 5%;
+  text-align: center;
+  color: black;
 }
