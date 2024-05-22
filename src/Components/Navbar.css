@@ -57,7 +57,7 @@ nav {
 }
 button {
   color: #f2f5f7;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   border: none;
   outline: none;
@@ -143,7 +143,6 @@ button {
   }
 
   .nav-links {
-    display: flex;
     position: fixed;
     background: #131418;
     height: 100vh;
@@ -153,6 +152,10 @@ button {
     -webkit-clip-path: circle(50px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
+  }
+  .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    display: block;
   }
   .nav-links.open {
     clip-path: circle(1000px at 90% -10%);
