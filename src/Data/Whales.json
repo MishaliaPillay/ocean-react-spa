@@ -4,7 +4,7 @@
       "name": "Humpback Whale ' &apos;",
       "where_found": "Worldwide",
       "interesting_fact": "Humpback whales can live up to 80 to 90 years",
-      "image": "./images/whales/humpback_whale.jpg",
+      "image": "humpback_whale.jpg",
       "additional_information": {
         "description": "Humpback whales are known for their complex songs, which can last for hours and be heard for miles. They migrate with the seasons, so they’re found throughout the world, with winter breeding grounds around the equator, in places like the Hawaiian island of Maui and locations in Central America. Some non-migrating breeds have been found in the Persian Gulf and near the coasts of Pakistan and India."
       }

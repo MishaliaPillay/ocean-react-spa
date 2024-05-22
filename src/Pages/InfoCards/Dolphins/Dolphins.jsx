@@ -21,6 +21,16 @@ const Dolphins = () => {
               alt={dolphin.name}
             />
             <p>{dolphin.interesting_fact}</p>
+            <h3>Physical Characteristics:</h3>
+            <ul>
+              {Object.entries(dolphin.physical_characteristics).map(
+                ([key, value], infoIndex) => (
+                  <li key={infoIndex}>
+                    <strong>{key}:</strong> {value}
+                  </li>
+                )
+              )}
+            </ul>
             {dolphin.additional_info && (
               <>
                 <h3>Additional Information:</h3>
