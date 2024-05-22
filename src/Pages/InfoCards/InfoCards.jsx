@@ -15,7 +15,7 @@ const InfoCards = () => {
       image: sharkImage,
     },
     {
-      category: "turtles",
+      category: "seaturtle",
       title: "Turtles",
       description: "Explore the world of turtles and their conservation.",
       image: turtleImage,
