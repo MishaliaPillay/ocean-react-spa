@@ -1,5 +1,5 @@
 {
-  "dolphins": [
+  "dolphinsData": [
     {
       "name": "Long-Beaked Common Dolphin",
       "abundance": "The Long-beaked Common dolphin is the most abundant dolphin species on earth",
@@ -14,7 +14,7 @@
         "behavior": "Often seen in groups called pods",
         "diet": "Fish and squid"
       },
-      "image": "images/long_beaked_common_dolphin.jpg"
+      "image": "long_beaked_common_dolphin.jpg"
     },
     {
       "name": "Short-Beaked Common Dolphin",
@@ -30,7 +30,7 @@
         "behavior": "Social animals that often leap and play in the wake of boats",
         "diet": "Fish and squid"
       },
-      "image": "images/short_beaked_common_dolphin.jpg"
+      "image": "short_beaked_common_dolphin.jpg"
     },
     {
       "name": "Bottlenose Dolphin",
@@ -46,7 +46,7 @@
         "behavior": "Highly intelligent and often engage in complex social behaviors",
         "diet": "Fish, squid, and crustaceans"
       },
-      "image": "images/bottlenose_dolphin.jpg"
+      "image": "bottlenose_dolphin.jpg"
     },
     {
       "name": "Hector’s Dolphin",
@@ -62,7 +62,7 @@
         "behavior": "Social animals that often travel in small groups",
         "diet": "Fish and squid"
       },
-      "image": "images/hectors_dolphin.jpg"
+      "image": "hectors_dolphin.jpg"
     },
     {
       "name": "Atlantic Humpbacked Dolphin",
@@ -77,7 +77,7 @@
         "behavior": "Often found in shallow coastal waters, including bays and estuaries",
         "diet": "Fish and cephalopods"
       },
-      "image": "images/atlantic_humpbacked_dolphin.jpg"
+      "image": "atlantic_humpbacked_dolphin.jpg"
     },
     {
       "name": "Orca",
@@ -92,7 +92,7 @@
         "behavior": "Highly social animals that live in complex family groups",
         "diet": "Varies by region, including fish, seals, and other marine mammals"
       },
-      "image": "images/orca.jpg"
+      "image": "orca.jpg"
     },
     {
       "name": "Irrawaddy Dolphin",
@@ -107,7 +107,7 @@
         "behavior": "Capable of spending time in freshwater and saltwater habitats",
         "diet": "Fish and crustaceans"
       },
-      "image": "images/irrawaddy_dolphin.jpg"
+      "image": "irrawaddy_dolphin.jpg"
     }
   ]
 }

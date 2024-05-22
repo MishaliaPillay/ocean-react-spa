@@ -7,7 +7,11 @@ import Art from "./Pages/Art/Art";
 import Design from "./Pages/Design/Design";
 import Quiz from "./Pages/Quiz/Quiz";
 import Theory from "./Pages/Theory/Theory";
-import SeaTurtle from "./Pages/SeaTurles/SeaTurtle";
+import SeaTurtle from "./Pages/InfoCards/SeaTurles/SeaTurtle";
+import Sharks from "./Pages/InfoCards/Sharks/Sharks";
+import Tips from "./Pages/InfoCards/Tips/Tips";
+import Whales from "./Pages/InfoCards/Whales/Whales";
+import Dolphins from "./Pages/InfoCards/Dolphins/Dolphins";
 const App = () => {
   const pages = [
     { name: "Home", route: "" },
@@ -27,6 +31,10 @@ const App = () => {
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/theory" element={<Theory />} />
           <Route path="/seaturtle" element={<SeaTurtle />} />
+          <Route path="/sharks" element={<Sharks />} />
+          <Route path="/whales" element={<Whales />} />
+          <Route path="/dolphins" element={<Dolphins />} />
+          <Route path="/tips" element={<Tips />} />
         </Routes>
       </BrowserRouter>
     </>

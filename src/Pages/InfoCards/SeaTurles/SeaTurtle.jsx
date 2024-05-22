@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import turtlesData from "../../Data/Turtles.json"; // Ensure the path is correct
+import turtlesData from "../../../Data/Turtles.json"; // Ensure the path is correct
 
 const SeaTurtle = () => {
   const [turtles, setTurtles] = useState([]);
@@ -17,7 +17,7 @@ const SeaTurtle = () => {
           <div key={index}>
             <h2>{turtle.name}</h2>
             <img
-              src={require(`../../Images/Turtles/${turtle.image}`)}
+              src={require(`../../../Images/Turtles/${turtle.image}`)}
               alt={turtle.name}
             />
             <p>{turtle.interesting_fact}</p>
