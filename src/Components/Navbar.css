@@ -9,7 +9,6 @@
   font-weight: 300;
 }
 body {
-  color: #f2f5f7;
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -56,7 +55,8 @@ nav {
 .nav-links li {
   position: relative;
 }
-button {  color: #f2f5f7;
+button {
+  color: #f2f5f7;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   border: none;
@@ -140,8 +140,6 @@ button {  color: #f2f5f7;
   }
   .hamburger:hover {
     transition: all 0s ease;
-    border-radius: 40%;
-    border: rgb(4, 254, 254) 2px solid;
   }
 
   .nav-links {
@@ -208,4 +206,45 @@ button {  color: #f2f5f7;
 
 .nav-links li button.active::before {
   width: 100%;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  min-width: 150px;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  color: #333;
+}
+
+.dropdown-menu li button:hover {
+  background-color: #f0f0f0;
 }

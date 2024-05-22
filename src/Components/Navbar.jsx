@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import whale from "./whale.png";
-// Reference for the Navbar: hitensharma. (n.d.). Responsive Animated Navbar [CodePen]. CodePen. https://codepen.io/hitensharma/pen/dybryGE
-
+import { CaretCircleDown } from "@phosphor-icons/react";
 const Navbar = ({ pages }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -12,7 +11,7 @@ const Navbar = ({ pages }) => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-  //After the user navigates to a page , the is open state is false
+
   const navigateTo = (page) => {
     if (page.route === "") {
       navigate("/");
@@ -51,6 +50,52 @@ const Navbar = ({ pages }) => {
             </button>
           </li>
         ))}
+        <li className="dropdown">
+          <button>
+            Exploration <CaretCircleDown color="white" size={20} />
+          </button>
+          <ul className="dropdown-menu">
+            <li>
+              <button
+                onClick={() =>
+                  navigateTo({ name: "Sea Turtles", route: "seaturtle" })
+                }
+              >
+                Sea Turtles
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateTo({ name: "Sharks", route: "sharks" })}
+              >
+                Sharks
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() =>
+                  navigateTo({ name: "Dolphins", route: "dolphins" })
+                }
+              >
+                Dolphins
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateTo({ name: "Tips", route: "tips" })}
+              >
+                Tips
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateTo({ name: "Whales", route: "whales" })}
+              >
+                Whales
+              </button>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   );
