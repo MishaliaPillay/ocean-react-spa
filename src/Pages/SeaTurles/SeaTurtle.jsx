@@ -17,7 +17,7 @@ const SeaTurtle = () => {
           <div key={index}>
             <h2>{turtle.name}</h2>
             <img
-              src={`../../Images/Turtles/${turtle.image}`}
+              src={require(`../../Images/Turtles/${turtle.image}`)}
               alt={turtle.name}
             />
             <p>{turtle.interesting_fact}</p>
