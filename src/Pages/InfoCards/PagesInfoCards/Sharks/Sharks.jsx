@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import sharksData from "../../../Data/Sharks.json";
+import sharksData from "../../../../Data/Sharks.json";
 
 function Sharks() {
   const [sharks, setSharks] = useState([]);
@@ -16,7 +16,7 @@ function Sharks() {
           <div key={index}>
             <h2>{shark.name}</h2>
             <img
-              src={require(`../../../Images/Sharks/${shark.image}`)} // Importing images dynamically
+              src={require(`../../../../Images/Sharks/${shark.image}`)} // Importing images dynamically
               alt={shark.name}
             />
             <p>{shark.interesting_fact}</p>
