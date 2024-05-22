@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import dolphinsData from "../../../Data/Dolphins.json";
+import dolphinsData from "../../../../Data/Dolphins.json";
 
 const Dolphins = () => {
   const [dolphins, setDolphins] = useState([]);
@@ -17,7 +17,7 @@ const Dolphins = () => {
           <div key={index}>
             <h2>{dolphin.name}</h2>
             <img
-              src={require(`../../../Images/Dolphins/${dolphin.image}`)}
+              src={require(`../../../../Images/Dolphins/${dolphin.image}`)}
               alt={dolphin.name}
             />
             <p>{dolphin.interesting_fact}</p>

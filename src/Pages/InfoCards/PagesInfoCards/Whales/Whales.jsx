@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import whalesData from "../../../Data/Whales.json";
+import whalesData from "../../../../Data/Whales.json";
 
 function Whales() {
   const [whales, setWhales] = useState([]);
@@ -16,7 +16,7 @@ function Whales() {
           <div key={index}>
             <h2>{whale.name}</h2>
             <img
-              src={require(`../../../Images/Whales/${whale.image}`)}
+              src={require(`../../../../Images/Whales/${whale.image}`)}
               alt={whale.name}
             />
             <p>{whale.interesting_fact}</p>

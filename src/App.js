@@ -9,9 +9,9 @@ import Quiz from "./Pages/Quiz/Quiz";
 import Theory from "./Pages/Theory/Theory";
 import SeaTurtle from "./Pages/InfoCards/SeaTurles/SeaTurtle";
 import Sharks from "./Pages/InfoCards/Sharks/Sharks";
-import Tips from "./Pages/InfoCards/Tips/Tips";
-import Whales from "./Pages/InfoCards/Whales/Whales";
-import Dolphins from "./Pages/InfoCards/Dolphins/Dolphins";
+import Tips from "./Pages/InfoCards/PagesInfoCards/Tips/Tips";
+import Whales from "./Pages/InfoCards/PagesInfoCards/Whales/Whales";
+import Dolphins from "./Pages/InfoCards/PagesInfoCards/Dolphins/Dolphins";
 import InfoCards from "./Pages/InfoCards/InfoCards";
 const App = () => {
   const pages = [
