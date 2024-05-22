@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css"; // Ensure you have styles defined in this file
 import SeaTurtle from "../../Video/SeaTurtle.mp4";
 import { useNavigate } from "react-router-dom";
+import InfoCards from "../InfoCards/InfoCards";
 const Home = () => {
   const navigate = useNavigate();
   const handleClick = (route) => {
@@ -130,6 +131,7 @@ const Home = () => {
           quos quaerat praesentium hic quam aspernatur porro fugit obcaecati
         </p>
       </section>
+      <InfoCards />
     </div>
   );
 };

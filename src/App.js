@@ -12,6 +12,7 @@ import Sharks from "./Pages/InfoCards/Sharks/Sharks";
 import Tips from "./Pages/InfoCards/Tips/Tips";
 import Whales from "./Pages/InfoCards/Whales/Whales";
 import Dolphins from "./Pages/InfoCards/Dolphins/Dolphins";
+import InfoCards from "./Pages/InfoCards/InfoCards";
 const App = () => {
   const pages = [
     { name: "Home", route: "" },
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/whales" element={<Whales />} />
           <Route path="/dolphins" element={<Dolphins />} />
           <Route path="/tips" element={<Tips />} />
+          <Route path="/infocards" element={<InfoCards />} />
         </Routes>
       </BrowserRouter>
     </>
