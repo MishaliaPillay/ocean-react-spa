@@ -38,13 +38,13 @@ const Footer = () => {
               y="5"
               fill="rgba(255,255,255,0.3)"
             />
-            <use xlinkHref="#gentleWave" x="48" y="7" fill="#fff" />
+            <use xlinkHref="#gentleWave" x="48" y="7" fill="aliceblue" />
           </g>
         </svg>
       </section>
 
       <section className="content flex">
-        <p>Daniel Österman | 2019 | Free to use</p>
+        <p>All data fetched from  https://oceaninfo.com/</p>
       </section>
     </footer>
   );

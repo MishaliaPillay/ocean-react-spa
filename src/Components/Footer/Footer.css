@@ -1,27 +1,22 @@
-
-
 body {
   margin: 0;
 }
 
 h1 {
- 
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 48px;
 }
 
 p {
- 
   letter-spacing: 1px;
   font-size: 14px;
   color: #333333;
 }
 
-
 .logo {
   width: 50px;
-  fill: white;
+  fill: aliceblue;
   padding-right: 15px;
   display: inline-block;
   vertical-align: middle;
@@ -53,9 +48,9 @@ p {
 
 .content {
   position: relative;
-  height: 5vh;
+  height: 10vh;
   text-align: center;
-  background-color: white;
+  background-color: aliceblue;
 }
 
 /* Animation */

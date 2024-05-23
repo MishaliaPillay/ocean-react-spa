@@ -1,6 +1,6 @@
 .home {
   color: #000;
-  padding-top: 90px;
+ 
   position: relative;
 }
 body {
@@ -28,14 +28,15 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px;
+  padding: 60px;
+
 }
 video {
   border: none;
 }
 .homeTitle {
   color: #f2f5f7;
-  font-size: 2vw;
+  font-size: 4vw;
   margin: 0;
   padding: 0;
 }

@@ -52,7 +52,7 @@ const Navbar = ({ pages }) => {
         ))}
         <li className="dropdown">
           <button>
-            Exploration <CaretCircleDown color="white" size={20} />
+            Exploration <CaretCircleDown  size={20} />
           </button>
           <ul className="dropdown-menu">
             <li>

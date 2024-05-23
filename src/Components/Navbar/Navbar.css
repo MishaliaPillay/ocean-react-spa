@@ -15,11 +15,12 @@ body {
 
   overflow-x: hidden;
 }
-nav {
-  height: 6rem;
+nav { 
+  backdrop-filter: blur(2px);
+  height: 4.5rem;
   width: 100vw;
-  background-color: #131418;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgb(240, 248, 255);
+  box-shadow: 0 3px 20px rgba(170, 169, 169, 0.527);
   display: flex;
   position: fixed;
   z-index: 10;
@@ -50,13 +51,14 @@ nav {
   margin: 0 0.7vw;
 }
 .nav-links li button:hover {
-  color: #61dafb;
+  color: rgb(7, 0, 79);
 }
 .nav-links li {
   position: relative;
 }
 button {
-  color: #f2f5f7;
+  z-index: 10;
+
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   border: none;
@@ -68,7 +70,7 @@ button {
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #61dafb;
+  background-color: rgb(7, 0, 79);
   position: absolute;
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
@@ -95,8 +97,8 @@ button {
 }
 .join-button {
   color: #131418;
-  background-color: #61dafb;
-  border: 1.5px solid #61dafb;
+  background-color: rgb(7, 0, 79);
+  border: 1.5px solid rgb(7, 0, 79);
   border-radius: 2em;
   padding: 0.6rem 0.8rem;
   font-size: 1rem;
@@ -113,7 +115,7 @@ button {
 .hamburger div {
   width: 30px;
   height: 3px;
-  background: #f2f5f7;
+  background: rgb(7, 0, 79);
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -144,7 +146,7 @@ button {
 
   .nav-links {
     position: fixed;
-    background: #131418;
+    background: aliceblue;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -204,7 +206,7 @@ button {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 .nav-links li button.active {
-  color: #61dafb; /* Or any color you want for the active link */
+  color: rgb(7, 0, 79); /* Or any color you want for the active link */
 }
 
 .nav-links li button.active::before {
@@ -226,7 +228,7 @@ button {
   top: 100%;
   left: 0;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 0;
   min-width: 150px;
