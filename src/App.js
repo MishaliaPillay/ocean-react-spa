@@ -14,6 +14,7 @@ import Dolphins from "./Pages/InfoCards/PagesInfoCards/Dolphins/Dolphins";
 import InfoCards from "./Pages/InfoCards/InfoCards";
 import "./App.css"; // Import the CSS file
 import Footer from "./Components/Footer/Footer";
+import PollutionStats from "./Pages/Home/PollutionStats";
 
 const App = () => {
   const pages = [
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/dolphins" element={<Dolphins />} />
           <Route path="/tips" element={<Tips />} />
           <Route path="/infocards" element={<InfoCards />} />
+          <Route path="/pollutionstats" element={<PollutionStats />} />
         </Routes>
         <Footer />
       </BrowserRouter>

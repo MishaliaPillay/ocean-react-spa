@@ -74,3 +74,10 @@ video {
 .blurb {
   margin: 10%;
 }
+.iconCentre {
+  margin-bottom: 5%;
+  padding-left: 48%;
+}
+ul {
+  list-style: square inside red;
+}
