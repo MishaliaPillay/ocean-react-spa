@@ -1,5 +1,6 @@
 ::selection {
-  background-color: aqua;
+  color: aliceblue;
+  background-color: rgb(7, 0, 79);
 }
 .body {
   color: black;

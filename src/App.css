@@ -1,0 +1,35 @@
+/* App.css */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+background-image: linear-gradient(
+  320deg,
+  hsl(244deg 100% 16%) 0%,
+  hsl(216deg 100% 26%) 4%,
+  hsl(206deg 100% 35%) 11%,
+  hsl(198deg 100% 42%) 18%,
+  hsl(189deg 100% 47%) 25%,
+  hsl(181deg 100% 54%) 33%,
+  hsl(181deg 100% 71%) 42%,
+  hsl(181deg 100% 79%) 51%,
+  hsl(181deg 100% 85%) 62%,
+  hsl(180deg 100% 90%) 75%,
+  hsl(180deg 100% 95%) 100%
+);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}

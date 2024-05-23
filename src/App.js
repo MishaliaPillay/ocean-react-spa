@@ -1,7 +1,6 @@
 import React from "react";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import Art from "./Pages/Art/Art";
 import Design from "./Pages/Design/Design";
@@ -13,6 +12,9 @@ import Tips from "./Pages/InfoCards/PagesInfoCards/Tips/Tips";
 import Whales from "./Pages/InfoCards/PagesInfoCards/Whales/Whales";
 import Dolphins from "./Pages/InfoCards/PagesInfoCards/Dolphins/Dolphins";
 import InfoCards from "./Pages/InfoCards/InfoCards";
+import "./App.css"; // Import the CSS file
+import Footer from "./Components/Footer/Footer";
+
 const App = () => {
   const pages = [
     { name: "Home", route: "" },
@@ -21,8 +23,9 @@ const App = () => {
     { name: "Quiz", route: "quiz" },
     { name: "Theory", route: "theory" },
   ];
+
   return (
-    <>
+    <main className="app">
       <BrowserRouter>
         <Navbar pages={pages} />
         <Routes>
@@ -38,8 +41,9 @@ const App = () => {
           <Route path="/tips" element={<Tips />} />
           <Route path="/infocards" element={<InfoCards />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-    </>
+    </main>
   );
 };
 
