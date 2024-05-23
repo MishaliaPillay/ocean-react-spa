@@ -30,7 +30,7 @@ const OceanFacts = () => {
           <Fact key={id} id={id} fact={fact} />
         ))}
       </ul>
-      <button onClick={refreshFacts} style={{ cursor: "pointer" }}>
+      <button className="facts" onClick={refreshFacts} style={{ cursor: "pointer" }}>
         More Facts
       </button>
     </div>
