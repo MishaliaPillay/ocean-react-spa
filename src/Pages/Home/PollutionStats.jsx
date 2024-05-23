@@ -1,23 +1,26 @@
 import React from "react";
-import pollutionData from "../../Data/PollutionStats.json"; // adjust the path as needed
+import oceanFactsData from "../../Data/101Facts.json";
 
-const PollutionStats = () => {
-  // Flatten the nested array and include the nested index to ensure unique keys
-  const flatPollutionStats = pollutionData.pollutionStats.flatMap(
-    (group, groupIndex) =>
-      group.map((item) => ({ ...item, uniqueId: `${groupIndex}-${item.id}` }))
-  );
+console.log(oceanFactsData); // Check if the data is imported correctly
+
+const Fact = ({ id, fact }) => (
+  <li key={id} className="fact">{fact}</li>
+);
+
+const OceanFacts = () => {
+  const { ocean_facts } = oceanFactsData;
+  const allFacts = ocean_facts || [];
 
   return (
-    <section>
-      <h2>Pollution Statistics</h2>
-      <ul className="stats">
-        {flatPollutionStats.map((item) => (
-          <li key={item.uniqueId}>{item.fact}</li>
+    <div className="ocean-facts">
+      <h1>Ocean Facts</h1>
+      <ul>
+        {allFacts.map(({ id, fact }) => (
+          <Fact key={id} id={id} fact={fact} />
         ))}
       </ul>
-    </section>
+    </div>
   );
 };
 
-export default PollutionStats;
+export default OceanFacts;

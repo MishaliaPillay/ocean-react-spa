@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import InfoCards from "../InfoCards/InfoCards";
 import { ArrowDown } from "@phosphor-icons/react";
 import PollutionStats from "./PollutionStats";
+import OceanFacts from "./OceanFacts";
 const Home = () => {
   const navigate = useNavigate();
   const handleClick = (route) => {
@@ -56,6 +57,7 @@ const Home = () => {
       </section>
       <section>
         <h2 className="headings">Random Ocean Facts</h2>
+        <OceanFacts />
         <h2 className="headings">cheese</h2>
         <p className="blurb">
           ddddddddddddddddddddddipisicing elit. Quibusdam doloremque et cum,
