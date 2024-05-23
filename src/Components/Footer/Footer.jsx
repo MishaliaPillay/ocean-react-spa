@@ -1,6 +1,7 @@
 import React from "react";
-import "./Footer.css"; // Import the CSS file
+import "./Footer.css"; 
 
+//Refrence from code pen for styleing: Wendy. (2019). Simple CSS Waves. CodePen. Retrieved from https://codepen.io/opylfgtn/pen/JjEZeLE
 const Footer = () => {
   return (
     <footer className="footer">

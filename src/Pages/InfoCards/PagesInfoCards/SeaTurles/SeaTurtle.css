@@ -50,7 +50,20 @@ img {
 }
 
 .articles article .caption-wrapper {
-  background: #f9f9f9;
+  height: 60%;
+  width: 70%;
+  border-radius: 25px;
+  background-color: #00000010;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(12px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding-left: 5%;
+  padding-right: 5%;
+ 
   position: relative;
   width: 100%;
   height: auto;

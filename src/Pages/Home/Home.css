@@ -1,12 +1,16 @@
 .home {
   color: #000;
- 
+
   position: relative;
 }
 body {
   color: #000;
 }
 .videoContainer {
+  -webkit-box-shadow: 0px 8px 24px 0px rgba(0, 100, 186, 1);
+  -moz-box-shadow: 0px 8px 24px 0px rgba(0, 100, 186, 1);
+  box-shadow: 0px 8px 24px 0px rgba(0, 100, 186, 1);
+  background-color: #2f64c7fd;
   border: none;
   position: relative;
   width: 100%;
@@ -29,7 +33,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 60px;
-
 }
 video {
   border: none;
