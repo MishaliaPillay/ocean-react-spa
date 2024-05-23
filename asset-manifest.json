@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/ocean-react-spa/static/css/main.bee5391d.css",
-    "main.js": "/ocean-react-spa/static/js/main.53b3804f.js",
+    "main.css": "/ocean-react-spa/static/css/main.49e757c5.css",
+    "main.js": "/ocean-react-spa/static/js/main.f27e05fd.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
-    "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.12f2fc2cae4a245906fd.mp4",
+    "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
     "static/media/gray_whale.jpg": "/ocean-react-spa/static/media/gray_whale.e6fbfe131dcec077ada7.jpg",
     "static/media/sei_whale.jpg": "/ocean-react-spa/static/media/sei_whale.b9182c875b6203a9ca23.jpg",
     "static/media/bottlenose_dolphin.jpg": "/ocean-react-spa/static/media/bottlenose_dolphin.b90d04079445cb5c181a.jpg",
@@ -43,12 +43,12 @@
     "static/media/pacific_sleeper_shark.jpg": "/ocean-react-spa/static/media/pacific_sleeper_shark.a2fedfd88db17ea9a783.jpg",
     "static/media/humpback_whale.jpg": "/ocean-react-spa/static/media/humpback_whale.3586eb53bfb5c6b8f457.jpg",
     "index.html": "/ocean-react-spa/index.html",
-    "main.bee5391d.css.map": "/ocean-react-spa/static/css/main.bee5391d.css.map",
-    "main.53b3804f.js.map": "/ocean-react-spa/static/js/main.53b3804f.js.map",
+    "main.49e757c5.css.map": "/ocean-react-spa/static/css/main.49e757c5.css.map",
+    "main.f27e05fd.js.map": "/ocean-react-spa/static/js/main.f27e05fd.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee5391d.css",
-    "static/js/main.53b3804f.js"
+    "static/css/main.49e757c5.css",
+    "static/js/main.f27e05fd.js"
   ]
 }
