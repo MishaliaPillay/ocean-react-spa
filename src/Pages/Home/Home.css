@@ -76,6 +76,9 @@ video {
   text-align: center;
   color: black;
 }
+button{
+  cursor: pointer;
+}
 .blurb {
   font-size: 20px;
   color: #000000;

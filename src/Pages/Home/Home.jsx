@@ -60,25 +60,26 @@ const Home = () => {
             We believe that by understanding the wonders of the ocean and the
             threats it faces, we can empower individuals to make a difference.
             Through compelling content, engaging visuals, and calls to action,
-            we strive to:
-            <ul>
-              <li>
-                <span className="important">Spread Awareness: </span>We want
-                people to appreciate the ocean's beauty, diversity, and
-                ecological significance.
-              </li>
-              <li>
-                <span className="important">Educate and Empower:</span> We aim
-                to provide accessible information about ocean conservation and
-                the challenges it faces.
-              </li>
-              <li>
-                <span className="important">Inspire Action:</span> We encourage
-                visitors to take action in their everyday lives to protect our
-                precious oceans.
-              </li>
-            </ul>
+            we strive to:{" "}
           </p>
+          <ul className="blurb">
+            <li>
+              <span className="important">Spread Awareness: </span>We want
+              people to appreciate the ocean's beauty, diversity, and ecological
+              significance.
+            </li>
+            <li>
+              <span className="important">Educate and Empower:</span> We aim to
+              provide accessible information about ocean conservation and the
+              challenges it faces.
+            </li>
+            <li>
+              <span className="important">Inspire Action:</span> We encourage
+              visitors to take action in their everyday lives to protect our
+              precious oceans.
+            </li>
+          </ul>
+
           <p className="blurb">
             Just like Ocean Info.com, we believe that a healthy ocean is
             essential for a healthy planet. By working together, we can ensure a
@@ -86,9 +87,9 @@ const Home = () => {
           </p>
           <p className="blurb">
             {" "}
-            <span className="important">Join us on this journey!</span> Explore our website to learn
-            more about the ocean, discover ways to get involved, and become an
-            advocate for its protection.
+            <span className="important">Join us on this journey!</span> Explore
+            our website to learn more about the ocean, discover ways to get
+            involved, and become an advocate for its protection.
           </p>
         </article>
       </section>{" "}
