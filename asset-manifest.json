@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ocean-react-spa/static/css/main.474e72c8.css",
+    "main.css": "/ocean-react-spa/static/css/main.9e749e05.css",
     "main.js": "/ocean-react-spa/static/js/main.97d51641.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
     "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
@@ -43,12 +43,12 @@
     "static/media/pacific_sleeper_shark.jpg": "/ocean-react-spa/static/media/pacific_sleeper_shark.a2fedfd88db17ea9a783.jpg",
     "static/media/humpback_whale.jpg": "/ocean-react-spa/static/media/humpback_whale.3586eb53bfb5c6b8f457.jpg",
     "index.html": "/ocean-react-spa/index.html",
-    "main.474e72c8.css.map": "/ocean-react-spa/static/css/main.474e72c8.css.map",
+    "main.9e749e05.css.map": "/ocean-react-spa/static/css/main.9e749e05.css.map",
     "main.97d51641.js.map": "/ocean-react-spa/static/js/main.97d51641.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.474e72c8.css",
+    "static/css/main.9e749e05.css",
     "static/js/main.97d51641.js"
   ]
 }
