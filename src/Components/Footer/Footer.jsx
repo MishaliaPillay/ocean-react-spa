@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"; 
+import "./Footer.css";
 
 //Refrence from code pen for styleing: Wendy. (2019). Simple CSS Waves. CodePen. Retrieved from https://codepen.io/opylfgtn/pen/JjEZeLE
 const Footer = () => {
@@ -21,31 +21,21 @@ const Footer = () => {
             />
           </defs>
           <g className="parallax">
+            <use xlinkHref="#gentleWave" x="48" y="0" fill="#077fe8" />
+            <use xlinkHref="#gentleWave" x="48" y="3" fill="#4da8f7" />
+            <use xlinkHref="#gentleWave" x="48" y="5" fill="#4d83f765" />
             <use
               xlinkHref="#gentleWave"
               x="48"
-              y="0"
-              fill="rgba(255,255,255,0.7"
+              y="7"
+              fill="rgb(209, 231, 240)"
             />
-            <use
-              xlinkHref="#gentleWave"
-              x="48"
-              y="3"
-              fill="rgba(255,255,255,0.5)"
-            />
-            <use
-              xlinkHref="#gentleWave"
-              x="48"
-              y="5"
-              fill="rgba(255,255,255,0.3)"
-            />
-            <use xlinkHref="#gentleWave" x="48" y="7" fill="aliceblue" />
           </g>
         </svg>
       </section>
 
       <section className="content flex">
-        <p>All data fetched from  https://oceaninfo.com/</p>
+        <p>All data fetched from https://oceaninfo.com/</p>
       </section>
     </footer>
   );

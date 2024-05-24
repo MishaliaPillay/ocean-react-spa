@@ -9,8 +9,8 @@ const PollutionStats = () => {
   );
 
   return (
-    <section>
-      <h2>Pollution Statistics</h2>
+    <section className="paragraphStyles">
+      <h2 className="littleHeading">Pollution Statistics</h2>
       <ul className="stats">
         {flatPollutionStats.map((item) => (
           <li key={item.uniqueId}>

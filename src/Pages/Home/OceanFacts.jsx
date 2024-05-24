@@ -37,17 +37,17 @@ const OceanFacts = () => {
   }, [refreshFacts]);
 
   return (
-    <div className="ocean-facts">
-      <h1>Ocean Facts</h1>
+    <div className="paragraphStyles ">
+      <h1 className="littleHeading">Ocean Facts</h1>  <button className="factsgenerate" onClick={refreshFacts} style={{ cursor: "pointer" }}>
+        More Facts
+      </button>
       <ul>
         {displayedFacts.map(({ id, fact, icon }) => {
           const IconComponent = PhosphorIcons[icon];
           return <Fact key={id} fact={fact} IconComponent={IconComponent} />;
         })}
       </ul>
-      <button className="facts" onClick={refreshFacts} style={{ cursor: "pointer" }}>
-        More Facts
-      </button>
+    
     </div>
   );
 };

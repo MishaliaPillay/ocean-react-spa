@@ -49,9 +49,11 @@ const Quiz = () => {
             <li
               key={option}
               onClick={() => handleOptionSelect(option)}
-              className={selectedOption === option ? "selected-answer" : ""}
+              className={`${
+                selectedOption === option ? "selected-answer" : ""
+              } ${selectedOption ? "no-hover" : ""}`}
             >
-              {option}
+              <button disabled={selectedOption !== ""}>{option}</button>
             </li>
           ))}
         </ul>

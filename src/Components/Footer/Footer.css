@@ -16,7 +16,7 @@ p {
 
 .logo {
   width: 50px;
-  fill: aliceblue;
+  fill: rgb(113, 146, 175);
   padding-right: 15px;
   display: inline-block;
   vertical-align: middle;
@@ -50,7 +50,7 @@ p {
   position: relative;
   height: 10vh;
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(209, 231, 240);
 }
 
 /* Animation */

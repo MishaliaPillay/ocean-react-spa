@@ -16,6 +16,7 @@ import "./App.css"; // Import the CSS file
 import Footer from "./Components/Footer/Footer";
 import PollutionStats from "./Pages/Home/PollutionStats";
 
+
 const App = () => {
   const pages = [
     { name: "Home", route: "" },
@@ -29,6 +30,7 @@ const App = () => {
     <main className="app">
       <BrowserRouter>
         <Navbar pages={pages} />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/art" element={<Art />} />
@@ -44,6 +46,7 @@ const App = () => {
           <Route path="/pollutionstats" element={<PollutionStats />} />
         </Routes>
         <Footer />
+
       </BrowserRouter>
     </main>
   );

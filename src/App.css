@@ -11,20 +11,7 @@ body {
 }
 
 .app {
-  background-image: linear-gradient(
-  0deg,
-  hsl(209deg 100% 38%) 0%,
-  hsl(213deg 60% 54%) 6%,
-  hsl(213deg 62% 65%) 12%,
-  hsl(212deg 64% 75%) 18%,
-  hsl(210deg 68% 86%) 24%,
-  hsl(208deg 100% 97%) 30%,
-  hsl(208deg 100% 97%) 37%,
-  hsl(208deg 100% 97%) 44%,
-  hsl(208deg 100% 97%) 53%,
-  hsl(208deg 100% 97%) 65%,
-  hsl(208deg 100% 97%) 90%
-);
+ 
   min-height: 100vh;
 
   display: flex;
