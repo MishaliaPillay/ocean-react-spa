@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import quizData from "../../Data/Questions.json";
+import "./Quiz.css";
 
 const Quiz = () => {
   const [sectionIndex, setSectionIndex] = useState(null);
@@ -23,17 +24,14 @@ const Quiz = () => {
   };
 
   const handleNextQuestion = () => {
-    console.log("handleNextQuestion triggered");
     setUserAnswers([...userAnswers, selectedOption]);
     setSelectedOption("");
     setShowExplanation(false);
     const currentSection =
       quizData.questions[0][Object.keys(quizData.questions[0])[sectionIndex]];
     if (questionIndex < currentSection.length - 1) {
-      console.log("Incrementing questionIndex");
       setQuestionIndex(questionIndex + 1);
     } else {
-      console.log("Setting showResults to true");
       setShowResults(true);
     }
   };
@@ -48,13 +46,12 @@ const Quiz = () => {
         <h3>{currentQuestion.question}</h3>
         <ul>
           {currentQuestion.options.map((option) => (
-            <li key={option}>
-              <button
-                disabled={selectedOption !== "" || showExplanation}
-                onClick={() => handleOptionSelect(option)}
-              >
-                {option}
-              </button>
+            <li
+              key={option}
+              onClick={() => handleOptionSelect(option)}
+              className={selectedOption === option ? "selected-answer" : ""}
+            >
+              {option}
             </li>
           ))}
         </ul>
