@@ -40,6 +40,10 @@ html {
   @media (min-width: 56rem) {
     width: 33.3%;
   }
+  @media (max-width: 40rem) {
+    /* Use rem unit for screen width */
+    width: 100%; /* Set width to 100% for screens under 40rem */
+  }
 }
 
 .card-item {
