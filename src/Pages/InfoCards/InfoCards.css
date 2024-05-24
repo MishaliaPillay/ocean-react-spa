@@ -17,6 +17,9 @@ html {
 
 /* Flex container */
 .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+
   display: flex;
   flex-wrap: wrap;
   padding-right: 40px;
@@ -29,8 +32,8 @@ html {
   display: flex;
   padding: 1rem;
   margin-bottom: 2rem;
-  width: 100%;
-
+  width: unset; /* Remove width: 100% */
+  justify-content: space-between; /* Distribute cards evenly */
   @media (min-width: 40rem) {
     width: 50%;
   }
