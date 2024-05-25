@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
-import sharksData from "../../../../Data/Sharks.json";
+import React, { useState, useEffect } from "react";
+import sharksData from "../../../../Data/Sharks.json"; // Ensure the path is correct
 
-function Sharks() {
+
+const Sharks = () => {
   const [sharks, setSharks] = useState([]);
 
   useEffect(() => {
@@ -9,43 +10,62 @@ function Sharks() {
   }, []);
 
   return (
-    <div>
-      <h1>Sea sharks</h1>
-      {sharks.length > 0 ? (
-        sharks.map((shark, index) => (
-          <div key={index}>
-            <h2>{shark.name}</h2>
-            <img
-              src={require(`../../../../Images/Sharks/${shark.image}`)} // Importing images dynamically
-              alt={shark.name}
-            />
-            <p>{shark.interesting_fact}</p>
-            <h3>Physical Characteristics:</h3>
-            <ul>
-              <li>
-                <strong>Average Length:</strong> {shark.average_length}
-              </li>
-              <li>
-                <strong>Average Weight:</strong> {shark.average_weight}
-              </li>
-            </ul>
-            <h3>Additional Information:</h3>
-            <ul>
-              {Object.entries(shark.additional_info).map(
-                ([key, value], infoIndex) => (
-                  <li key={infoIndex}>
-                    <strong>{key}:</strong> {value}
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-        ))
-      ) : (
-        <p>Loading data...</p>
-      )}
-    </div>
+    <section>
+      <article className="beginning">
+        <p className="introParagraph">
+          <h1 className="cardTitle">Sea Sharks</h1>
+          Welcome to our Sea Sharks page! Explore the fascinating world of
+          these apex predators. Learn about their species, behaviors, and
+          importance in marine ecosystems. Let's dive deep into the realm of
+          sharks together!
+        </p>
+      </article>
+      <section className="blogPost">
+        {sharks.length > 0 ? (
+          sharks.map((shark, index) => (
+            <article className="sectionContainer" key={index}>
+              <article>
+                <div className="imageContainer">
+                  <img
+                    className="CardImg"
+                    src={require(`../../../../Images/Sharks/${shark.image}`)}
+                    alt={shark.name}
+                  />
+                </div>
+                <section className="introParagraph">
+                  <div className="blurbParagraph">
+                    <h2>{shark.name}</h2>
+                    <p className="blurbParagraph">{shark.interesting_fact}</p>
+                    <h3>Physical Characteristics:</h3>
+                    <ul className="referrences">
+                      <li>
+                        <strong>Average Length:</strong> {shark.average_length}
+                      </li>
+                      <li>
+                        <strong>Average Weight:</strong> {shark.average_weight}
+                      </li>
+                    </ul>
+                    <h3>Additional Information:</h3>
+                    <ul className="referrences">
+                      {Object.entries(shark.additional_info).map(
+                        ([key, value], infoIndex) => (
+                          <li key={infoIndex}>
+                            <strong>{key}:</strong> {value}
+                          </li>
+                        )
+                      )}
+                    </ul>
+                  </div>
+                </section>
+              </article>
+            </article>
+          ))
+        ) : (
+          <p>Loading data...</p>
+        )}
+      </section>
+    </section>
   );
-}
+};
 
 export default Sharks;
