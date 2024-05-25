@@ -14,12 +14,12 @@ h1 {
   margin: 30px 0;
 }
 
-.secondHeading {
+h2 {
   font-size: 1.8em;
   font-weight: 700;
 }
 
-.thirdHeading {
+h3 {
   font-size: 1.6em;
   font-weight: 700;
 }
@@ -90,16 +90,33 @@ article {
   width: 90%;
   margin: auto;
 }
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Ensure images start from the left */
+  gap: 20px;
+}
 
-.blogImg {
-  margin-left: 10%;
-  width: 70%;
+.imageContainer figure {
+  margin: 0;
+  width: calc(50% - 10px); /* Set width to 50% of the container minus gap */
+}
+
+.blogImg { border: black 2px solid;
+  width: 100%;
   height: auto;
-  padding-bottom: 5%;
   border-radius: none;
   background-size: cover;
-  position: relative;
 }
+
+/* Additional CSS for smaller screens */
+@media (max-width: 700px) {
+  .imageContainer figure {
+    width: 100%; /* Set width to 100% for single column layout */
+  }
+}
+
+
 .referrences li {
   list-style-type: disc;
   margin-bottom: 10px;
@@ -148,10 +165,7 @@ b {
   .blogContent {
     width: 80%;
   }
-  .blogImg {
-    width: 90%;
-    padding-bottom: 5%;
-  }
+  
   .blog-hero {
     padding-bottom: 60%;
   }

@@ -34,8 +34,8 @@ const Design = () => {
                           part.images.map((image, imageIndex) => (
                             <figure key={imageIndex}>
                               <img
-                                className="blogImg"
-                                src={require(`../../Images/Essay/${image.src}`)}
+                                className="blogImgDesign"
+                                src={require(`../../Images/Design/${image.src}`)}
                                 alt={`Figure ${imageIndex + 1}`}
                               />
                               <figcaption className="blogImgCaption">

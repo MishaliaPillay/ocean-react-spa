@@ -103,97 +103,99 @@ const Theory = () => {
             user asking ChatGPT the same question every day in the exact same
             format as they did the previous day, but the AI responds uniquely
             each time.
-          </p>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt2.png`)}
-              alt="Figure 1 Prompt 1"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 1 Prompt 1
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt2.png`)}
-              alt="Figure 2 Prompt 2"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 2 Prompt 2
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt3.png`)}
-              alt="Figure 3 Prompt 3"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 3 Prompt 3
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt4.png`)}
-              alt="Figure 4 Prompt 4"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 4 Prompt 4
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt5.png`)}
-              alt="Figure 5 Prompt 5"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 5 Prompt 5
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt6.png`)}
-              alt="Figure 6 Prompt 6"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 6 Prompt 6
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt7.png`)}
-              alt="Figure 7 Prompt 7"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 7 Prompt 7
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt8.png`)}
-              alt="Figure 1 Prompt 1"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 8 Prompt 8
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt9.png`)}
-              alt="Figure 9 Prompt 9"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 9 Prompt 9
-            </figcaption>
-          </figure>{" "}
+          </p>{" "}
+          <article className="imageContainer">
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt1.png`)}
+                alt="Figure 1 Prompt 1"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 1 Prompt 1
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt2.png`)}
+                alt="Figure 2 Prompt 2"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 2 Prompt 2
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt3.png`)}
+                alt="Figure 3 Prompt 3"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 3 Prompt 3
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt4.png`)}
+                alt="Figure 4 Prompt 4"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 4 Prompt 4
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt5.png`)}
+                alt="Figure 5 Prompt 5"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 5 Prompt 5
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt6.png`)}
+                alt="Figure 6 Prompt 6"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 6 Prompt 6
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt7.png`)}
+                alt="Figure 7 Prompt 7"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 7 Prompt 7
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt8.png`)}
+                alt="Figure 1 Prompt 1"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 8 Prompt 8
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/prompt9.png`)}
+                alt="Figure 9 Prompt 9"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 9 Prompt 9
+              </figcaption>
+            </figure>{" "}
+          </article>
           <p className="blurbParagraph ">
             This Net Art is highly relevant to designers as they go on to create
             systems that require data and are at times in charge of finding ways
@@ -298,27 +300,29 @@ const Theory = () => {
             Intermediality. It is also the understanding that there is a complex
             interplay to understanding the message of a Net art since there are
             four modalities used in meaning-making.
-          </p>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/selfie.png`)}
-              alt="selfie"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 11 Prompt 3 image
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/rock.png`)}
-              alt="selfie"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 12 Prompt 4 image
-            </figcaption>
-          </figure>
+          </p>{" "}
+          <article className="imageContainer">
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/selfie.png`)}
+                alt="selfie"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 11 Prompt 3 image
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                className="blogImg"
+                src={require(`../../Images/Essay/rock.png`)}
+                alt="selfie"
+              />
+              <figcaption className="blogImgCaption">
+                Figure 12 Prompt 4 image
+              </figcaption>
+            </figure>
+          </article>
           <h2 classname="secondHeading">What is material modality?</h2>
           <p className="blurbParagraph ">
             This modality looks at the physical aspects that the user/ audience
