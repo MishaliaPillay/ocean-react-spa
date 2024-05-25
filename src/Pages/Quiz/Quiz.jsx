@@ -19,8 +19,10 @@ const Quiz = () => {
   };
 
   const handleOptionSelect = (option) => {
-    setSelectedOption(option);
-    setShowExplanation(true);
+    if (!selectedOption) {
+      setSelectedOption(option);
+      setShowExplanation(true);
+    }
   };
 
   const handleNextQuestion = () => {
@@ -42,7 +44,7 @@ const Quiz = () => {
     const currentQuestion = currentSection[questionIndex];
 
     return (
-      <div className="question-container">
+      <div className={`question-container ${selectedOption ? 'no-hover' : ''}`}>
         <h3>{currentQuestion.question}</h3>
         <ul>
           {currentQuestion.options.map((option) => (
@@ -66,9 +68,9 @@ const Quiz = () => {
             )}
           </div>
         )}
-        <button
+        <button className="facts"
           onClick={handleNextQuestion}
-          disabled={!selectedOption && !showExplanation}
+          disabled={!selectedOption}
         >
           Next Question
         </button>
@@ -91,7 +93,7 @@ const Quiz = () => {
                 ? "Correct"
                 : "Incorrect"}
             </p>
-            {!answer === currentSection[index].answer && (
+            {answer !== currentSection[index].answer && (
               <p>{currentSection[index].explanation}</p>
             )}
           </div>
