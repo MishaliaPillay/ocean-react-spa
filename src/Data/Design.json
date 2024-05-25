@@ -13,24 +13,20 @@
             "caption": "Home Page Wirframe"
           },
           {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
+            "src": "Home2.png",
+            "caption": "Home2 Page Wirframe"
           },
           {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
+            "src": "Home3.png",
+            "caption": "Home3 Page Wirframe"
           },
           {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
+            "src": "Home4.png",
+            "caption": "Home4 Page Wirframe"
           },
           {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
-          },
-          {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
+            "src": "Home5.png",
+            "caption": "Home5 Page Wirframe"
           }
         ]
       },
@@ -41,16 +37,12 @@
         "description3": "Another example of mobile-first design is removing the intro paragraph on the video. This is removed on smaller devices as the video width changes and by removing it completely it reduces scroll time from if it were moved to below the video. ",
         "images": [
           {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
+            "src": "Phone nav.png",
+            "caption": "Phone Nav Wireframe"
           },
           {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
-          },
-          {
-            "src": "Home.png",
-            "caption": "This is the third image caption"
+            "src": "PhoneHome2.png",
+            "caption": "Phone Home Page Wireframe"
           }
         ]
       },
@@ -79,7 +71,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       },
@@ -97,7 +89,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       },
@@ -115,7 +107,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       },
@@ -133,7 +125,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       }
@@ -155,7 +147,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       },
@@ -173,7 +165,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       },
@@ -191,7 +183,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the third image caption"
+            "caption": "Home2 Page Wirframe"
           }
         ]
       }

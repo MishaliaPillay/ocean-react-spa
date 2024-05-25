@@ -11,42 +11,64 @@ const SeaTurtle = () => {
   }, []);
 
   return (
-    <section className="articles">
-      <h1>Sea Turtles</h1>
-      {turtles.length > 0 ? (
-        turtles.map((turtle, index) => (
-          <article key={index}>
-            <div className="image-wrapper">
-              <img
-                src={require(`../../../../Images/Turtles/${turtle.image}`)}
-                alt={turtle.name}
-              />
-            </div>
-            <div className="caption-wrapper">
-              <div className="caption">
-                <h2>{turtle.name}</h2>
-                <p>{turtle.interesting_fact}</p>
-                {turtle.additional_info && (
-                  <>
-                    <h3>Additional Information:</h3>
-                    <ul>
-                      {Object.entries(turtle.additional_info).map(
-                        ([key, value], infoIndex) => (
-                          <li key={infoIndex}>
-                            <strong>{key}:</strong> {value}
-                          </li>
-                        )
-                      )}
-                    </ul>
-                  </>
-                )}
-              </div>
-            </div>
-          </article>
-        ))
-      ) : (
-        <p>Loading data...</p>
-      )}
+    <section>
+      <article className="beginning">
+        {" "}
+        <p className="introParagraph ">
+          <h1 className="cardTitle">Sea Turtles</h1>
+          Welcome to our Sea Turtle page! Dive into the world of these
+          magnificent creatures with us. Explore their species, behaviors, and
+          ecological importance. Let's embark on an exciting journey beneath the
+          waves together!
+        </p>
+      </article>
+      <section className="blogPost">
+        {turtles.length > 0 ? (
+          turtles.map((turtle, index) => (
+            <article className="sectionContainer">
+              <article key={index}>
+                <div className="imageContainer">
+                  {" "}
+                  {/* Updated class name to match the CSS */}
+                  <img
+                    className="CardImg"
+                    src={require(`../../../../Images/Turtles/${turtle.image}`)}
+                    alt={turtle.name}
+                  />
+                </div>{" "}
+                <section className="introParagraph">
+                  {" "}
+                  {/* Updated class name to match the CSS */}
+                  <div className="blurbParagraph">
+                    {" "}
+                    {/* Updated class name to match the CSS */}
+                    <h2>{turtle.name}</h2>
+                    <p className="blurbParagraph">{turtle.interesting_fact}</p>
+                    {turtle.additional_info && (
+                      <>
+                        <h3>Additional Information:</h3>
+                        <ul className="referrences">
+                          {" "}
+                          {/* Updated class name to match the CSS */}
+                          {Object.entries(turtle.additional_info).map(
+                            ([key, value], infoIndex) => (
+                              <li key={infoIndex}>
+                                <strong>{key}:</strong> {value}
+                              </li>
+                            )
+                          )}
+                        </ul>
+                      </>
+                    )}
+                  </div>
+                </section>
+              </article>
+            </article>
+          ))
+        ) : (
+          <p>Loading data...</p>
+        )}
+      </section>
     </section>
   );
 };
