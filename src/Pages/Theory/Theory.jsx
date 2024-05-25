@@ -9,7 +9,9 @@ const Theory = () => {
       <section className="introParagraph ">
         <article className="blogContent">
           {" "}
-          <h3>Critical Analysis Essay on Net/Web Art</h3>
+          <h3 classname="thirdHeading">
+            Critical Analysis Essay on Net/Web Art
+          </h3>
           <p className="blurbParagraph ">
             This essay is a critical examination of the Net Art, “it’s doing
             It”. This is an artwork that was created by nine artists who wrote
@@ -38,7 +40,9 @@ const Theory = () => {
       <section className="blogPost">
         <article className="blogContent">
           <summary>
-            <h3>Critical Analysis Essay on Net/Web Art</h3>
+            <h3 classname="thirdHeading">
+              Critical Analysis Essay on Net/Web Art
+            </h3>
             <p className="blogDate">23 Dec 2016</p>
           </summary>
           <p className="blurbParagraph ">
@@ -54,7 +58,7 @@ const Theory = () => {
             “It’s doing It”, is a relevant and effective example of Net Art that
             can inspire and inform the designers of today.
           </p>
-          <h2>What is Net Art?</h2>
+          <h2 classname="secondHeading">What is Net Art?</h2>
           <p className="blurbParagraph ">
             For one to understand Net Art one needs to break the bounds of what
             media forms art can be created in (Ricci, 2020). Conventionally art
@@ -82,7 +86,9 @@ const Theory = () => {
             code the artist has no control over the resulting artwork, thus
             unique and interesting visuals arise.
           </p>
-          <h2>Explain “it’s doing It” and its relevance for designers.</h2>
+          <h2 classname="secondHeading">
+            Explain “it’s doing It” and its relevance for designers.
+          </h2>
           <p className="blurbParagraph ">
             This artwork falls part of Software art, there are a total of nine
             artists that worked on this project and each artist created a
@@ -208,7 +214,9 @@ const Theory = () => {
             relevant to designers as well as users as it informs both groups of
             the somewhat randomized results that these algorithms give.
           </p>{" "}
-          <h2>How does the choice of medium affect the message?</h2>{" "}
+          <h2 classname="secondHeading">
+            How does the choice of medium affect the message?
+          </h2>{" "}
           <p className="blurbParagraph ">
             The choice of medium acts as the mould that outlines where and how a
             work is situated in the user's minds (McLuhan, 2006, p. 108) . This
@@ -238,7 +246,9 @@ const Theory = () => {
               Figure 10 Drop down menu
             </figcaption>
           </figure>{" "}
-          <h2>What role does the Internet play as a medium?</h2>
+          <h2 classname="secondHeading">
+            What role does the Internet play as a medium?
+          </h2>
           <p className="blurbParagraph ">
             The Internet is described as a “disruptive medium (Ricci, 2020) as
             it has changed the way art is created and displayed (Carrier, 2020).
@@ -264,7 +274,9 @@ const Theory = () => {
             reap the benefits of learning from the content of what these artists
             have created.{" "}
           </p>{" "}
-          <h2>Explain the Intermediality of the Internet.</h2>
+          <h2 classname="secondHeading">
+            Explain the Intermediality of the Internet.
+          </h2>
           <p className="blurbParagraph ">
             As stated previously, how the art is configured affects how the
             audience situates the work, McLuhan (2006) takes this even further
@@ -307,7 +319,7 @@ const Theory = () => {
               Figure 12 Prompt 4 image
             </figcaption>
           </figure>
-          <h2>What is material modality?</h2>
+          <h2 classname="secondHeading">What is material modality?</h2>
           <p className="blurbParagraph ">
             This modality looks at the physical aspects that the user/ audience
             has to engage with to access the work (Bruhn and Schirrmacher, 2022,
@@ -318,7 +330,7 @@ const Theory = () => {
             advantage as it increases accessibility, users with devices can gain
             access anywhere.
           </p>
-          <h2>What is the Sensorial modality?</h2>
+          <h2 classname="secondHeading">What is the Sensorial modality?</h2>
           <p className="blurbParagraph ">
             Interactions are sensory experiences, to interact with the screen
             the visual sense is engaged and to use the mouse the tactile sense
@@ -332,7 +344,9 @@ const Theory = () => {
             link to “it's doing it” and be able to say that they are interacting
             with the original.
           </p>
-          <h2>What is the Spatiotemporal modality?</h2>
+          <h2 classname="secondHeading">
+            What is the Spatiotemporal modality?
+          </h2>
           <p className="blurbParagraph ">
             Spatiotemporal refers to “space and time” (Bruhn and Schirrmacher,
             2022, p. 21), this helps situate the user as it helps identify
@@ -347,7 +361,7 @@ const Theory = () => {
             only made possible by semiotics as they help encode the meaning of
             space and time in this Net Art.
           </p>
-          <h2>What is the Semiotic modality?</h2>
+          <h2 classname="secondHeading">What is the Semiotic modality?</h2>
           <p className="blurbParagraph ">
             The Net Art is made up of text and images, these media are signs
             that evoke certain responses from users based on convenience (Bruhn
@@ -364,7 +378,7 @@ const Theory = () => {
             and content. This helps designers understand how the computer
             interprets these non-technical word choices.
           </p>
-          <h2>Conclusion</h2>
+          <h2 classname="secondHeading">Conclusion</h2>
           <p className="blurbParagraph  ">
             After analyzing the Internet as a medium it is determined that this
             was an effective choice for displaying and creating the Net Art,
@@ -379,7 +393,7 @@ const Theory = () => {
             of checking their code, by displaying it visually, to prevent error
             in misrepresentation.
           </p>
-          <h2>Bibliography:</h2>
+          <h2 classname="secondHeading">Bibliography:</h2>
           <ul className="referrences">
             <li class="p-author">
               Bruhn, J. and Schirrmacher, B. (eds) (2022) Intermedial Studies:
@@ -476,7 +490,9 @@ const Theory = () => {
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
-            <h3>Critical Analysis Essay on Net/Web Art</h3>
+            <h3 classname="thirdHeading">
+              Critical Analysis Essay on Net/Web Art
+            </h3>
             <p className="blogDate">23 Dec 2016</p>
           </summary>
           <p className="blurbParagraph ">

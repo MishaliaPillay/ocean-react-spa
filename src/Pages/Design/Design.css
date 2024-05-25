@@ -14,23 +14,9 @@ h1 {
   margin: 30px 0;
 }
 
-.secondHeading {
-  font-size: 1.8em;
-  font-weight: 700;
-}
-
-.thirdHeading {
-  font-size: 1.6em;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
-.blurbParagraph {
-  line-height: 1.9em;
-  margin: 2em 0;
+.designParagraph { 
+  line-height: 1.5em;
+  margin: 0.5em 3em;
   font-size: 1em;
   font-weight: 500;
 }
@@ -95,7 +81,7 @@ article {
   margin-left: 10%;
   width: 70%;
   height: auto;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   border-radius: none;
   background-size: cover;
   position: relative;
@@ -111,23 +97,31 @@ article {
   justify-content: center;
   width: 30%;
   height: auto;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   border-radius: none;
   background-size: cover;
   position: relative;
 }
 .blogImgCaption {
-  margin-bottom: 5%;
+    margin: 2em 25em;
   bottom: -30px;
   font-size: 0.9em;
   color: #888;
   left: 4%;
 }
+.biggerHeading {
+  font-size: 4vw;
 
-b {
+  color: black;
+  padding: 20px;
   font-weight: bold;
+  text-align: center;
 }
-
+.littleHeadingDesign {font-size: 2vw;
+    font-family: cursive;
+    padding: 20px;
+    font-weight: bold;
+  }
 @media (min-width: 601px) and (max-width: 1000px) {
   .blogPost {
     width: 90%;
