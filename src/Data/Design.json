@@ -1,0 +1,68 @@
+{
+  "designContent": [
+    {
+      "title": "Wireframes",
+      "explanation": "The Long-beaked Common dolphin, as its title suggests, is one of the most abundant cetacean species found in the ocean.",
+      "physical_characteristics": {
+        "size": "6 – 8.5 feet long",
+        "location": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters"
+      },
+      "additional_info": {
+        "habitat": "Shallow waters close to the shoreline",
+        "behavior": "Often seen in groups called pods",
+        "diet": "Fish and squid",
+        "abundance": "The Long-beaked Common dolphin is the most abundant dolphin species on earth",
+        "population": "There are approximately 6 million Common Dolphins in the ocean"
+      },
+      "image": "long_beaked_common_dolphin.jpg"
+    },
+    {
+      "title": "IXD Process",
+      "explanation": "Short-beaked Common dolphins, making up the rest of the Common dolphin population, were once believed to be the same species as the Long-beaked Common dolphin but have since been established as their own.",
+      "physical_characteristics": {
+        "size": "Less than 6 feet",
+        "distinguishing_features": "Shorter beaks, distinct coloring, rounder heads and bodies"
+      },
+      "additional_info": {
+        "habitat": "Wide-ranging habitats, including open ocean and coastal areas",
+        "behavior": "Social animals that often leap and play in the wake of boats",
+        "diet": "Fish and squid",
+        "speed": "The Short-Beaked Common Dolphin is the fastest dolphin species, reaching up to 37 mph",
+        "lifespan": "The Short-Beaked Common Dolphin lives between 35 and 40 years"
+      },
+      "image": "short_beaked_common_dolphin.jpg"
+    },
+    {
+      "title": "Style Guide",
+      "explanation": "Although it may not be the most abundant dolphin species on earth, the bottlenose dolphin has made a title for itself as the go-to when someone thinks of a dolphin.",
+      "physical_characteristics": {
+        "color": "Mostly grey but can range on a spectrum to almost black when reaching their dorsal fins and nearly white on their belly",
+        "size": "Varies, with a short thick beak"
+      },
+      "additional_info": {
+        "habitat": "Warmer tropical waters, often in harbors, bays, and estuaries",
+        "behavior": "Highly intelligent and often engage in complex social behaviors",
+        "diet": "Fish, squid, and crustaceans",
+        "fact": "Bottlenose dolphins are often used in aquariums and Hollywood productions thanks to their high intelligence",
+        "intelligence": "A bottlenose dolphin’s brain is larger than a humans"
+      },
+      "image": "bottlenose_dolphin.jpg"
+    },
+    {
+      "title": "Implementation Notes",
+      "explanation": "Hector’s dolphins are both the smallest and the rarest dolphin species in the world, reaching only 4 – 5 feet as adults.",
+      "physical_characteristics": {
+        "size": "4 – 5 feet",
+        "coloration": "White on the belly and gray on the upper body, with a gray streak running along the center body to cover the tail and a black band around the eye that extends to the flipper"
+      },
+      "additional_info": {
+        "habitat": "Coastal waters of New Zealand",
+        "behavior": "Social animals that often travel in small groups",
+        "diet": "Fish and squid",
+        "population": "There are approximately only 7,000 Hector’s dolphins in the ocean",
+        "name_origin": "Named after a New Zealand scientist, Sir James Hector"
+      },
+      "image": "hectors_dolphin.jpg"
+    }
+  ]
+}

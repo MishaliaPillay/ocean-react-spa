@@ -365,7 +365,7 @@ const Theory = () => {
             interprets these non-technical word choices.
           </p>
           <h2>Conclusion</h2>
-          <p className="blurbParagraph ">
+          <p className="blurbParagraph  ">
             After analyzing the Internet as a medium it is determined that this
             was an effective choice for displaying and creating the Net Art,
             “it's doing it”. The Intermedial analysis helped identify how each
