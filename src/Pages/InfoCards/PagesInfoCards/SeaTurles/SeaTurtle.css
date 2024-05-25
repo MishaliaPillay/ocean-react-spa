@@ -35,9 +35,7 @@ body {
   -moz-transition: transform 0.5s ease;
   transition: transform 0.5s ease;
 }
-img {
-  border-radius: 5%;
-}
+
 .articles article .image-wrapper img {
   padding: 10%;
   position: relative;

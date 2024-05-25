@@ -116,14 +116,15 @@ ul li {
   list-style: none;
 }
 .paragraphStyles {
-  border-radius: 50em;
-  background-color: aliceblue;
-  padding: 10px;
-  border-radius: 5px; /* This line creates rounded edges */
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #244ae3, #04d7de) border-box;
+  border-radius: 30px;
+  border: 4px solid transparent;  padding: 10px;
   margin: 10%;
-  border: 5px solid;
-  border-image: linear-gradient(45deg, #04d7de, #244ae3) 1;
 }
+
+
+
 .paragraphStyles li {
   margin: 15px;
 }
