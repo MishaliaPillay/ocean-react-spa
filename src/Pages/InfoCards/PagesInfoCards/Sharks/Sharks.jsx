@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sharksData from "../../../../Data/Sharks.json"; // Ensure the path is correct
 
-
 const Sharks = () => {
   const [sharks, setSharks] = useState([]);
 
@@ -12,12 +11,13 @@ const Sharks = () => {
   return (
     <section>
       <article className="beginning">
+        {" "}
+        <h1 className="cardTitle">Sea Sharks</h1>
         <p className="introParagraph">
-          <h1 className="cardTitle">Sea Sharks</h1>
-          Welcome to our Sea Sharks page! Explore the fascinating world of
-          these apex predators. Learn about their species, behaviors, and
-          importance in marine ecosystems. Let's dive deep into the realm of
-          sharks together!
+          Welcome to our Sea Sharks page! Explore the fascinating world of these
+          apex predators. Learn about their species, behaviors, and importance
+          in marine ecosystems. Let's dive deep into the realm of sharks
+          together!
         </p>
       </article>
       <section className="blogPost">

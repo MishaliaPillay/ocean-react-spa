@@ -13,9 +13,9 @@ const SeaTurtle = () => {
   return (
     <section>
       <article className="beginning">
-        {" "}
+        {" "} <h1 className="cardTitle">Sea Turtles</h1>
         <p className="introParagraph ">
-          <h1 className="cardTitle">Sea Turtles</h1>
+         
           Welcome to our Sea Turtle page! Dive into the world of these
           magnificent creatures with us. Explore their species, behaviors, and
           ecological importance. Let's embark on an exciting journey beneath the
