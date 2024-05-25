@@ -2,14 +2,15 @@
   "designContent": [
     {
       "title": "Wireframes",
-      "explanation": "The Long-beaked Common dolphin, as its title suggests, is one of the most abundant cetacean species found in the ocean.",
+      "explanation": "I have Designed Wireframes for both laptop and phone screens .In the images below please note that the text in red is the Visual design element, the green is the Visual Response, and the blue is the Interaction points. These help breakdown the website and its various elements. ",
       "part1": {
         "title": "Website Wireframes",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
+        "description": "For the Home page, I have slightly varying layouts per section.  The homepage has a video on the top then it has “cards” which are links to blog pages. These blog pages are articles about sea life and how to conserve it. After that is the About Us section which is text not in a bordered box and there is a section called “This is why we care” where pollution statistics are shown. This section has a border. This website aims to educate sections that are text that aims to educate or inform have a border. Thus, the Theory pages, quiz and design section have borders around the information. ",
+        "description2": "The images on this site have a grid layout (the pictures are next to each other) and when the screen is resized the images are one below each other.",
         "images": [
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -35,7 +36,9 @@
       },
       "part2": {
         "title": "Phone Wireframes",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
+        "description": "These wireframes show consideration of mobile-first designs. (Please Visit the Theory Section for research). Through my research, I found that only necessary information needs to be presented on mobile devices and this means cutting down on content and focusing on how the design needs to change to account for the smaller screen size.",
+        "description2": " An example of where this was considered is in the navbar. When the screen has a larger width the “Exploration” button is present, this button acts as a drop down menu for the “cards”, as spoken about above. When the screen size is smaller a drop-down menu makes interaction much more difficult as the text size would need to be smaller to account for the opening of a drop-down menu and a user is still able to access this through the home page “cards”. ",
+        "description3": "Another example of mobile-first design is removing the intro paragraph on the video. This is removed on smaller devices as the video width changes and by removing it completely it reduces scroll time from if it were moved to below the video. ",
         "images": [
           {
             "src": "Home.png",
@@ -43,7 +46,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -72,7 +75,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -90,7 +93,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -108,7 +111,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -126,7 +129,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -148,7 +151,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -166,7 +169,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",
@@ -184,7 +187,7 @@
           },
           {
             "src": "Home.png",
-            "caption": "This is the second image caption"
+            "caption": "Home Page Wirframe"
           },
           {
             "src": "Home.png",

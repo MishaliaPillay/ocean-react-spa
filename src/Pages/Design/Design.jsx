@@ -28,7 +28,9 @@ const Design = () => {
                   return (
                     <div key={partIndex}>
                       <h3 className="littleHeadingDesign">{part.title}</h3>
-                      <p className="designParagraph">{part.description}</p>
+                      <p className="designParagraph">{part.description}</p>{" "}
+                      <p className="designParagraph">{part.description2}</p>
+                      <p className="designParagraph">{part.description3}</p>
                       <div className="image-gallery">
                         {part.images &&
                           part.images.map((image, imageIndex) => (
