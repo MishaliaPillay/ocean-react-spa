@@ -30,9 +30,9 @@ const Navbar = ({ pages }) => {
         className={`hamburger ${isOpen ? "toggle" : ""}`}
         onClick={toggleNavbar}
       >
-        <article className="line1"></article>
-        <article className="line2"></article>
-        <article className="line3"></article>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </section>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         {pages.map((page, index) => (

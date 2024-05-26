@@ -112,7 +112,7 @@ button {
 }
 
 /*Styling Hamburger Icon*/
-.hamburger article {
+.hamburger div {
   width: 30px;
   height: 3px;
   background: rgb(7, 0, 79);
