@@ -2,111 +2,96 @@
   "dolphinsData": [
     {
       "name": "Long-Beaked Common Dolphin",
-      "interesting_fact": "The Long-beaked Common dolphin, as its name suggests, is one of the most abundant cetacean species found in the ocean.",
+      "interesting_fact": "The Long-beaked Common dolphin is the most abundant dolphin species on earth. There are approximately 6 million Common Dolphins in the ocean.",
       "physical_characteristics": {
-        "size": "6 – 8.5 feet long ",
-        "location": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters"
+        "size": "The Long-beaked Common dolphin, as its name suggests, is one of the most abundant cetacean species found in the ocean.",
+        "location": "The dolphin is easily distinguished among other species thanks to the unique hourglass shape on its side body, which is formed from the combination of a dark back, a tan panel on its side, and a lighter gray panel extending to its tail."
       },
       "additional_info": {
-        "habitat": "Shallow waters close to the shoreline",
-        "behavior": "Often seen in groups called pods",
-        "diet": "Fish and squid",
-        "abundance": "The Long-beaked Common dolphin is the most abundant dolphin species on earth",
-        "population": "There are approximately 6 million Common Dolphins in the ocean"
+        "habitat": "The Long-beaked Common dolphin is relatively small-sized, growing only 6 – 8.5 feet long.",
+        "behavior": "This abundant dolphin can be found in the Atlantic, Indian, and Pacific Oceans, where it favors warmer tropical and subtropical waters. They are often seen in shallow waters close to the shoreline."
       },
       "image": "long_beaked_common_dolphin.jpg"
     },
     {
       "name": "Short-Beaked Common Dolphin",
-      "interesting_fact": "Short-beaked Common dolphins, making up the rest of the Common dolphin population, were once believed to be the same species as the Long-beaked Common dolphin but have since been established as their own.",
+      "interesting_fact": " The Short-Beaked Common Dolphin is the fastest dolphin species, reaching up to 37 mph. The Short-Beaked Common Dolphin lives between 35 and 40 years. ",
       "physical_characteristics": {
-        "size": "Less than 6 feet",
-        "distinguishing_features": "Shorter beaks, distinct coloring, rounder heads and bodies"
+        "size": "Short-beaked Common dolphins, making up the rest of the Common dolphin population, were once believed to be the same species as the Long-beaked Common dolphin but have since been established as their own.",
+        "distinguishing_features": "These dolphins have the same coloring and hourglass pattern as their long-beaked cousins, but their colors are more distinct."
       },
       "additional_info": {
-        "habitat": "Wide-ranging habitats, including open ocean and coastal areas",
-        "behavior": "Social animals that often leap and play in the wake of boats",
-        "diet": "Fish and squid",
-        "speed": "The Short-Beaked Common Dolphin is the fastest dolphin species, reaching up to 37 mph",
-        "lifespan": "The Short-Beaked Common Dolphin lives between 35 and 40 years"
+        "habitat": "The Short-beaked common dolphin is a small species, measuring less than 6 feet.",
+        "behavior": "Apart from their shorter beaks, distinct coloring, and smaller size, they can be told apart from Long-beaked Common dolphins by their rounder heads and bodies."
       },
       "image": "short_beaked_common_dolphin.jpg"
     },
     {
       "name": "Bottlenose Dolphin",
-      "interesting_fact": "Although it may not be the most abundant dolphin species on earth, the bottlenose dolphin has made a name for itself as the go-to when someone thinks of a dolphin.",
+      "interesting_fact": "Bottlenose dolphins are often used in aquariums and Hollywood productions thanks to their high intelligence. A bottlenose dolphin’s brain is larger than a humans.",
       "physical_characteristics": {
-        "color": "Mostly grey but can range on a spectrum to almost black when reaching their dorsal fins and nearly white on their belly",
-        "size": "Varies, with a short thick beak"
+        "color": "Although it may not be the most abundant dolphin species on earth, the bottlenose dolphin has made a name for itself as the go-to when someone thinks of a dolphin. This is largely because of their abundance in aquariums and their use in movies and television shows.",
+        "size": "Bottlenose dolphins are highly intelligent and communicate with each other during hunting, where they hear their prey slowly and then, with fast 30mph bursts, attack in turn."
       },
       "additional_info": {
-        "habitat": "Warmer tropical waters, often in harbors, bays, and estuaries",
-        "behavior": "Highly intelligent and often engage in complex social behaviors",
-        "diet": "Fish, squid, and crustaceans",
-        "fact": "Bottlenose dolphins are often used in aquariums and Hollywood productions thanks to their high intelligence",
-        "intelligence": "A bottlenose dolphin’s brain is larger than a humans"
+        "habitat": "These dolphins can be found worldwide, making their homes in warmer tropical waters, often in harbors, bays, gulfs, and estuaries.",
+        "behavior": "Bottlenose dolphins are mostly grey but can range on a spectrum to almost black when reaching their dorsal fins and nearly white on their belly. They also have a short thick beak, from where they get their name."
       },
       "image": "bottlenose_dolphin.jpg"
     },
     {
       "name": "Hector’s Dolphin",
-      "interesting_fact": "Hector’s dolphins are both the smallest and the rarest dolphin species in the world, reaching only 4 – 5 feet as adults.",
+      "interesting_fact": "There are approximately only 7,000 Hector’s dolphins in the ocean. Named after a New Zealand scientist, Sir James Hector.",
       "physical_characteristics": {
-        "size": "4 – 5 feet",
-        "coloration": "White on the belly and gray on the upper body, with a gray streak running along the center body to cover the tail and a black band around the eye that extends to the flipper"
+        "size": "Hector’s dolphins are both the smallest and the rarest dolphin species in the world, reaching only 4 – 5 feet as adults. Unlike other dolphins, they lack a beak but instead have a rounded head, giving their body a torpedo shape.",
+        "coloration": "Hector’s dolphins are white on the belly and gray on the upper body, with a gray streak running along the center body to cover the tail and a black band around the eye that extends to the flipper."
       },
       "additional_info": {
-        "habitat": "Coastal waters of New Zealand",
-        "behavior": "Social animals that often travel in small groups",
-        "diet": "Fish and squid",
-        "population": "There are approximately only 7,000 Hector’s dolphins in the ocean",
-        "name_origin": "Named after a New Zealand scientist, Sir James Hector"
+        "habitat": "Hector’s dolphins are the only dolphin species endemic to the coastal waters of New Zealand and can be found (if you’re lucky) along the western shores of the North Island, but their numbers are dropping, and they are quickly going extinct.",
+        "behavior": "This rare dolphin species has a subspecies known as the Maui’s dolphin, which is critically endangered with a population of less than 60."
       },
       "image": "hectors_dolphin.jpg"
     },
     {
       "name": "Atlantic Humpbacked Dolphin",
-      "interesting_fact": "The Atlantic Humpbacked dolphin is endemic to the Atlantic Ocean, where it can be found only in the tropical and subtropical waters of the West African coast, with its range spreading from Morocco to Angola.",
+      "interesting_fact": "Atlantic Humpback dolphins live in pods of 10 – 15 individuals. It is suggested that their hump may play an important role in social recognition among individuals.",
       "physical_characteristics": {
-        "habitat": "Coastal regions less than 30 meters deep",
-        "coloration": "Gray or white, with an iconic hump under their dorsal fin"
+        "habitat": "The Atlantic Humpbacked dolphin is endemic to the Atlantic Ocean, where it can be found only in the tropical and subtropical waters of the West African coast, with its range spreading from Morocco to Angola.",
+        "coloration": "To further limit their habitat, these dolphins can be found only in waters less than 30 meters deep, in coastal regions that are easily affected by tidal patterns."
       },
       "additional_info": {
-        "behavior": "Often found in shallow coastal waters, including bays and estuaries",
-        "diet": "Fish and cephalopods",
-        "family_size": "Pods of 10 – 15 individuals",
-        "communication": "Their hump may play an important role in social recognition among individuals"
+        "behavior": "These dolphins are gray or white and wouldn’t stand out as spectacular among other dolphin species if it were not for their iconic hump under their dorsal fin."
       },
       "image": "atlantic_humpbacked_dolphin.jpg"
     },
     {
       "name": "Orca",
-      "interesting_fact": "The Orca, also known as the Killer Whale, is the largest of the dolphin family, often reaching sizes up to 27 feet (8.2m) with a weight of 3 – 4 tons.",
+      "interesting_fact": "Although they are known as killer whales, the Orca is the largest species of dolphin. The Killer Whale is the only living species of the genus Orcinus.",
       "physical_characteristics": {
-        "coloration": "White underbelly with a shiny black back, a white patch above each eye, and a tall, triangular-shaped dorsal fin"
+        "coloration": "Anyone who’s anyone that loves the ocean will be familiar with these intelligent, playful, yet savage killers."
       },
       "additional_info": {
-        "habitat": "Wide-ranging habitats, from polar to tropical regions",
-        "behavior": "Highly social animals that live in complex family groups",
-        "diet": "Varies by region, including fish, seals, and other marine mammals",
-        "size": "Up to 27 feet (8.2m), 3 – 4 tons",
-        "unique_fact": "The Orca is the largest species of dolphin"
+        "habitat": "The Orca, also known as the Killer Whale, is the largest of the dolphin family, often reaching sizes up to 27 feet (8.2m) with a weight of 3 – 4 tons. Yes, surprisingly, orcas are dolphins and not whales.",
+        "behavior": "Orcas are easy to identify and, thanks to their unique markings, are not easily confused with other dolphin species.",
+        "diet": "These dolphins have a white underbelly with a shiny black back. A white patch is present above each eye, which gives the impression of large white eyes. They also have a tall, triangular-shaped dorsal fin, which is noticeably larger than other dolphins.",
+        "size": "Orcas have a wide range of diets. However, individual families often become specific with what they hunt.",
+        "unique_fact": "For example, one family may eat fish, while another pod of killer whales may specialize on seals or other dolphin species. Killer whales can be found in a variety of habitats, including the Arctic, Antarctic, and tropical waters."
       },
       "image": "orca.jpg"
     },
     {
       "name": "Irrawaddy Dolphin",
 
-      "interesting_fact": "Found in the coastal areas of South and Southeast Asia, the Irrawaddy dolphin is another interesting dolphin species that brings its own unique touch.",
+      "interesting_fact": "The Irrawaddy’s blow hole opens to the front, unlike other dolphins. ",
       "physical_characteristics": {
-        "size": "Varies, gray-to-blue-gray, distinctly rounded head with no beak, short blunt dorsal fin"
+        "size": "Found in the coastal areas of South and Southeast Asia, the Irrawaddy dolphin is another interesting dolphin species that brings its own unique touch."
       },
       "additional_info": {
-        "habitat": "Brackish water near coastlines, estuaries, and river mouths",
-        "behavior": "Capable of spending time in freshwater and saltwater habitats",
-        "diet": "Fish and crustaceans",
-        "unique_anatomy": "The Irrawaddy’s blow hole opens to the front, unlike other dolphins",
-        "name_origin": "The Irrawaddy dolphin gets its name from a subspecies that is found in the Irrawaddy river"
+        "habitat": "This gray-to-blue-gray dolphin has a distinctly rounded head with no beak, which makes it easily identifiable. They have a short blunt dorsal fin with a blow hole to the left of the fin. The blow hole opens forwards, which is different from most other dolphin species.",
+        "behavior": "This dolphin species closely represents a beluga but is closely related to an orca.",
+        "diet": "The Irrawaddy dolphin is a euryhaline species, meaning it can thrive in water with various salinity levels.",
+        "unique_anatomy": "Because of this, it is often spotted in brackish water near coastlines, estuaries, and river mouths.These dolphins are capable of spending time in freshwater too, which is why they are often referred to as the Irrawaddy River dolphin. However, they are not true river dolphins, as their preferred habitat is slightly salty.",
+        "name_origin": "Irrawaddy dolphins can be found along the coasts of South and Southeast Asia, particularly on the shores of Bangladesh, Brunei, Cambodia, India, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam."
       },
       "image": "irrawaddy_dolphin.jpg"
     }

@@ -37,9 +37,9 @@ const Whales = () => {
                     <h2>{whale.name}</h2>
                     <p className="blurbParagraph">{whale.interesting_fact}</p>
                     <h3 className="littleHeading">Where Found:</h3>
-                    <p>{whale.where_found}</p>
+                    <p  className="blurbParagraph">{whale.where_found}</p>
                     <h3 className="littleHeading">Additional Information:</h3>
-                    <p>{whale.additional_information.description}</p>
+                    <p  className="blurbParagraph">{whale.additional_information.description}</p>
                   </section>
                 </section>
               </article>

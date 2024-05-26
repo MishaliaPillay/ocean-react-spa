@@ -7,68 +7,67 @@
         "additional_info": {
           "d": "With the largest distribution of all turtle species, they can be found in nearly all tropical and subtropical waters, as well as parts of the Arctic Ocean (although rare); this massive turtle can reach speeds of approximately 22 mph, which makes it one of the fastest known reptiles.",
           "ee": "Furthermore, the leatherback turtle brings a unique shell to the turtle world. Instead of having a hard, boney shell, like the other turtle species, leatherbacks, as the name suggested, have a soft, oily, leather-like shell that is highly pliable.",
-          "speed": "Approximately 22 mph",
-          "feeding_habit": "Primarily jellyfish"
+          "speed": "AOf all the unique characteristics this turtle brings to the table, the most interesting is its ability to generate heat internally. This is unlike other reptiles, which rely entirely on the external environment to regulate their body temperature. It is unknown how this occurs, but it plays a role in the leatherback’s ability to withstand colder waters."
         },
         "image": "leatherback_sea_turtle.jpg"
       },
       {
         "name": "Green Sea Turtle",
-        "interesting_fact": "Green turtles are the only turtle species that feed primarily on plant material. They are known to scavenge on sponges, invertebrates, and fish remnants.",
+        "interesting_fact": "Green turtles get their name from the color of their fat, not the color of their shell.Green turtles nest in more than 80 countries.",
         "additional_info": {
-          "size": "Up to 4 feet in length and up to 500 lbs",
-          "distribution": "Primarily Pacific and Atlantic Oceans, also Indian Ocean",
-          "feeding_habit": "Primarily algae and seagrass"
+          "size": "Possibly the best-known turtle species, and found in many popular ocean films such as Finding Nemo, Green turtles are the second largest sea turtle species and can be found primarily in the Pacific and Atlantic Oceans. However, they are often spotted in the Indian Ocean.",
+          "distribution": "Reaching four feet in length and up to 500 lbs, green sea turtles are the only turtle species that feed primarily on plant material. Green turtles feed mostly on algae and seagrass. However, they are known to scavenge on sponges, invertebrates, and fish remnants.",
+          "feeding_habit": "It is believed that green turtles play a role in the upkeep of seagrass habitats, acting as a lawnmower of sorts. When they feed, they take only the top of the grass, leaving the roots. This allows the seagrass to spread and grow faster. This is similar to how grazing animals on land help maintain plant growth"
         },
         "image": "green_sea_turtle.jpg"
       },
       {
         "name": "Hawksbill Sea Turtle",
-        "interesting_fact": "Hawksbill turtles have a highly specialized diet, feeding almost entirely on sea sponges by using their bird-like beak to reach through cracks and crevices.",
+        "interesting_fact": "Due to their diet, the flesh of hawksbills is toxic to humans. Hawksbills are adapted to crawl over rocks and reefs to reach nesting grounds.",
         "additional_info": {
-          "size": "Up to 3 feet in length and up to 200 lbs",
-          "distribution": "Tropical and some subtropical regions in the Atlantic, Pacific Ocean, and Indian Oceans",
-          "nesting_frequency": "Approximately four times a year"
+          "size": "With colorful shells and a curved beak that loosely represents that of a bird of prey, hawksbill turtles are found spending their time among coral reefs, rocky shorelines, mangroves, and ocean islands.",
+          "distribution": "These turtles have a highly specialized diet, feeding almost entirely on sea sponges by using their bird-like beak to reach through cracks and crevices. Hawksbills can be found in tropical and some subtropical regions in the Atlantic, Pacific Ocean, and Indian Oceans but are most common in the Caribbean Sea, Seychelles, Indonesia, Mexico, and Australia.",
+          "nesting_frequency": "These small turtles nest approximately four times a year and lay between 100 and 200 eggs per nest. Hawksbills, like most of the turtles on this list, are endangered and were almost hunted to extinction before the tortoiseshell trade ban, thanks to countries like Japan, which imported an estimated 2 million turtles between 1950 and 1992."
         },
         "image": "hawksbill_sea_turtle.jpg"
       },
       {
         "name": "Loggerhead Sea Turtle",
-        "interesting_fact": "Loggerhead turtles get their name from their large head and strong jaws. Feeding on hard-shelled prey such as crabs, conchs, and whelks, adult loggerheads are carnivorous.",
+        "interesting_fact": "Loggerheads carry many organisms like barnacles and crabs on their shells. One population of loggerhead migrates from Japan to Mexico, where the forage and mature.",
         "additional_info": {
-          "size": "Ranges from 200 – 400 lbs",
-          "distribution": "Every ocean on the planet",
-          "nesting_sites": "Largest nesting occurs on Masirah Island off the coast of Oman"
+          "size": "One of the larger sea turtle species, ranging from 200 - 400 lbs, and the most abundant species found in the US, loggerhead turtles get their name from their large head and strong jaw.Feeding on hard-shelled prey such as crabs, conchs, horseshoe crabs, and whelks, adult loggerheads are carnivorous. However, juveniles feed on both plant and animal material.",
+          "distribution": "Loggerheads are found in every ocean on the planet, with their distribution range only being beaten by the leatherback turtle. Although their largest population concentration is found in Florida, the largest nesting occurs on Masirah Island off the coast of Oman.",
+          "nesting_sites": "Due to its size, the Loggerhead doesn't have many natural predators but faces a massive threat from human intervention, particularly becoming entangled in fishing nets."
         },
         "image": "loggerhead_sea_turtle.jpg"
       },
       {
         "name": "Olive Ridley Sea Turtle",
-        "interesting_fact": "Olive ridley turtles have a fascinating nesting behavior known as arribadas, where thousands of nesting turtles gather on a single shoreline during nesting season.",
+        "interesting_fact": "Nesting coincides with weather events such as the moon and tides. Female olive ridleys can remain at sea the entire time between breeding seasons.",
         "additional_info": {
-          "size": "Less than 110 lbs",
-          "distribution": "Primarily warm waters of the Indo-Pacific, with small populations in the Atlantic Ocean",
-          "feeding_habit": "Omnivorous, feeding on a variety of sea life"
+          "size": "The olive ridley sea turtle, also referred to as the Pacific ridley sea turtle, is the second smallest sea turtle species and is found primarily in the warm waters of the Indo-Pacific; however, they are small populations that can be found in the Atlantic Ocean.",
+          "distribution": "This small turtle weighs less than 110 lbs and can be identified by the greenish color found at the top of its shell. Olive ridley turtles have a fascinating nesting behavior that brings females back to the same beach at the same time each year.",
+          "feeding_habit": "This synchronized nesting, known as arribadas, can bring thousands of nesting turtles to a single shoreline at any given nesting season. Olive ridleys are omnivores, feeding on a variety of sea life that includes crabs, shrimp, urchins, jellyfish, algae, and a variety of fish species. As nesting occurs at the same time, these turtles see great threats from predators, both while the eggs are incubating, as well as when they hatch.Hatching ridleys is a sight like no other with thousands of baby turtles making their way to the shoreline.  This explosion of juvenile turtles brings with it an abundance of predators such as seabirds, raccoons, possums, and various carnivorous sea creatures. Although this is a natural occurrence, human intervention, particularly the destruction of habitat, has limited the numbers of this turtle and almost brought it to extinction."
         },
         "image": "olive_ridley_sea_turtle.jpg"
       },
       {
-        "name": "Kemp’s Ridley Sea Turtle",
-        "interesting_fact": "Kemp’s ridley turtles are the rarest and smallest sea turtle species. They reach maturity within 10 – 15 years and can successfully mate within that time frame.",
+        "name": "Kemp's Ridley Sea Turtle",
+        "interesting_fact": "The smallest sea turtle species. The only turtle species to nest only during the day.",
         "additional_info": {
-          "size": "Between 75 and 100 lbs",
-          "distribution": "Primarily Gulf of Mexico and along the Atlantic coast",
-          "nesting_behavior": "Form large nesting groups during the day"
+          "size": "Holding the titles of both the rarest sea turtle, as well as the smallest sea turtle, kemp’s ridley turtles found themselves on the brink of extinction in the 1960s. Their numbers have slowly begun to increase thanks to drastic conservation efforts and have seen a population increase from 200 nesting individuals to over 7,000 individuals between the 1980s and the present.",
+          "distribution": "Weighing between 75 and 100 lbs and reaching only 2 feet, these turtles have much the same nesting behavior as the previously mentioned olive ridley, forming large nesting groups during the day. Despite their low population, kemp’s ridley turtles reach maturity significantly sooner than other turtle species and can successfully mate within 10 – 15 years.These turtles are found primarily in the Gulf of Mexico and range along the Atlantic coast, as far up as Nova Scotia.",
+          "nesting_behavior": "Although a small number of the species is found nesting along Texas, the majority of the nesting (95%) takes place in Mexico."
         },
         "image": "kemps_ridley_sea_turtle.jpg"
       },
       {
         "name": "Flatback Sea Turtle",
-        "interesting_fact": "Flatbacks have a flat carapace (the area at the top of the shell), which is different from the rounded shell of other turtles. They are found breeding and nesting only on the coast of Australia.",
+        "interesting_fact": "Flatbacks lay an average of only 50 eggs per nest. Flatbacks are preyed on by saltwater crocodiles.",
         "additional_info": {
-          "size": "Approximately 200 lbs",
-          "distribution": "Coast of Australia",
-          "conservation_status": "Vulnerable"
+          "size": "Flatbacks, as the name suggests, have a flat carapace (the area at the top of the shell), which is different from the rounded shell of other turtles.",
+          "distribution": "Their shell is a pale grayish-green in color with the outer edges turned up. Flatback turtles are relatively large, reaching approximately 200 lbs, and have the smallest distribution of all sea turtles. These unique turtles are found breeding and nesting only on the coast of Australia.",
+          "conservation_status": "Of the list of turtle types, the flatback is the only one that can be considered “not-endangered“; however, this could be due to a lack of data, as stated by the IUCN Red List.  The Commonwealth’s Endangered Species Protection Act lists flatbacks as vulnerable but not critical."
         },
         "image": "flatback_sea_turtle.jpg"
       }

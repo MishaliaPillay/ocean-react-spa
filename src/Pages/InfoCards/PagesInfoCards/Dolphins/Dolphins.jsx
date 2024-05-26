@@ -41,9 +41,7 @@ const Dolphins = () => {
                     <ul className="referrences">
                       {Object.entries(dolphin.physical_characteristics).map(
                         ([key, value], infoIndex) => (
-                          <li key={infoIndex}>
-                            <strong>{key}:</strong> {value}
-                          </li>
+                          <li key={infoIndex}>{value}</li>
                         )
                       )}
                     </ul>
@@ -56,7 +54,7 @@ const Dolphins = () => {
                           {Object.entries(dolphin.additional_info).map(
                             ([key, value], infoIndex) => (
                               <li key={infoIndex}>
-                                <strong>{key}:</strong> {value}
+                               {value}
                               </li>
                             )
                           )}
