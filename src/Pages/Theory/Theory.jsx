@@ -6,20 +6,10 @@ const Theory = () => {
   return (
     <>
       <section className="introParagraph ">
-        <h3 classname="thirdHeading">Critical Analysis Essay on Net/Web Art</h3>
+        <h3 classname="thirdHeading">Theory Section</h3>
         <article className="blogContent">
           <p className="blurbParagraph ">
-            This essay is a critical examination of the Net Art, “it&apos;s
-            doing It”. This is an artwork that was created by nine artists who
-            wrote computer programs that took instructions as parameters, and
-            this resulted in computer-generated art. This analysis will be
-            carried out through the usage of the framework by Marshall McLuhan,
-            “The medium is the message”, with a focus on the effects of choosing
-            the Internet as the medium for this work. An evaluation through the
-            lens of Intermedial studies will serve as a framework to unpack the
-            content of the work itself. The analysis will help determine if
-            “It&apos;s doing It”, is a relevant and effective example of Net Art
-            that can inspire and inform the designers of today.
+            Here we showcase essays and independant research.
           </p>
         </article>
       </section>
