@@ -39,14 +39,12 @@ const SeaTurtle = () => {
                     <p className="blurbParagraph">{turtle.interesting_fact}</p>
                     {turtle.additional_info && (
                       <>
-                        <h3 className="littleHeading">
-                          Additional Information:
-                        </h3>
+                      
                         <ul className="referrences">
                           {Object.entries(turtle.additional_info).map(
                             ([key, value], infoIndex) => (
                               <li key={infoIndex}>
-                                <strong>{key}:</strong> {value}
+                              {value}
                               </li>
                             )
                           )}

@@ -3,10 +3,10 @@
     [
       {
         "name": "Leatherback Sea Turtle",
-        "interesting_fact": "Apart from being the largest of the sea turtle species, leatherback turtles are unique in a variety of ways. They have a soft, oily, leather-like shell that is highly pliable.",
+        "interesting_fact": "Apart from being the largest of the sea turtle species (reaching weights of up to 2,000 lbs), leatherback turtles are unique in a variety of ways.",
         "additional_info": {
-          "size": "Up to 2,000 lbs",
-          "distribution": "Nearly all tropical and subtropical waters",
+          "d": "With the largest distribution of all turtle species, they can be found in nearly all tropical and subtropical waters, as well as parts of the Arctic Ocean (although rare); this massive turtle can reach speeds of approximately 22 mph, which makes it one of the fastest known reptiles.",
+          "ee": "Furthermore, the leatherback turtle brings a unique shell to the turtle world. Instead of having a hard, boney shell, like the other turtle species, leatherbacks, as the name suggested, have a soft, oily, leather-like shell that is highly pliable.",
           "speed": "Approximately 22 mph",
           "feeding_habit": "Primarily jellyfish"
         },
