@@ -5,21 +5,17 @@
         "name": "Pacific Sleeper Shark",
         "average_length": "12 feet (3.9 meters)",
         "average_weight": "750 lbs (340 kilograms)",
-        "interesting_fact": "The Pacific sleeper shark is one of the largest sharks in the world’s oceans, reaching an average length of 12 feet. They are both scavengers and predators and feed by sucking and cutting their prey.",
-        "additional_info": {
-          "habitat": "North Pacific, Arctic, and some temperate waters",
-          "feeding_behavior": "Sucking and cutting prey"
-        },
+        "interesting_fact": "The Pacific sleeper shark is one of the largest sharks in the world’s oceans, reaching an average length of 12 feet. they’re found in the North Pacific as well as in the Arctic and some temperate waters. They are both scavengers and predators and feed by sucking and cutting their prey. They inhale the prey, and if it is too big for them to swallow, they use their teeth to cut it up.",
+        "additional_info": {},
         "image": "pacific_sleeper_shark.jpg"
       },
       {
         "name": "Bluntnose Sixgill Shark",
         "average_length": "15 feet (4.5 meters)",
         "average_weight": "1,102 lbs (500 kilograms)",
-        "interesting_fact": "The bluntnose sixgill shark, sometimes also known as a cow shark, is the largest of all hexanchoid sharks.",
+        "interesting_fact": "The bluntnose sixgill shark, sometimes also known as a cow shark, is the largest of all hexanchoid sharks. It can reach up to 20 feet in length but is more commonly found around 15-16 feet in length. ",
         "additional_info": {
-          "habitat": "Atlantic, Indian, and Pacific Oceans",
-          "unique_features": "Six rows of gills"
+          "habitat": "The sharks have a large body and tail with a blunt nose, as their name suggests, and six rows of gills! The sharks are found in the Atlantic, Indian, and Pacific Oceans. "
         },
         "image": "bluntnose_sixgill_shark.jpg"
       },
@@ -27,10 +23,9 @@
         "name": "Common Thresher Shark",
         "average_length": "15 feet (4.5 meters)",
         "average_weight": "440 lbs (200 kilograms)",
-        "interesting_fact": "The thresher shark is a unique-looking shark that has an elongated tailfin and lives in the world’s temperate as well as tropical oceans.",
+        "interesting_fact": "The thresher shark is a unique-looking shark that has an elongated tailfin and lives in the world’s temperate as well as tropical oceans. The females tend to be bigger than the males, growing up to approximately 15 feet long. There have been records of up to 20 feet in length as well.",
         "additional_info": {
-          "habitat": "Temperate and tropical oceans",
-          "feeding_behavior": "Uses its tail to stun prey"
+          "habitat": "They use their incredible tails to help them swim as well as a weapon to whip and stun prey. Today, they are regarded as vulnerable to extinction by the IUCN. These sharks are often hunted for their fins, skin, and liver oil for food and medicinal reasons."
         },
         "image": "common_thresher_shark.jpg"
       },
@@ -38,10 +33,9 @@
         "name": "Great Hammerhead Shark",
         "average_length": "16 feet (4.8 meters)",
         "average_weight": "500 lbs (227 kilograms)",
-        "interesting_fact": "The great hammerhead shark is the largest of the hammerhead species. They have large, hammer-shaped heads and feed on everything from crustaceans to smaller sharks.",
+        "interesting_fact": "The great hammerhead shark is another very well-known shark species. It’s the largest of the hammerhead species and can reach average up to 16 feet in length. The largest known individual was 20 feet long. .",
         "additional_info": {
-          "habitat": "Tropical waters",
-          "reproduction": "Can have up to 50 pups every two years"
+          "habitat": "The sharks have large, hammer-shaped heads that set them apart from all other shark species in the oceans. They feed on everything from crustaceans to smaller sharks and can have up to 50 pups every two years. Today, this species of shark is regarded as critically endangered by the IUCN."
         },
         "image": "great_hammerhead_shark.jpg"
       },
@@ -49,10 +43,9 @@
         "name": "Tiger Shark",
         "average_length": "13 feet (3.9 meters)",
         "average_weight": "1,000 lbs (454 kilograms)",
-        "interesting_fact": "Tiger sharks are well-known for the dark stripes down their body that resemble a tiger’s stripes.",
+        "interesting_fact": "Tiger sharks are beautiful and interesting large sharks that rank as the fourth largest shark species in the earth’s oceans. They are a species of requiem shark and are found in tropical waters, particularly around the central Pacific Islands. They are well-known for the dark stripes down their body that resemble a tiger’s stripes. ",
         "additional_info": {
-          "habitat": "Tropical waters, central Pacific Islands",
-          "feeding_behavior": "Feed on fish, birds, seals, and sometimes trash"
+          "habitat": "They feed on everything from fish to birds to seals. They’ve also been known to eat trash. While rare, there have been a few instances in which a tiger shark has attacked a human being. "
         },
         "image": "tiger_shark.jpg"
       },
@@ -60,10 +53,9 @@
         "name": "Greenland Shark",
         "average_length": "12 feet (3.6 meters)",
         "average_weight": "880 lbs (400 kilograms)",
-        "interesting_fact": "The Greenland shark has the longest known lifespan of any vertebrate species, between 250-500 years.",
+        "interesting_fact": "The incredible Greenland shark ranges from 8 feet up to 14 feet, with females attaining larger sizes. The largest recorded Greenland shark was 24 feet long. The Sharks are known for their incredibly long lifespan, the longest known lifespan of any vertebrate species, between 250-500 years. ",
         "additional_info": {
-          "habitat": "Arctic and North Atlantic oceans",
-          "feeding_behavior": "Eats anything it comes across in the depths"
+          "habitat": "The sharks are known for eating anything they come across while living in the depths of the Arctic and North Atlantic oceans. The sharks are well-isolated from human beings, and there have been no recorded attacks in history."
         },
         "image": "greenland_shark.jpg"
       },
@@ -71,10 +63,9 @@
         "name": "Great White Shark",
         "average_length": "15.5 feet (4.7 meters)",
         "average_weight": "Females: 4,500 lbs (2041 kgs), Males: 1,400 lbs (635 kgs)",
-        "interesting_fact": "The great white shark is perhaps the best-known of all the large species of sharks in the earth’s oceans.",
+        "interesting_fact": "The infamous great white shark is perhaps the best-known of all the large species of sharks in the earth’s oceans. These sharks are large predators, often at the top of the food chain, and usually grow to approximately 15.5 feet in length. The males are smaller, growing to a maximum of 13 feet. They have few natural predators, one of them being the orca. .",
         "additional_info": {
-          "habitat": "Coastal and offshore waters",
-          "feeding_behavior": "Predator at the top of the food chain"
+          "habitat": "The species is listed as vulnerable by the IUCN and is threatened due to the continuation of shark hunting and climate change."
         },
         "image": "great_white_shark.jpg"
       },
@@ -82,10 +73,9 @@
         "name": "Megamouth Shark",
         "average_length": "16 feet (4.8 meters)",
         "average_weight": "1,760 lbs (798 kilograms)",
-        "interesting_fact": "The megamouth shark has a stout body and bulbous head with a mouth that extends behind its eyes.",
+        "interesting_fact": "The incredible megamouth shark has a stout body and bulbous head. Their mouths, for which they’re named, are broad and extend behind their eyes. They’re incredibly easy to recognize. Despite their fifty rows of teeth, they pose no threat to human beings. ",
         "additional_info": {
-          "habitat": "Tropical and temperate waters",
-          "feeding_behavior": "Filter feeder"
+          "habitat": "The sharks are filter feeders. They will eat anything from shrimp to jellyfish, copepods, and more. Scientists believe that euphausiids (krill) are their primary food source. Since the first megamouth shark wasn’t captured until 1976, scientists know very little about this amazing creature than other sharks on this list. "
         },
         "image": "megamouth_shark.jpg"
       },
@@ -93,10 +83,9 @@
         "name": "Basking Shark",
         "average_length": "25 feet (7.6 meters)",
         "average_weight": "38,000 lbs (17,237 kilograms)",
-        "interesting_fact": "The basking shark is one of the largest sharks in the world and is a filter feeder.",
+        "interesting_fact": "The basking shark is one of the largest sharks in the world. They, too, are filter feeders and swim with their mouths open, taking in plankton and other small creatures. On average, they reach around 25 feet in length and are far smaller than the #1 largest shark in the world’s oceans, the whale shark.",
         "additional_info": {
-          "habitat": "Coastal waters",
-          "feeding_behavior": "Filter feeder"
+          "habitat": "Throughout history basking sharks have been hunted for their fins and oil and are today considered to be endangered. "
         },
         "image": "basking_shark.jpg"
       },
@@ -104,10 +93,9 @@
         "name": "Whale Shark",
         "average_length": "33 feet (10 meters)",
         "average_weight": "41,000 lbs (18,597 kilograms)",
-        "interesting_fact": "The whale shark is the most well-known largest shark in the earth’s oceans.",
+        "interesting_fact": "The whale shark is the most well-known largest shark in the earth’s oceans. It can grow to an incredible length of nearly 60 feet and weighs around 41,000 pounds on average. This enormous shark, like the two other largest sharks (the basking shark and megamouth shark), is a filter feeder. ",
         "additional_info": {
-          "habitat": "Tropical waters",
-          "feeding_behavior": "Filter feeder"
+          "habitat": "Despite its size, it cruises through the oceans peacefully, sucking up zooplankton and other small creatures like shrimp and krill. They pose no threat to human beings and are not aggressive."
         },
         "image": "whale_shark.jpg"
       }
