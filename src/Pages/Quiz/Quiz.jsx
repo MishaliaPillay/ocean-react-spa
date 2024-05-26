@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import quizData from "../../Data/Questions.json";
 import "./Quiz.css";
-
+import { ArrowCircleLeft } from "@phosphor-icons/react";
 const Quiz = () => {
   const [sectionIndex, setSectionIndex] = useState(null);
   const [questionIndex, setQuestionIndex] = useState(0);
@@ -14,6 +14,7 @@ const Quiz = () => {
     setSectionIndex(index);
     setQuestionIndex(0);
     setUserAnswers([]);
+    setSelectedOption("");
     setShowExplanation(false);
     setShowResults(false);
   };
@@ -38,13 +39,22 @@ const Quiz = () => {
     }
   };
 
+  const handleBackToSections = () => {
+    setSectionIndex(null);
+    setQuestionIndex(0);
+    setSelectedOption("");
+    setUserAnswers([]);
+    setShowExplanation(false);
+    setShowResults(false);
+  };
+
   const renderQuestion = () => {
     const currentSection =
       quizData.questions[0][Object.keys(quizData.questions[0])[sectionIndex]];
     const currentQuestion = currentSection[questionIndex];
 
     return (
-      <div className={`question-container ${selectedOption ? 'no-hover' : ''}`}>
+      <div className={`question-container ${selectedOption ? "no-hover" : ""}`}>
         <h3>{currentQuestion.question}</h3>
         <ul>
           {currentQuestion.options.map((option) => (
@@ -68,7 +78,8 @@ const Quiz = () => {
             )}
           </div>
         )}
-        <button className="facts"
+        <button
+          className="facts"
           onClick={handleNextQuestion}
           disabled={!selectedOption}
         >
@@ -98,6 +109,9 @@ const Quiz = () => {
             )}
           </div>
         ))}
+        <button className="back-button" onClick={handleBackToSections}>
+          Back to Sections
+        </button>
       </div>
     );
   };
@@ -121,8 +135,22 @@ const Quiz = () => {
           <div className="section-container">{renderSectionCards()}</div>
         </>
       )}
-      {sectionIndex !== null && !showResults && renderQuestion()}
-      {showResults && renderResults()}
+      {sectionIndex !== null && !showResults && (
+        <>
+          <button className="factsBack" onClick={handleBackToSections}> <ArrowCircleLeft size={30} />
+            Back to Sections
+          </button>
+          {renderQuestion()}
+        </>
+      )}
+      {showResults && (
+        <>
+          <button className="facts" onClick={handleBackToSections}>
+            Back to Sections
+          </button>
+          {renderResults()}
+        </>
+      )}
     </div>
   );
 };
