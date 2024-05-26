@@ -38,7 +38,7 @@ const Sharks = () => {
                     <h2>{shark.name}</h2>
                     <p className="blurbParagraph">{shark.interesting_fact}</p>
                     <h3 className="littleHeading">Physical Characteristics:</h3>
-                    <ul className="referrences">
+                    <ul >
                       <li>
                         <strong>Average Length:</strong> {shark.average_length}
                       </li>
@@ -46,12 +46,12 @@ const Sharks = () => {
                         <strong>Average Weight:</strong> {shark.average_weight}
                       </li>
                     </ul>
-                    <h3 className="littleHeading">Additional Information:</h3>
-                    <ul className="referrences">
+            
+                    <ul >
                       {Object.entries(shark.additional_info).map(
                         ([key, value], infoIndex) => (
                           <li key={infoIndex}>
-                            <strong>{key}:</strong> {value}
+                           {value}
                           </li>
                         )
                       )}

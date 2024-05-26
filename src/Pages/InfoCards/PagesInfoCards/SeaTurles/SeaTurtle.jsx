@@ -40,7 +40,7 @@ const SeaTurtle = () => {
                     {turtle.additional_info && (
                       <>
                       
-                        <ul className="referrences">
+                        <ul >
                           {Object.entries(turtle.additional_info).map(
                             ([key, value], infoIndex) => (
                               <li key={infoIndex}>

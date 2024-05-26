@@ -38,7 +38,7 @@ const Dolphins = () => {
                     <h2>{dolphin.name}</h2>
                     <p className="blurbParagraph">{dolphin.interesting_fact}</p>
                     <h3 className="littleHeading">Physical Characteristics:</h3>
-                    <ul className="referrences">
+                    <ul >
                       {Object.entries(dolphin.physical_characteristics).map(
                         ([key, value], infoIndex) => (
                           <li key={infoIndex}>{value}</li>
@@ -50,7 +50,7 @@ const Dolphins = () => {
                         <h3 className="littleHeading">
                           Additional Information:
                         </h3>
-                        <ul className="referrences">
+                        <ul >
                           {Object.entries(dolphin.additional_info).map(
                             ([key, value], infoIndex) => (
                               <li key={infoIndex}>
