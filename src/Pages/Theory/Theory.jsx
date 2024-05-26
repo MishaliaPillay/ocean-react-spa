@@ -5,10 +5,8 @@ import "./Theory.css"; // Ensure you have the CSS file imported
 const Theory = () => {
   return (
     <>
-      {" "}
       <section className="introParagraph ">
         <article className="blogContent">
-          {" "}
           <h3 classname="thirdHeading">
             Critical Analysis Essay on Net/Web Art
           </h3>
@@ -25,16 +23,6 @@ const Theory = () => {
             “It’s doing It”, is a relevant and effective example of Net Art that
             can inspire and inform the designers of today.
           </p>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt9.png`)}
-              alt="Figure 1 Prompt 1"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 1 Prompt 1
-            </figcaption>
-          </figure>
         </article>
       </section>
       <section className="blogPost">
@@ -494,34 +482,70 @@ const Theory = () => {
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
-            <h3 classname="thirdHeading">
-              Critical Analysis Essay on Net/Web Art
-            </h3>
-            <p className="blogDate">23 Dec 2016</p>
+            <h3 classname="thirdHeading">Mobile first vs Web First Design</h3>
+            <p className="blogDate">10 May 2024</p>
           </summary>
+
           <p className="blurbParagraph ">
-            This essay is a critical examination of the Net Art, “it’s doing
-            It”. This is an artwork that was created by nine artists who wrote
-            computer programs that took instructions as parameters, and this
-            resulted in computer-generated art. This analysis will be carried
-            out through the usage of the framework by Marshall McLuhan, “The
-            medium is the message”, with a focus on the effects of choosing the
-            Internet as the medium for this work. An evaluation through the lens
-            of Intermedial studies will serve as a framework to unpack the
-            content of the work itself. The analysis will help determine if
-            “It’s doing It”, is a relevant and effective example of Net Art that
-            can inspire and inform the designers of today.
+            I did some research to understand the differences between
+            mobile-first vs desktop-first design. Mobile first prioritises the
+            mobile experience- since it has a smaller screen size with touch
+            interactions. There are benefits to their mobile-first approach,
+            such as “reducing the fluff” (HV Digital, n.d), which means that
+            only essential content is displayed. Another benefit is that it
+            optimises the performance since the website loads faster and more
+            efficiently. Desktop first designs allow for more detailed designs
+            as there is more space and designers can be more creative.According
+            to Hv Digital, a determining factor is deciding what fits with the
+            goals of the websites for example e-commerce sites are better on
+            mobile first designs approach, but web apps are better as desktop
+            first designs.
           </p>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/prompt9.png`)}
-              alt="Figure 1 Prompt 1"
-            />
-            <figcaption className="blogImgCaption">
-              Figure 1 Prompt 1
-            </figcaption>
-          </figure>
+
+          <p className="p-author ">
+            {" "}
+            Reference: HV Digital. (n.d.). Mobile-First vs. Desktop-First:
+            Finding the Right Approach. [online] Available at:
+            https://www.hvdig.co.uk/web-agency/mobile-first-vs-desktop-first#what-is-mobile-first-design
+            [Accessed 10 May 2024].
+          </p>
+        </article>
+      </section>
+      <section className="blogPost ">
+        <article className="blogContent">
+          <summary>
+            <h3 classname="thirdHeading">Acceptable file size for video </h3>
+            <p className="blogDate">21 May 2021</p>
+          </summary>
+
+          <p className="blurbParagraph ">
+            I have added a video on the home page that is 11 seconds long and
+            plays on a loop in the background. I found that large images and
+            videos have a great impact on user experience since they affect the
+            page loading time. Here is an example scenario: A user clicks on my
+            webpage that has high-quality images and videos, the user waits 1-2
+            seconds and if nothing loads they move on to the next web app. Thus
+            it is imporant that I do research on what file size is acceptable so
+            that it does not negatively impact a user’s experience. Through my
+            research, I found that, for shorter videos like the one on my
+            homepage, the acceptable range is 2mb -2,5 mb. If my website was
+            targeted mostly towards mobile users I would be inclined to have
+            video file sizes under 2mb. But the general rule is to find the
+            sweet spot between video quality and file sizes, and it is important
+            to test the webpage on different devices and possibly different
+            internet speeds to get an idea of what the user will expereince. The
+            video on the homepage of this website is 2.5 MB which is in line
+            with the research that i have done. I originally had a file size of
+            8.5 MB but I noticed that it took a few seconds longer to load when
+            the webpage was opened. Thus I found a way to lower the file size
+            without much difference in the video quality.
+          </p>
+
+          <p className="p-author ">
+            References: web.dev. (n.d.). Web Performance Made Easy - Google I/O
+            2018 edition | Articles. [online] Available at:
+            https://web.dev/articles/web-performance-made-easy.
+          </p>
         </article>
       </section>
     </>

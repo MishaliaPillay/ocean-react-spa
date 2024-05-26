@@ -15,7 +15,7 @@ body {
 
   overflow-x: hidden;
 }
-nav { 
+nav {
   backdrop-filter: blur(2px);
   height: 4.5rem;
   width: 100vw;
@@ -112,7 +112,7 @@ button {
 }
 
 /*Styling Hamburger Icon*/
-.hamburger div {
+.hamburger article {
   width: 30px;
   height: 3px;
   background: rgb(7, 0, 79);

@@ -2,7 +2,7 @@
   "designContent": [
     {
       "title": "Wireframes",
-      "explanation": "I have Designed Wireframes for both laptop and phone screens .In the images below please note that the text in red is the Visual design element, the green is the Visual Response, and the blue is the Interaction points. These help breakdown the website and its various elements. ",
+      "explanation": "I have designed wireframes for both laptop and phone screens. In the images below please note that the text in red is the Visual design element, the green is the Visual Response, and the blue is the Interaction points. These help breakdown the website and its various elements. ",
       "part1": {
         "title": "Website Wireframes",
         "description": "For the Home page, I have slightly varying layouts per section.  The homepage has a video on the top then it has “cards” which are links to blog pages. These blog pages are articles about sea life and how to conserve it. After that is the About Us section which is text not in a bordered box and there is a section called “This is why we care” where pollution statistics are shown. This section has a border. This website aims to educate sections that are text that aims to educate or inform have a border. Thus, the Theory pages, quiz and design section have borders around the information. ",
@@ -10,23 +10,23 @@
         "images": [
           {
             "src": "Home.png",
-            "caption": "Home Page Wirframe"
+            "caption": "Home Page Wireframe"
           },
           {
             "src": "Home2.png",
-            "caption": "Home2 Page Wirframe"
+            "caption": "Home2 Page Wireframe"
           },
           {
             "src": "Home3.png",
-            "caption": "Home3 Page Wirframe"
+            "caption": "Home3 Page Wireframe"
           },
           {
             "src": "Home4.png",
-            "caption": "Home4 Page Wirframe"
+            "caption": "Home4 Page Wireframe"
           },
           {
             "src": "Home5.png",
-            "caption": "Home5 Page Wirframe"
+            "caption": "Home5 Page Wireframe"
           }
         ]
       },
@@ -85,7 +85,7 @@
       },
       "part5": {
         "title": "Style Process",
-        "description": "This website is inspired by the websiteOceanInfo.com and all of the reference images below are from this website.",
+        "description": "This website is inspired by the websiteOceanInfo.com and all of the referrence images below are from this website.",
         "description2": "The aspects of the reference website that is used in this website are the use on icons on facts and the cards on the home pages. The articles are also laid out in a similar manner. ",
         "images": [
           {
@@ -109,7 +109,7 @@
     },
     {
       "title": "Style Guide",
-      "explanation": "Although it may not be the most abundant dolphin species on earth, the bottlenose dolphin has made a title for itself as the go-to when someone thinks of a dolphin.",
+      "explanation": "",
       "part1": {
         "title": "Goal and Aesthetic",
         "description": "Creates a sense of immersion and exploration, aligning with the interactive learning aspect",
@@ -125,20 +125,7 @@
       "part3": {
         "title": "Implementation Notes",
         "description": "In order to implement the process in the image below, I had to break up each box into its own script and then I had to break it down further. An example of this was that for the cards I called each Json data in its own script then I brought all those components into an InfoCard.jsx file. This makes work more manageable and readable for the next time I have to return to this code.",
-        "images": [
-          {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home2 Page Wirframe"
-          }
-        ]
+        "images": []
       },
       "part4": {
         "title": "Visual Design",

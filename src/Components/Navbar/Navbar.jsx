@@ -23,17 +23,17 @@ const Navbar = ({ pages }) => {
 
   return (
     <nav>
-      <div className="logo">
+      <section className="logo">
         <img src={whale} alt="whale" />
-      </div>
-      <div
+      </section>
+      <section
         className={`hamburger ${isOpen ? "toggle" : ""}`}
         onClick={toggleNavbar}
       >
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
+        <article className="line1"></article>
+        <article className="line2"></article>
+        <article className="line3"></article>
+      </section>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         {pages.map((page, index) => (
           <li key={index} className={isOpen ? "fade" : ""}>
@@ -52,7 +52,7 @@ const Navbar = ({ pages }) => {
         ))}
         <li className="dropdown">
           <button>
-            Exploration <CaretCircleDown  size={20} />
+            Exploration <CaretCircleDown size={20} />
           </button>
           <ul className="dropdown-menu">
             <li>
