@@ -473,37 +473,37 @@
     {
       "id": 95,
       "fact": "Edward Teach was an English pirate better known as Blackbeard. This fearsome dog of the deep terrified his foes by lacing smoking fuses into his beard and wearing multiple daggers and pistols on his chest.",
-      "icon": "Earth"
+      "icon": "Dog"
     },
     {
       "id": 96,
       "fact": "Human interaction with the ocean often upsets natural ecosystems. For instance, foreign aquatic plants or animals have been introduced into waters that cannot sustain them or that suffer from their presence.",
-      "icon": "Earth"
+      "icon": "Plant"
     },
     {
       "id": 97,
       "fact": "On his voyage to the New World, Christopher Columbus reported seeing a great ball of fire sinking into the area now known as the Bermuda Triangle. Many speculate that what he saw was a meteor.",
-      "icon": "Earth"
+      "icon": "Fire"
     },
     {
       "id": 98,
       "fact": "People love the beach. In California alone, ocean-seeking tourists spend 75 billion dollars annually.",
-      "icon": "Earth"
+      "icon": "Money"
     },
     {
       "id": 99,
       "fact": "The Gulf Stream is a series of currents converging in the sea, which can propel animals and boats along at a speed more rapid than that of the Mississippi or Amazon Rivers",
-      "icon": "Earth"
+      "icon": "Rabbit"
     },
     {
       "id": 100,
       "fact": "There's a lot of gold in the ocean, both dissolved in the water and on the sea floor. Unfortunately, there's no economically feasible way of mining it. If we could, there'd be enough for each person on earth to have nine pounds of pure gold.",
-      "icon": "Earth"
+      "icon": "Coins"
     },
     {
       "id": 101,
       "fact": "Both the ocean and sky appear blue because blue is a short wavelength of light and thus scatters through mediums like air and water more easily than other colors in the spectrum.",
-      "icon": "Earth"
+      "icon": "Drop"
     }
   ]
 }
