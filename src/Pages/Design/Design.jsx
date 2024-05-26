@@ -12,7 +12,19 @@ const Design = () => {
 
   return (
     <>
-      <h1>Design Content</h1>
+      {" "}
+      <article className="beginning">
+        <h1 className="cardTitle">Design Content</h1>
+        <p className="introParagraph">
+          Welcome to the Design Section of our Ocean 
+          app. This section provides a detailed overview of our design
+          process, showcasing how we transformed initial concepts into a
+          functional, engaging, and educational app. Here, we discuss the
+          importance and significance of key design decisions, ensuring that
+          each choice aligns with our goals of educating users about ocean
+          conservation and promoting sustainable practices.
+        </p>
+      </article>
       {designContent.length > 0 ? (
         designContent.map((section, sectionIndex) => (
           <section className="blogPost" key={sectionIndex}>
