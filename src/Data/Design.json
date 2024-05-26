@@ -52,80 +52,57 @@
     },
     {
       "title": "IXD Process",
-      "explanation": "Short-beaked Common dolphins, making up the rest of the Common dolphin population, were once believed to be the same species as the Long-beaked Common dolphin but have since been established as their own.",
+      "explanation": " In this section we look at how the user is encouraged to interact and the process that they follow as they navigate the website. ",
       "part1": {
         "title": "Goal Alignment",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters"
+        "description": "The overall goal that this website has is to inform and to make learning fun so that the user gains an interest in caring for the ocean. As a designer I need to make this website accessible on different screen sizes because the target audience is not limited to a specific age group. Anyone who is curious about the ocean has something to do on this website. The user's goal is to learn more information about the ocean and engage with the content in a meaningful way."
       },
       "part2": {
         "title": "Infrastructure",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
+        "description": "The user has a goal which is to answer most of the questions on the quiz page correctly. The user starts off by needing to learn about sea life. The quiz is broken up into separate sections so the user can, for example, learn about sharks and then answer the questions on sharks. The user can navigate back to the pages and learn about a different animal then answer the corresponding questions. To account for this type of user, the quiz not only gives an indication of correct and incorrect attempts but also gives explanations. There is a results page after the quiz that shows the user which questions they correctly/incorrectly answered. ",
         "images": [
           {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home2 Page Wirframe"
+            "src": "Content Mapping.png",
+            "caption": "This shows the content mapping"
           }
         ]
       },
       "part3": {
         "title": "Userflow",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
+        "description": "The user starts on the home page, this page creates the need for the user to want to learn more. It shows pollution stats to educate the user on why caring for the ocean is important then it creates interest by showing the user interesting facts. The users are given options of cards to click these cards leading them to separate pages each one on a different sea life. After learning about a specific animal, the user can click the quiz on the nav bar and they can choose which quiz to answer for their chosen sea animal. ",
+        "description2": "The navbar is at a fixed position and it indicates at all times to let the user know where they are. The user can easily navigate between pages without relying on memory.",
         "images": [
           {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home2 Page Wirframe"
+            "src": "Userflow.png",
+            "caption": "This is the userflow"
           }
         ]
       },
       "part4": {
         "title": "Interface Explanation",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
-        "images": [
-          {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
-          },
-          {
-            "src": "Home.png",
-            "caption": "Home2 Page Wirframe"
-          }
-        ]
+        "description": "The interface element is the navbar that allows the user to navigate through different pages and when the screen size is smaller it turns into a burger button. The other interface elements are the buttons on this website. The buttons are used to navigate back to pages, start quizzes, and generate new lists of facts. ",
+        "images": []
       },
       "part5": {
         "title": "Style Process",
-        "description": "Atlantic, Indian, and Pacific Oceans, warmer tropical and subtropical waters",
+        "description": "This website is inspired by the websiteOceanInfo.com and all of the reference images below are from this website.",
+        "description2": "The aspects of the reference website that is used in this website are the use on icons on facts and the cards on the home pages. The articles are also laid out in a similar manner. ",
         "images": [
           {
-            "src": "Home.png",
-            "caption": "This is the first image caption"
+            "src": "Referrence1.png",
+            "caption": "This is Referrence 1"
           },
           {
-            "src": "Home.png",
-            "caption": "Home Page Wirframe"
+            "src": "Referrence3.png",
+            "caption": "This is Referrence 2"
           },
           {
-            "src": "Home.png",
-            "caption": "Home2 Page Wirframe"
+            "src": "Referrence2.png",
+            "caption": "This is Referrence 3"
+          },
+          {
+            "src": "Referrence4.png",
+            "caption": "This is Referrence 4"
           }
         ]
       }
