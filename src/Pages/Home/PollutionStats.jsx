@@ -1,8 +1,8 @@
 import React from "react";
-import pollutionData from "../../Data/PollutionStats.json"; // adjust the path as needed
+import pollutionData from "../../Data/PollutionStats.json";
 import { Anchor } from "@phosphor-icons/react";
 const PollutionStats = () => {
-  // Flatten the nested array and include the nested index to ensure unique keys
+ // Flatten the nested array of pollution statistics and include a unique ID for each item
   const flatPollutionStats = pollutionData.pollutionStats.flatMap(
     (group, groupIndex) =>
       group.map((item) => ({ ...item, uniqueId: `${groupIndex}-${item.id}` }))

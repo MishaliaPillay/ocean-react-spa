@@ -4,8 +4,8 @@ const Art = () => {
   return (
     <>
       <section className="introParagraph ">
+        <h3 classname="thirdHeading">Internet Art</h3>
         <article className="blogContent">
-          <h3 classname="thirdHeading">Internet Art</h3>
           <p className="blurbParagraph ">
             Welcome to my exploration of art in the digital age! This space is
             dedicated to pushing boundaries and utilizing the unique canvas of

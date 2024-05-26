@@ -6,10 +6,8 @@ const Theory = () => {
   return (
     <>
       <section className="introParagraph ">
+        <h3 classname="thirdHeading">Critical Analysis Essay on Net/Web Art</h3>
         <article className="blogContent">
-          <h3 classname="thirdHeading">
-            Critical Analysis Essay on Net/Web Art
-          </h3>
           <p className="blurbParagraph ">
             This essay is a critical examination of the Net Art, “it&apos;s
             doing It”. This is an artwork that was created by nine artists who

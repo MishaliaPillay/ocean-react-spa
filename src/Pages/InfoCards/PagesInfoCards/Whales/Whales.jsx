@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import whalesData from "../../../../Data/Whales.json";
 
 const Whales = () => {
+  // State  holds whale data
   const [whales, setWhales] = useState([]);
-
+  // Effect to fetch whale data when the component moun
   useEffect(() => {
     setWhales(whalesData.whales);
   }, []);
@@ -35,9 +36,9 @@ const Whales = () => {
                   <section className="blurbParagraph">
                     <h2>{whale.name}</h2>
                     <p className="blurbParagraph">{whale.interesting_fact}</p>
-                    <h3>Where Found:</h3>
+                    <h3 className="littleHeading">Where Found:</h3>
                     <p>{whale.where_found}</p>
-                    <h3>Additional Information:</h3>
+                    <h3 className="littleHeading">Additional Information:</h3>
                     <p>{whale.additional_information.description}</p>
                   </section>
                 </section>

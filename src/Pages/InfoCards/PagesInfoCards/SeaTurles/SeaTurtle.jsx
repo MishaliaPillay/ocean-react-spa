@@ -3,10 +3,10 @@ import turtlesData from "../../../../Data/Turtles.json"; // Ensure the path is c
 import "./SeaTurtle.css"; // Import the CSS file
 
 const SeaTurtle = () => {
+  // State  holds turtle data
   const [turtles, setTurtles] = useState([]);
-
+  // Effect to fetch turtle data when the component mounts
   useEffect(() => {
-    console.log("Loaded turtle data:", turtlesData);
     setTurtles(turtlesData.turtlesData[0]); // Accessing the first (and only) element of turtlesData array
   }, []);
 
@@ -39,7 +39,9 @@ const SeaTurtle = () => {
                     <p className="blurbParagraph">{turtle.interesting_fact}</p>
                     {turtle.additional_info && (
                       <>
-                        <h3>Additional Information:</h3>
+                        <h3 className="littleHeading">
+                          Additional Information:
+                        </h3>
                         <ul className="referrences">
                           {Object.entries(turtle.additional_info).map(
                             ([key, value], infoIndex) => (

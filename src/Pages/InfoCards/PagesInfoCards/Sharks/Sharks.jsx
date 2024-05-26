@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import sharksData from "../../../../Data/Sharks.json"; // Ensure the path is correct
 
 const Sharks = () => {
+  // State  holds shark data
   const [sharks, setSharks] = useState([]);
-
+  // Effect to fetch sharks data when the component mounts
   useEffect(() => {
     setSharks(sharksData.sharksData[0]); // Accessing the array of sharks from the JSON data
   }, []);
@@ -36,7 +37,7 @@ const Sharks = () => {
                   <div className="blurbParagraph">
                     <h2>{shark.name}</h2>
                     <p className="blurbParagraph">{shark.interesting_fact}</p>
-                    <h3>Physical Characteristics:</h3>
+                    <h3 className="littleHeading">Physical Characteristics:</h3>
                     <ul className="referrences">
                       <li>
                         <strong>Average Length:</strong> {shark.average_length}
@@ -45,7 +46,7 @@ const Sharks = () => {
                         <strong>Average Weight:</strong> {shark.average_weight}
                       </li>
                     </ul>
-                    <h3>Additional Information:</h3>
+                    <h3 className="littleHeading">Additional Information:</h3>
                     <ul className="referrences">
                       {Object.entries(shark.additional_info).map(
                         ([key, value], infoIndex) => (

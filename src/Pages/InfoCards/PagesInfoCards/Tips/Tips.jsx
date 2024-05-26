@@ -42,7 +42,9 @@ const Tips = () => {
               role in brain development. Because of seafood’s health benefits,
               some of the most popular fish types face extinction risk.
             </p>
-            <h3>Tip 1: Choose seafood that’s sustainable</h3>
+            <h3 className="littleHeading">
+              Tip 1: Choose seafood that’s sustainable
+            </h3>
             <p className="blurb">
               Look for information on where and how the fish was caught. Many
               sustainable seafood products have certifications or labels from
@@ -74,7 +76,9 @@ const Tips = () => {
               give nesting sea turtles on the beach the freedom they need to
               lead happy lives.
             </p>
-            <h3>Tip 2: Choose the right travel providers</h3>
+            <h3 className="littleHeading">
+              Tip 2: Choose the right travel providers
+            </h3>
             <p className="blurb">
               When planning your travels, choose eco-conscious companies that
               prioritize ocean conservation. These companies adhere to
@@ -91,7 +95,9 @@ const Tips = () => {
               The ocean has absorbed over 90% of the excess heat produced to
               protect the Earth and every living thing.
             </p>
-            <h3>Tip 3: Be more carbon-conscious in your day-to-day</h3>
+            <h3 className="littleHeading">
+              Tip 3: Be more carbon-conscious in your day-to-day
+            </h3>
             <p className="blurb">
               To effectively reduce your carbon footprint, small but consistent
               actions can make a significant impact.
@@ -106,7 +112,7 @@ const Tips = () => {
               One of the simplest ways to conserve this carbon sink is to
               eliminate, reduce, and reuse plastic products.
             </p>
-            <h3>Tip 4: Reduce, reuse, recycle</h3>
+            <h3 className="littleHeading">Tip 4: Reduce, reuse, recycle</h3>
             <p className="blurb">
               Before throwing anything away, think of how it can be reused. Set
               up a dedicated recycling area in your home to sort paper,
@@ -142,15 +148,15 @@ const Tips = () => {
               However, you can combat this by ensuring the fish you eat is
               sustainably sourced. For example, sustainable fisheries do the
               following:
-           
-            <ul className="littleBlurbs">
-              <li>Target plentiful fish species</li>
-              <li>
-                Reduce destructive fishing practices like dredging and curbing
-                bycatch
-              </li>
-              <li>Minimize adverse environmental impacts</li>
-            </ul> </p>
+              <ul className="littleBlurbs">
+                <li>Target plentiful fish species</li>
+                <li>
+                  Reduce destructive fishing practices like dredging and curbing
+                  bycatch
+                </li>
+                <li>Minimize adverse environmental impacts</li>
+              </ul>{" "}
+            </p>
           </article>
 
           <article>
@@ -159,30 +165,30 @@ const Tips = () => {
               For your ocean conservation efforts to bear fruit quickly, you
               should be actively talking with others on the same subject.
             </p>
-            <h3>Tip 5: Be an educator yourself</h3>
+            <h3 className="littleHeading">Tip 5: Be an educator yourself</h3>
             <p className="blurb">
               You have an opportunity to spread the word on several platforms.
               Here are some of the things that you can do:
-            
-            <ul className="littleBlurbs">
-              <li>
-                Discuss ocean-related issues with your local shopkeeper. Always
-                be ready to answer the key question: how can we conserve the
-                ocean? Once they understand what is at stake, please encourage
-                them to stock ocean-friendly food items.
-              </li>
-              <li>
-                Talk with your friends, neighbors, loved ones, and lawmakers.
-                You can use social media, blogs, or any other digital media to
-                raise awareness as much as you can. Remember to speak or write
-                persuasively and present up-to-date information to stand out.
-              </li>
-              <li>
-                Vote for public officials who support marine conservation
-                projects. Before doing that, research their ocean policies and
-                understand what they stand for.
-              </li>
-            </ul></p>
+              <ul className="littleBlurbs">
+                <li>
+                  Discuss ocean-related issues with your local shopkeeper.
+                  Always be ready to answer the key question: how can we
+                  conserve the ocean? Once they understand what is at stake,
+                  please encourage them to stock ocean-friendly food items.
+                </li>
+                <li>
+                  Talk with your friends, neighbors, loved ones, and lawmakers.
+                  You can use social media, blogs, or any other digital media to
+                  raise awareness as much as you can. Remember to speak or write
+                  persuasively and present up-to-date information to stand out.
+                </li>
+                <li>
+                  Vote for public officials who support marine conservation
+                  projects. Before doing that, research their ocean policies and
+                  understand what they stand for.
+                </li>
+              </ul>
+            </p>
           </article>
 
           <article>

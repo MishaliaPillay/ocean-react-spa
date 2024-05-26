@@ -42,19 +42,39 @@ const InfoCards = () => {
     },
   ];
 
+
+
   useEffect(() => {
+    // Function to navigate to a specified category
     const navigateTo = (category) => {
+      // Update the window location to the URL corresponding to the category
       window.location.href = `/${category}`;
     };
 
+    // Select all elements with the class name 'card-item'
     const cards = document.querySelectorAll(".card-item");
+
+    // Iterate over each card element
     cards.forEach((card) => {
+      // Add a click event listener to each card
       card.addEventListener("click", () => {
+        // Get the value of the 'data-category' attribute of the clicked card
         const category = card.getAttribute("data-category");
+        // Navigate to the URL corresponding to the category
         navigateTo(category);
       });
     });
-  }, []);
+
+    // Cleanup function to remove the event listeners when the component unmounts
+    return () => {
+      cards.forEach((card) => {
+        card.removeEventListener("click", () => {
+          const category = card.getAttribute("data-category");
+          navigateTo(category);
+        });
+      });
+    };
+  }, []); // Empty dependency array ensures this effect runs only once when the component mounts
 
   return (
     <section className="container">

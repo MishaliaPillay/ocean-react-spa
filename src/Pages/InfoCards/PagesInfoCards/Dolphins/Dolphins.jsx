@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import dolphinsData from "../../../../Data/Dolphins.json";
 
 const Dolphins = () => {
+  // State  holds dolphins data
   const [dolphins, setDolphins] = useState([]);
-
+  // Effect to fetch dolphins data when the component mounts
   useEffect(() => {
-    console.log(dolphinsData);
+    // Set dolphins data to the state
     setDolphins(dolphinsData.dolphinsData);
   }, []);
 
@@ -36,7 +37,7 @@ const Dolphins = () => {
                   <article className="blurbParagraph">
                     <h2>{dolphin.name}</h2>
                     <p className="blurbParagraph">{dolphin.interesting_fact}</p>
-                    <h3>Physical Characteristics:</h3>
+                    <h3 className="littleHeading">Physical Characteristics:</h3>
                     <ul className="referrences">
                       {Object.entries(dolphin.physical_characteristics).map(
                         ([key, value], infoIndex) => (
@@ -48,7 +49,9 @@ const Dolphins = () => {
                     </ul>
                     {dolphin.additional_info && (
                       <>
-                        <h3>Additional Information:</h3>
+                        <h3 className="littleHeading">
+                          Additional Information:
+                        </h3>
                         <ul className="referrences">
                           {Object.entries(dolphin.additional_info).map(
                             ([key, value], infoIndex) => (
