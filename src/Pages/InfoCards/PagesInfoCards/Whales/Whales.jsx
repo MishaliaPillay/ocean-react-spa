@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import whalesData from "../../../../Data/Whales.json";
 
-
 const Whales = () => {
   const [whales, setWhales] = useState([]);
 
@@ -25,22 +24,22 @@ const Whales = () => {
           whales.map((whale, index) => (
             <article className="sectionContainer" key={index}>
               <article>
-                <div className="imageContainer">
+                <section className="imageContainer">
                   <img
                     className="CardImg"
                     src={require(`../../../../Images/Whales/${whale.image}`)}
                     alt={whale.name}
                   />
-                </div>
+                </section>
                 <section className="introParagraph">
-                  <div className="blurbParagraph">
+                  <section className="blurbParagraph">
                     <h2>{whale.name}</h2>
                     <p className="blurbParagraph">{whale.interesting_fact}</p>
                     <h3>Where Found:</h3>
                     <p>{whale.where_found}</p>
                     <h3>Additional Information:</h3>
                     <p>{whale.additional_information.description}</p>
-                  </div>
+                  </section>
                 </section>
               </article>
             </article>

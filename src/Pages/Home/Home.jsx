@@ -8,21 +8,21 @@ import PollutionStats from "./PollutionStats";
 import OceanFacts from "./OceanFacts";
 const Home = () => {
   return (
-    <div className="home">
-      <div className="videoContainer">
+    <section className="home">
+      <article className="videoContainer">
         <video className="backgroundVideo" muted loop autoPlay>
           <source src={SeaTurtle} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="videoOverlay">
+        <article className="videoOverlay">
           <h1 className="homeTitle">Welcome</h1>
           <h2 className="additionalText">
             Meet the Ocean's Amazing Creatures: Dive Deep, Fall in Love, Take
             Action. Learn about the incredible animals that call the ocean home,
             and discover how you can help.
           </h2>
-        </div>
-      </div>
+        </article>
+      </article>
       <section> </section>
       <section>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -115,7 +115,7 @@ const Home = () => {
         <h2 className="headings">Random Ocean Facts</h2>
         <OceanFacts />
       </section>
-    </div>
+    </section>
   );
 };
 

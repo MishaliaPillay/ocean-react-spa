@@ -5,7 +5,7 @@
       "explanation": "I have designed wireframes for both laptop and phone screens. In the images below please note that the text in red is the Visual design element, the green is the Visual Response, and the blue is the Interaction points. These help breakdown the website and its various elements. ",
       "part1": {
         "title": "Website Wireframes",
-        "description": "For the Home page, I have slightly varying layouts per section.  The homepage has a video on the top then it has “cards” which are links to blog pages. These blog pages are articles about sea life and how to conserve it. After that is the About Us section which is text not in a bordered box and there is a section called “This is why we care” where pollution statistics are shown. This section has a border. This website aims to educate sections that are text that aims to educate or inform have a border. Thus, the Theory pages, quiz and design section have borders around the information. ",
+        "description": "For the Home page, I have slightly varying layouts per section.  The homepage has a video on the top then it has “cards” which are links to blog pages. These blog pages are articles about sea life and how to conserve it. After that is the About Us section which is plain text and not in a bordered box. There is a section called “This is why we care” where pollution statistics are shown, this section has a border. ",
         "description2": "The images on this site have a grid layout (the pictures are next to each other) and when the screen is resized the images are one below each other.",
         "images": [
           {
@@ -55,7 +55,7 @@
       "explanation": " In this section we look at how the user is encouraged to interact and the process that they follow as they navigate the website. ",
       "part1": {
         "title": "Goal Alignment",
-        "description": "The overall goal that this website has is to inform and to make learning fun so that the user gains an interest in caring for the ocean. As a designer I need to make this website accessible on different screen sizes because the target audience is not limited to a specific age group. Anyone who is curious about the ocean has something to do on this website. The user's goal is to learn more information about the ocean and engage with the content in a meaningful way."
+        "description": "The overall goal that this website has is to inform and to make learning fun so that the user gains an interest in caring for the ocean. As a designer I need to make this website accessible on different screen sizes because the target audience is not limited to a specific age group thus any user with any device can access this website. Anyone who is curious about the ocean has something to do on this website. The user's goal is to learn more information about the ocean and engage with the content in a meaningful way."
       },
       "part2": {
         "title": "Infrastructure",

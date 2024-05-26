@@ -102,7 +102,8 @@ article {
   width: calc(50% - 10px); /* Set width to 50% of the container minus gap */
 }
 
-.blogImg { border: black 2px solid;
+.blogImg {
+  border: black 2px solid;
   width: 100%;
   height: auto;
   border-radius: none;
@@ -115,7 +116,6 @@ article {
     width: 100%; /* Set width to 100% for single column layout */
   }
 }
-
 
 .referrences li {
   list-style-type: disc;
@@ -165,7 +165,7 @@ b {
   .blogContent {
     width: 80%;
   }
-  
+
   .blog-hero {
     padding-bottom: 60%;
   }

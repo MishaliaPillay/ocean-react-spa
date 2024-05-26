@@ -13,9 +13,8 @@ const SeaTurtle = () => {
   return (
     <section>
       <article className="beginning">
-        {" "} <h1 className="cardTitle">Sea Turtles</h1>
+        <h1 className="cardTitle">Sea Turtles</h1>
         <p className="introParagraph ">
-         
           Welcome to our Sea Turtle page! Dive into the world of these
           magnificent creatures with us. Explore their species, behaviors, and
           ecological importance. Let's embark on an exciting journey beneath the
@@ -27,29 +26,21 @@ const SeaTurtle = () => {
           turtles.map((turtle, index) => (
             <article className="sectionContainer">
               <article key={index}>
-                <div className="imageContainer">
-                  {" "}
-                  {/* Updated class name to match the CSS */}
+                <section className="imageContainer">
                   <img
                     className="CardImg"
                     src={require(`../../../../Images/Turtles/${turtle.image}`)}
                     alt={turtle.name}
                   />
-                </div>{" "}
+                </section>
                 <section className="introParagraph">
-                  {" "}
-                  {/* Updated class name to match the CSS */}
-                  <div className="blurbParagraph">
-                    {" "}
-                    {/* Updated class name to match the CSS */}
+                  <section className="blurbParagraph">
                     <h2>{turtle.name}</h2>
                     <p className="blurbParagraph">{turtle.interesting_fact}</p>
                     {turtle.additional_info && (
                       <>
                         <h3>Additional Information:</h3>
                         <ul className="referrences">
-                          {" "}
-                          {/* Updated class name to match the CSS */}
                           {Object.entries(turtle.additional_info).map(
                             ([key, value], infoIndex) => (
                               <li key={infoIndex}>
@@ -60,7 +51,7 @@ const SeaTurtle = () => {
                         </ul>
                       </>
                     )}
-                  </div>
+                  </section>
                 </section>
               </article>
             </article>

@@ -37,8 +37,13 @@ const OceanFacts = () => {
   }, [refreshFacts]);
 
   return (
-    <div className="paragraphStyles ">
-      <h1 className="littleHeading">Ocean Facts</h1>  <button className="factsgenerate" onClick={refreshFacts} style={{ cursor: "pointer" }}>
+    <section className="paragraphStyles ">
+      <h1 className="littleHeading">Ocean Facts</h1>{" "}
+      <button
+        className="factsgenerate"
+        onClick={refreshFacts}
+        style={{ cursor: "pointer" }}
+      >
         More Facts
       </button>
       <ul>
@@ -47,8 +52,7 @@ const OceanFacts = () => {
           return <Fact key={id} fact={fact} IconComponent={IconComponent} />;
         })}
       </ul>
-    
-    </div>
+    </section>
   );
 };
 

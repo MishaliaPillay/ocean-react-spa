@@ -11,17 +11,17 @@ const Theory = () => {
             Critical Analysis Essay on Net/Web Art
           </h3>
           <p className="blurbParagraph ">
-            This essay is a critical examination of the Net Art, “it’s doing
-            It”. This is an artwork that was created by nine artists who wrote
-            computer programs that took instructions as parameters, and this
-            resulted in computer-generated art. This analysis will be carried
-            out through the usage of the framework by Marshall McLuhan, “The
-            medium is the message”, with a focus on the effects of choosing the
-            Internet as the medium for this work. An evaluation through the lens
-            of Intermedial studies will serve as a framework to unpack the
+            This essay is a critical examination of the Net Art, “it&apos;s
+            doing It”. This is an artwork that was created by nine artists who
+            wrote computer programs that took instructions as parameters, and
+            this resulted in computer-generated art. This analysis will be
+            carried out through the usage of the framework by Marshall McLuhan,
+            “The medium is the message”, with a focus on the effects of choosing
+            the Internet as the medium for this work. An evaluation through the
+            lens of Intermedial studies will serve as a framework to unpack the
             content of the work itself. The analysis will help determine if
-            “It’s doing It”, is a relevant and effective example of Net Art that
-            can inspire and inform the designers of today.
+            “It&apos;s doing It”, is a relevant and effective example of Net Art
+            that can inspire and inform the designers of today.
           </p>
         </article>
       </section>
@@ -34,17 +34,17 @@ const Theory = () => {
             <p className="blogDate">23 Dec 2016</p>
           </summary>
           <p className="blurbParagraph ">
-            This essay is a critical examination of the Net Art, “it’s doing
-            It”. This is an artwork that was created by nine artists who wrote
-            computer programs that took instructions as parameters, and this
-            resulted in computer-generated art. This analysis will be carried
-            out through the usage of the framework by Marshall McLuhan, “The
-            medium is the message”, with a focus on the effects of choosing the
-            Internet as the medium for this work. An evaluation through the lens
-            of Intermedial studies will serve as a framework to unpack the
+            This essay is a critical examination of the Net Art, “it&apos;s
+            doing It”. This is an artwork that was created by nine artists who
+            wrote computer programs that took instructions as parameters, and
+            this resulted in computer-generated art. This analysis will be
+            carried out through the usage of the framework by Marshall McLuhan,
+            “The medium is the message”, with a focus on the effects of choosing
+            the Internet as the medium for this work. An evaluation through the
+            lens of Intermedial studies will serve as a framework to unpack the
             content of the work itself. The analysis will help determine if
-            “It’s doing It”, is a relevant and effective example of Net Art that
-            can inspire and inform the designers of today.
+            “It&apos;s doing It”, is a relevant and effective example of Net Art
+            that can inspire and inform the designers of today.
           </p>
           <h2 classname="secondHeading">What is Net Art?</h2>
           <p className="blurbParagraph ">
@@ -75,7 +75,7 @@ const Theory = () => {
             unique and interesting visuals arise.
           </p>
           <h2 classname="secondHeading">
-            Explain “it’s doing It” and its relevance for designers.
+            Explain “it&apos;s doing It” and its relevance for designers.
           </h2>
           <p className="blurbParagraph ">
             This artwork falls part of Software art, there are a total of nine
@@ -84,14 +84,14 @@ const Theory = () => {
             the program and for 45 days these programs generated one image each
             day. This Net Art ran from 11 December 2015 till 24 January 2016,
             and every artist's computer program generated an image related to
-            their instruction – the viewer is unable to see the code and only
+            their instruction - the viewer is unable to see the code and only
             sees the resulting images. This was an interesting project since the
             computer programs ran the same code every day, yet the results
             differed in small and large ways each time. This is equivalent to a
             user asking ChatGPT the same question every day in the exact same
             format as they did the previous day, but the AI responds uniquely
             each time.
-          </p>{" "}
+          </p>
           <article className="imageContainer">
             <figure>
               <img
@@ -182,18 +182,18 @@ const Theory = () => {
               <figcaption className="blogImgCaption">
                 Figure 9 Prompt 9
               </figcaption>
-            </figure>{" "}
+            </figure>
           </article>
           <p className="blurbParagraph ">
             This Net Art is highly relevant to designers as they go on to create
             systems that require data and are at times in charge of finding ways
-            of representing this data, “it’s doing It” helps designers see that
-            the systems they create are generative and it forces them to reflect
-            on their processes for deciding on inclusion parameters. This is
-            also relevant as it is more current than most Net Art that exists
-            online – which are either related to a different field or run on
-            programs that are no longer supported. “it’s doing it” is still
-            accessible online.
+            of representing this data, “it&apos;s doing It” helps designers see
+            that the systems they create are generative and it forces them to
+            reflect on their processes for deciding on inclusion parameters.
+            This is also relevant as it is more current than most Net Art that
+            exists online - which are either related to a different field or run
+            on programs that are no longer supported. “it&apos;s doing it” is
+            still accessible online.
           </p>
           <p className="blurbParagraph ">
             It can also be seen as the preface of what was to come since many
@@ -203,10 +203,10 @@ const Theory = () => {
             and that some results are more accurate than others. Thus, this is
             relevant to designers as well as users as it informs both groups of
             the somewhat randomized results that these algorithms give.
-          </p>{" "}
+          </p>
           <h2 classname="secondHeading">
             How does the choice of medium affect the message?
-          </h2>{" "}
+          </h2>
           <p className="blurbParagraph ">
             The choice of medium acts as the mould that outlines where and how a
             work is situated in the user's minds (McLuhan, 2006, p. 108) . This
@@ -218,13 +218,14 @@ const Theory = () => {
             if a problem arises a solution is found easily(Mailloux, 1983, p.
             399). This helps designers make informed decisions on how they
             create, and this helps users understand what is created. An example
-            in “It’s doing it” is that the designers faced a problem of how they
-            allow users to navigate through the different days, the solution is
-            to create a drop-down menu of x-height but allow the user to scroll
-            through the list (see Figure 10). The user can understand this based
-            on their previous web interactions when they see the scroll bar or
-            the dropdown menu. In this example is evident that the medium
-            affects “human association and action” (McLuhan, 2006, p. 108).
+            in “It&apos;s doing it” is that the designers faced a problem of how
+            they allow users to navigate through the different days, the
+            solution is to create a drop-down menu of x-height but allow the
+            user to scroll through the list (see Figure 10). The user can
+            understand this based on their previous web interactions when they
+            see the scroll bar or the dropdown menu. In this example is evident
+            that the medium affects “human association and action” (McLuhan,
+            2006, p. 108).
           </p>
           <figure>
             <img
@@ -235,7 +236,7 @@ const Theory = () => {
             <figcaption className="blogImgCaption">
               Figure 10 Drop down menu
             </figcaption>
-          </figure>{" "}
+          </figure>
           <h2 classname="secondHeading">
             What role does the Internet play as a medium?
           </h2>
@@ -251,19 +252,19 @@ const Theory = () => {
             example is “it's doing it” which has 45 iterations of art for each
             prompt, this affects the uniqueness of the work since in total there
             are 405 pieces of art to engage with, but the aura remains as each
-            artwork existed in its section own of the webpage for 24hrs.{" "}
+            artwork existed in its section own of the webpage for 24hrs.
           </p>
           <p className="blurbParagraph ">
             The Internet is also a medium of communication since it connects
             users and has changed the interaction from being “one to many ” into
             “many to many”, thus knowledge is spread faster as more people are
             connected (David and Mariswamy, 2014). This was an advantage for
-            “it’s doing it” since it allowed the artists to collaborate as a
-            group and gave the audience more art to engage with. This is also
+            “it&apos;s doing it” since it allowed the artists to collaborate as
+            a group and gave the audience more art to engage with. This is also
             useful as designers around the globe have access to this and can
             reap the benefits of learning from the content of what these artists
-            have created.{" "}
-          </p>{" "}
+            have created.
+          </p>
           <h2 classname="secondHeading">
             Explain the Intermediality of the Internet.
           </h2>
@@ -280,15 +281,15 @@ const Theory = () => {
             Figure 12 the colour and features vary each time with different
             “rock” like structures. The conclusion for Figure 11 would be that
             the computer program is consistent in its results, for Figure 12 the
-            program is inconsistent.{" "}
+            program is inconsistent.
           </p>
           <p className="blurbParagraph ">
             The content as another medium is better understood by examining the
-            different components that form this medium – this process is called
+            different components that form this medium - this process is called
             Intermediality. It is also the understanding that there is a complex
             interplay to understanding the message of a Net art since there are
             four modalities used in meaning-making.
-          </p>{" "}
+          </p>
           <article className="imageContainer">
             <figure>
               <img
@@ -331,10 +332,10 @@ const Theory = () => {
             changed the “nature” of art. As stated above, art went from distant
             paintings and sculptures in museums that people had to travel to
             see, now it is engaged on a personal and deeper level. Net Art
-            allows for the exploration of art in ways that weren’t available in
-            traditional art. It is very interesting that the user can open a
-            link to “it's doing it” and be able to say that they are interacting
-            with the original.
+            allows for the exploration of art in ways that weren&apos;t
+            available in traditional art. It is very interesting that the user
+            can open a link to “it's doing it” and be able to say that they are
+            interacting with the original.
           </p>
           <h2 classname="secondHeading">
             What is the Spatiotemporal modality?
@@ -344,7 +345,7 @@ const Theory = () => {
             2022, p. 21), this helps situate the user as it helps identify
             important aspects. For example, in “it's doing it” the web page
             starts with an introduction then has all nine prompts with images
-            for the chosen day and the page ends at the footer – this shows the
+            for the chosen day and the page ends at the footer - this shows the
             user the beginning, middle and end of the work. This becomes more
             complex when the drop-down menu is considered since it then results,
             in the beginning, middle and end, times 45. The images in this Net
@@ -395,27 +396,27 @@ const Theory = () => {
             </li>
             <li class="p-author">
               Carrier, D. (2020) The Work of Art in the Age of the Internet,
-              Hyperallergic. Available at:{" "}
+              Hyperallergic. Available at:
               http://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-Internet/
               (Accessed: 23 April 2024).
             </li>
             <li class="p-author">
               Chatel, M. (2019a) ‘Net Art, Post-Internet Art, New Aesthetics:
-              The Fundamentals of Art on the Internet’, DANAE.IO, 2 December.
-              Available at:{" "}
+              The Fundamentals of Art on the Internet&apos;, DANAE.IO, 2
+              December. Available at:
               https://medium.com/danae/net-art-post-Internet-art-new-aesthetics-the-fundamentals-of-art-on-the-Internet-55dcbd9d6a5
               (Accessed: 23 April 2024).
             </li>
             <li class="p-author">
               Chatel, M. (2019b) ‘What is Digital Art? Definition and Scope of
-              the New Media’, DANAE.IO, 2 December. Available at:{" "}
+              the New Media&apos;, DANAE.IO, 2 December. Available at:
               https://medium.com/danae/what-is-digital-art-definition-and-scope-of-the-new-media-f645058cfd78
               (Accessed: 23 April 2024).
             </li>
             <li class="p-author">
               David, M.S. and Mariswamy, Dr.H.K. (2014) ‘Internet as a Medium of
-              Communication in Modern Society’, Communication Today, 31 March.
-              Available at:{" "}
+              Communication in Modern Society&apos;, Communication Today, 31
+              March. Available at:
               https://communicationtoday.net/2014/03/31/Internet-as-a-medium-of-communication-in-modern-society/
               (Accessed: 25 April 2024).
             </li>
@@ -426,54 +427,54 @@ const Theory = () => {
             </li>
             <li class="p-author">
               Hyperallergic (2015) Best of 2015: Our Top 10 Works of Internet
-              Art, Hyperallergic. Available at:{" "}
+              Art, Hyperallergic. Available at:
               http://hyperallergic.com/263538/best-of-2015-our-top-10-works-of-Internet-art/
               (Accessed: 24 April 2024).
             </li>
             <li class="p-author">
-              It’s doing it! (2015-2016). Available at:{" "}
+              It&apos;s doing it! (2015-2016). Available at:
               https://www.itsdoing.it/#date=01_24_2016 (Accessed: 25 April
               2024).
             </li>
             <li class="p-author">
-              Mailloux, S. (1983) ‘Convention and Context’, New Literary
-              History, 14(2), p. 399. Available at:{" "}
+              Mailloux, S. (1983) ‘Convention and Context&apos;, New Literary
+              History, 14(2), p. 399. Available at:
               https://doi.org/10.2307/468693 .
             </li>
             <li class="p-author">
-              McLuhan, M. (2006) ‘Chapter - 8- The Medium is the Message’, in
-              M.G. Durham and D. Kellner (eds) Media and cultural studies:
+              McLuhan, M. (2006) ‘Chapter - 8- The Medium is the Message&apos;,
+              in M.G. Durham and D. Kellner (eds) Media and cultural studies:
               keyworks. Rev. ed. Malden, MA: Blackwell (Keyworks in cultural
               studies, 2).
             </li>
             <li class="p-author">
               Osei-Hwere, E. and Osei-Hwere, P. (2023) ‘The Internet and Digital
-              Media’. Available at:{" "}
+              Media&apos;. Available at:
               https://oer.pressbooks.pub/mediacommunication/chapter/the-Internet-and-digital-media/
               (Accessed: 24 April 2024).
             </li>
             <li class="p-author">
-              O’Sullivan, J. and Grigar, D. (2019) ‘The Origins of Electronic
-              Literature as Net/Web Art’, in Brügger, N. and Milligan, I., The
-              SAGE Handbook of Web History. 1 Oliver’s Yard, 55 City Road London
-              EC1Y 1SP: SAGE Publications Ltd, pp. 428–440. Available at:{" "}
-              https://doi.org/10.4135/9781526470546.n29 .
+              O&apos;Sullivan, J. and Grigar, D. (2019) ‘The Origins of
+              Electronic Literature as Net/Web Art&apos;, in Brügger, N. and
+              Milligan, I., The SAGE Handbook of Web History. 1 Oliver&apos;s
+              Yard, 55 City Road London EC1Y 1SP: SAGE Publications Ltd, pp.
+              428-440. Available at: https://doi.org/10.4135/9781526470546.n29 .
             </li>
             <li class="p-author">
-              O’Toole, F. (2019) The New Museum Hits “Save” on Net Art,
-              Hyperallergic. Available at:{" "}
+              O&apos;Toole, F. (2019) The New Museum Hits “Save” on Net Art,
+              Hyperallergic. Available at:
               http://hyperallergic.com/485466/the-new-museum-hits-save-on-net-art/
               (Accessed: 24 April 2024).
             </li>
             <li class="p-author">
               Ricci, B. (2020) ‘Net Art and How The Internet Has Created A New
-              Medium’, Artland Magazine, 17 July. Available at:{" "}
+              Medium&apos;, Artland Magazine, 17 July. Available at:
               https://magazine.artland.com/agents-of-change-Internet-net-art-how-the-world-wide-web-has-affected-the-way-we-make-art/
               (Accessed: 24 April 2024).
             </li>
             <li class="p-author">
-              Stallabrass, J. (2003) ‘The Aesthetics of Net.art’, Qui Parle,
-              14(1), pp. 49–72. Available at:{" "}
+              Stallabrass, J. (2003) ‘The Aesthetics of Net.art&apos;, Qui
+              Parle, 14(1), pp. 49-72. Available at:
               https://doi.org/10.1215/quiparle.14.1.49 .
             </li>
           </ul>
@@ -503,7 +504,6 @@ const Theory = () => {
           </p>
 
           <p className="p-author ">
-            {" "}
             Reference: HV Digital. (n.d.). Mobile-First vs. Desktop-First:
             Finding the Right Approach. [online] Available at:
             https://www.hvdig.co.uk/web-agency/mobile-first-vs-desktop-first#what-is-mobile-first-design
@@ -526,8 +526,8 @@ const Theory = () => {
             webpage that has high-quality images and videos, the user waits 1-2
             seconds and if nothing loads they move on to the next web app. Thus
             it is imporant that I do research on what file size is acceptable so
-            that it does not negatively impact a user’s experience. Through my
-            research, I found that, for shorter videos like the one on my
+            that it does not negatively impact a user&apos;s experience. Through
+            my research, I found that, for shorter videos like the one on my
             homepage, the acceptable range is 2mb -2,5 mb. If my website was
             targeted mostly towards mobile users I would be inclined to have
             video file sizes under 2mb. But the general rule is to find the

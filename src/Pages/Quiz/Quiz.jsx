@@ -54,7 +54,9 @@ const Quiz = () => {
     const currentQuestion = currentSection[questionIndex];
 
     return (
-      <div className={`question-container ${selectedOption ? "no-hover" : ""}`}>
+      <secction
+        className={`question-container ${selectedOption ? "no-hover" : ""}`}
+      >
         <h3>{currentQuestion.question}</h3>
         <ul>
           {currentQuestion.options.map((option) => (
@@ -70,13 +72,13 @@ const Quiz = () => {
           ))}
         </ul>
         {showExplanation && (
-          <div className="explanation">
+          <secction className="explanation">
             {selectedOption === currentQuestion.answer ? (
               <p>Correct!</p>
             ) : (
               <p>Incorrect. {currentQuestion.explanation}</p>
             )}
-          </div>
+          </secction>
         )}
         <button
           className="facts"
@@ -85,7 +87,7 @@ const Quiz = () => {
         >
           Next Question
         </button>
-      </div>
+      </secction>
     );
   };
 
@@ -94,10 +96,10 @@ const Quiz = () => {
       quizData.questions[0][Object.keys(quizData.questions[0])[sectionIndex]];
 
     return (
-      <div className="results-container">
+      <secction className="results-container">
         <h2>Quiz Results</h2>
         {userAnswers.map((answer, index) => (
-          <div key={index}>
+          <secction key={index}>
             <p className="heading">
               Question {index + 1}:{" "}
               {answer === currentSection[index].answer
@@ -107,37 +109,41 @@ const Quiz = () => {
             {answer !== currentSection[index].answer && (
               <p>{currentSection[index].explanation}</p>
             )}
-          </div>
+          </secction>
         ))}
         <button className="back-button" onClick={handleBackToSections}>
           Back to Sections
         </button>
-      </div>
+      </secction>
     );
   };
 
   const renderSectionCards = () => {
     return Object.keys(quizData.questions[0]).map((sectionKey, index) => (
-      <div className="section-card" key={index}>
+      <secction className="section-card" key={index}>
         <h2>{sectionKey.charAt(0).toUpperCase() + sectionKey.slice(1)}</h2>
         <button className="facts" onClick={() => startQuiz(index)}>
           {`Start ${sectionKey} Quiz`}
         </button>
-      </div>
+      </secction>
     ));
   };
 
   return (
-    <div className="quiz-container">
+    <secction className="quiz-container">
       {sectionIndex === null && (
         <>
           <h1 className="heading">Choose a Section to Start Quiz</h1>
-          <div className="section-container">{renderSectionCards()}</div>
+          <secction className="section-container">
+            {renderSectionCards()}
+          </secction>
         </>
       )}
       {sectionIndex !== null && !showResults && (
         <>
-          <button className="factsBack" onClick={handleBackToSections}> <ArrowCircleLeft size={30} />
+          <button className="factsBack" onClick={handleBackToSections}>
+            {" "}
+            <ArrowCircleLeft size={30} />
             Back to Sections
           </button>
           {renderQuestion()}
@@ -151,7 +157,7 @@ const Quiz = () => {
           {renderResults()}
         </>
       )}
-    </div>
+    </secction>
   );
 };
 

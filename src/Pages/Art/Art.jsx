@@ -69,8 +69,8 @@ const Art = () => {
             The reference images show different ways of displaying plastic waste
             contributors, these range from info graphic to pie charts. Based on
             the lectures in class it is best to stay away from pie charts as
-            they aren’t always the most reliable and when done incorrectly it
-            keeps the user guessing the values of each segment. What sets my
+            they aren&apos;t always the most reliable and when done incorrectly
+            it keeps the user guessing the values of each segment. What sets my
             internet art aside from the infographic is that it will be on a
             website and it will be interactive. The user can hover and see data
             stats and filter regions based on continents. This may lead to some
