@@ -19,7 +19,7 @@ const Theory = () => {
             <h3 classname="thirdHeading">
               Critical Analysis Essay on Net/Web Art
             </h3>
-            <p className="blogDate">23 Dec 2016</p>
+            <p className="blogDate">20 April 2024</p>
           </summary>
           <p className="blurbParagraph ">
             This essay is a critical examination of the Net Art, “it&apos;s
