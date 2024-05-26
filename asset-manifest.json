@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ocean-react-spa/static/css/main.5ca98188.css",
-    "main.js": "/ocean-react-spa/static/js/main.c469248d.js",
+    "main.js": "/ocean-react-spa/static/js/main.0c3ae999.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
     "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
     "static/media/gray_whale.jpg": "/ocean-react-spa/static/media/gray_whale.e6fbfe131dcec077ada7.jpg",
@@ -15,6 +15,7 @@
     "static/media/prompt4.png": "/ocean-react-spa/static/media/prompt4.fab952579fb87b2802eb.png",
     "static/media/bottlenose_dolphin.jpg": "/ocean-react-spa/static/media/bottlenose_dolphin.b90d04079445cb5c181a.jpg",
     "static/media/southern_right_whale.jpg": "/ocean-react-spa/static/media/southern_right_whale.285256c59328e88dcf88.jpg",
+    "static/media/highest-polluters-shareable.jpg": "/ocean-react-spa/static/media/highest-polluters-shareable.6fbad76b7cb5ef191ac5.jpg",
     "static/media/prompt7.png": "/ocean-react-spa/static/media/prompt7.16524981d02f94ef53f1.png",
     "static/media/Userflow.png": "/ocean-react-spa/static/media/Userflow.8a618dcd80dcb9badae3.png",
     "static/media/long_finned_pilot_whale.jpg": "/ocean-react-spa/static/media/long_finned_pilot_whale.45d0214f3ad52cab28b1.jpg",
@@ -28,9 +29,11 @@
     "static/media/rock.png": "/ocean-react-spa/static/media/rock.465f8c3773659fa3d49a.png",
     "static/media/Referrence1.png": "/ocean-react-spa/static/media/Referrence1.cacda6fa97b7fdf0caaa.png",
     "static/media/prompt9.png": "/ocean-react-spa/static/media/prompt9.6df6c036126c6240b783.png",
+    "static/media/art example 2.jpg": "/ocean-react-spa/static/media/art example 2.979579eef3226ea7a40f.jpg",
     "static/media/PhoneHome2.png": "/ocean-react-spa/static/media/PhoneHome2.d5d4196036bb866c1c74.png",
     "static/media/Home.png": "/ocean-react-spa/static/media/Home.75dec4ff4997a37521b0.png",
     "static/media/strap_toothed_whale.jpg": "/ocean-react-spa/static/media/strap_toothed_whale.10f7cc5c96d7104a6324.jpg",
+    "static/media/art example.jpg": "/ocean-react-spa/static/media/art example.2389cced9fa46e43f464.jpg",
     "static/media/Referrence4.png": "/ocean-react-spa/static/media/Referrence4.8e030eec7b91d0cc52bb.png",
     "static/media/short_finned_pilot_whale.jpg": "/ocean-react-spa/static/media/short_finned_pilot_whale.83ac26ea423ca8e28fc4.jpg",
     "static/media/narwhal.jpg": "/ocean-react-spa/static/media/narwhal.7f95c2c688e2225779b5.jpg",
@@ -72,11 +75,11 @@
     "static/media/humpback_whale.jpg": "/ocean-react-spa/static/media/humpback_whale.3586eb53bfb5c6b8f457.jpg",
     "index.html": "/ocean-react-spa/index.html",
     "main.5ca98188.css.map": "/ocean-react-spa/static/css/main.5ca98188.css.map",
-    "main.c469248d.js.map": "/ocean-react-spa/static/js/main.c469248d.js.map",
+    "main.0c3ae999.js.map": "/ocean-react-spa/static/js/main.0c3ae999.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ca98188.css",
-    "static/js/main.c469248d.js"
+    "static/js/main.0c3ae999.js"
   ]
 }
