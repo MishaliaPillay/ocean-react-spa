@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  CircleMarker,
-  Popup,
-  GeoJSON,
-  Tooltip,
-} from "react-leaflet";
+import { MapContainer, TileLayer, CircleMarker, Popup, GeoJSON, Tooltip } from "react-leaflet";
 import data from "../../Data/DataArt.json";
 import continentsGeoJSON from "../../Data/Borders.json"; // Import the GeoJSON data
 
@@ -62,72 +55,30 @@ const Map = () => {
   };
 
   const getContinentStyle = (feature) => {
-    switch (
-      feature.properties.CONTINENT // Note: Use CONTINENT here
-    ) {
+    switch (feature.properties.CONTINENT) {  // Note: Use CONTINENT here
       case "Africa":
-        return {
-          color: "green",
-          fillColor: "lightgreen",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "green", fillColor: "lightgreen", fillOpacity: 0.5, weight: 1 };
       case "Asia":
-        return {
-          color: "blue",
-          fillColor: "lightblue",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "blue", fillColor: "lightblue", fillOpacity: 0.5, weight: 1 };
       case "Europe":
-        return {
-          color: "purple",
-          fillColor: "lavender",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "purple", fillColor: "lavender", fillOpacity: 0.5, weight: 1 };
       case "North America":
-        return {
-          color: "red",
-          fillColor: "lightcoral",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "red", fillColor: "lightcoral", fillOpacity: 0.5, weight: 1 };
       case "South America":
-        return {
-          color: "orange",
-          fillColor: "moccasin",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "orange", fillColor: "moccasin", fillOpacity: 0.5, weight: 1 };
       case "Australia":
-        return {
-          color: "yellow",
-          fillColor: "lightyellow",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "yellow", fillColor: "lightyellow", fillOpacity: 0.5, weight: 1 };
       case "Antarctica":
-        return {
-          color: "grey",
-          fillColor: "lightgrey",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "grey", fillColor: "lightgrey", fillOpacity: 0.5, weight: 1 };
       default:
-        return {
-          color: "black",
-          fillColor: "white",
-          fillOpacity: 0.5,
-          weight: 1,
-        };
+        return { color: "black", fillColor: "white", fillOpacity: 0.5, weight: 1 };
     }
   };
 
   const onEachContinent = (feature, layer) => {
     const continentName = feature.properties.CONTINENT;
     if (continentName) {
-      layer.bindTooltip(continentName, { permanent: false, direction: "auto" });
+      layer.bindTooltip(continentName, { permanent: false, direction: 'auto' });
     }
   };
 
@@ -164,11 +115,7 @@ const Map = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <GeoJSON
-          data={continentsGeoJSON}
-          style={getContinentStyle}
-          onEachFeature={onEachContinent}
-        />
+        <GeoJSON data={continentsGeoJSON} style={getContinentStyle} onEachFeature={onEachContinent} />
         {filteredData().map((entity, index) => (
           <CircleMarker
             key={index}
@@ -189,8 +136,12 @@ const Map = () => {
               Share of Global Plastics Emitted to Ocean:{" "}
               {entity["Share of global plastics emitted to ocean"]}%
             </Popup>
+            <Tooltip>
+              {entity.Entity}
+            </Tooltip>
           </CircleMarker>
         ))}
+        
       </MapContainer>
     </>
   );
