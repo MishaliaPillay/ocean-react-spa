@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { MapContainer, TileLayer, CircleMarker, Popup } from "react-leaflet";
-
+import { MapContainer, TileLayer, CircleMarker, Popup, GeoJSON } from "react-leaflet";
 import data from "../../Data/DataArt.json";
+import continentsGeoJSON from "../../Data/Borders.json"; // Import the GeoJSON data
 
 const Map = () => {
   const [filter, setFilter] = useState(""); // State for filter
@@ -51,6 +51,27 @@ const Map = () => {
     } else {
       // Show all data
       return data;
+    }
+  };
+
+  const getContinentStyle = (feature) => {
+    switch (feature.properties.CONTINENT) {  // Note: Use CONTINENT here
+      case "Africa":
+        return { color: "green", fillColor: "lightgreen", fillOpacity: 0.5, weight: 2 };
+      case "Asia":
+        return { color: "blue", fillColor: "lightblue", fillOpacity: 0.5, weight: 2 };
+      case "Europe":
+        return { color: "purple", fillColor: "lavender", fillOpacity: 0.5, weight: 2 };
+      case "North America":
+        return { color: "red", fillColor: "lightcoral", fillOpacity: 0.5, weight: 2 };
+      case "South America":
+        return { color: "orange", fillColor: "moccasin", fillOpacity: 0.5, weight: 2 };
+      case "Australia":
+        return { color: "yellow", fillColor: "lightyellow", fillOpacity: 0.5, weight: 2 };
+      case "Antarctica":
+        return { color: "grey", fillColor: "lightgrey", fillOpacity: 0.5, weight: 2 };
+      default:
+        return { color: "black", fillColor: "white", fillOpacity: 0.5, weight: 2 };
     }
   };
 
@@ -108,6 +129,7 @@ const Map = () => {
             </Popup>
           </CircleMarker>
         ))}
+        <GeoJSON data={continentsGeoJSON} style={getContinentStyle} />
       </MapContainer>
     </>
   );
