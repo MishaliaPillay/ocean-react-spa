@@ -1,5 +1,6 @@
 import React from "react";
 import "./Art.css";
+import Map from "./Map";
 const Art = () => {
   return (
     <>
@@ -104,6 +105,7 @@ const Art = () => {
           </figure>
         </article>
       </section>
+      <Map />
     </>
   );
 };
