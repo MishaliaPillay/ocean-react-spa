@@ -29,7 +29,7 @@ const CuteFish = () => {
                 <div className="imageContainer">
                   <img
                     className="CardImg"
-                    src={require(`../../../../Images/Sharks/${fish.image}`)}
+                    src={require(`../../../../Images/Fish/${fish.image}`)}
                     alt={fish.name}
                   />
                 </div>
