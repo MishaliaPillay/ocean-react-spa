@@ -38,6 +38,12 @@ const InfoCards = () => {
       image: whaleImage,
     },
     {
+      category: "fish",
+      title: "Cute Fish",
+      description: "9 Cutest Fish Species That Will Captivate Your Heart",
+      image: tipsImage,
+    },
+    {
       category: "tips",
       title: "Tips",
       description: "Get valuable tips and advice for outdoor adventures.",

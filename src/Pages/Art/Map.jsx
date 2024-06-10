@@ -18,7 +18,6 @@ const Map = () => {
   };
 
   const getMarkerColor = (entity) => {
-   
     const continents = [
       "Africa",
       "Asia",
@@ -29,29 +28,18 @@ const Map = () => {
       "Antarctica",
     ];
 
+    const share = entity["Share of global plastics emitted to ocean"];
+    const maxOpacity = 1;
+
     if (continents.includes(entity.Entity)) {
       // Continent marker
-      const share = entity["Share of global plastics emitted to ocean"];
-      // Define the maximum opacity value
-      const maxOpacity = 1; // Adjust this value as needed
+      let opacityContinent = share / 20; // Opacity between 0 and 1
+      opacityContinent = Math.min(opacityContinent, maxOpacity);
 
-      // Adjust opacity based on the share percentage
-      let opacityContient = share / 20; // Opacity between 0 and 1
-
-      // Cap opacityContient at the maximum value
-      opacityContient = Math.min(opacityContient, maxOpacity);
-
-      return `rgba(0, 255, 0,  ${opacityContient})`; // Green color with fixed opacity
+      return `rgba(0, 255, 0, ${opacityContinent})`; // Green color with fixed opacity
     } else {
       // Other marker
-      const share = entity["Share of global plastics emitted to ocean"];
-      // Define the maximum opacity value
-      const maxOpacity = 1; // Adjust this value as needed
-
-      // Adjust opacity based on the share percentage
       let opacity = share / 0.1; // Opacity between 0 and 1
-
-      // Cap opacity at the maximum value
       opacity = Math.min(opacity, maxOpacity);
 
       return `rgba(255, 0, 0, ${opacity})`; // Red color with varying opacity
