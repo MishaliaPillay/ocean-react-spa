@@ -13,12 +13,17 @@ const CuteFish = () => {
     <section>
       <article className="beginning">
         {" "}
-        <h1 className="cardTitle">Cute Fish</h1>
+        <h1 className="cardTitle">
+          9 Cutest Fish Species That Will Captivate Your Heart
+        </h1>
         <p className="introParagraph">
-          Welcome to our Sea Sharks page! Explore the fascinating world of these
-          apex predators. Learn about their species, behaviors, and importance
-          in marine ecosystems. Let's dive deep into the realm of cuteFish
-          together!
+          The ocean is a realm of wonders, teeming with a diverse array of
+          marine life, each with its unique charm and appeal. Among the many
+          fascinating creatures, some fish stand out for their undeniable
+          cuteness and endearing features. From their vibrant colors to their
+          quirky behaviors, these adorable and cutest fish species have captured
+          the hearts of marine enthusiasts, divers, and even non-aquarists
+          alike.
         </p>
       </article>
       <section className="blogPost">

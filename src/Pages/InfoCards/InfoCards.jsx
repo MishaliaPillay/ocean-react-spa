@@ -6,6 +6,7 @@ import turtleImage from "../../Images/Turtles/green_sea_turtle.jpg";
 import dolphinImage from "../../Images/Dolphins/bottlenose_dolphin.jpg";
 import whaleImage from "../../Images/Whales/beluga_whale.jpg";
 import tipsImage from "../../Images/Conservation/conservation.jpg";
+import fishImage from "../../Images/Fish/mandarinfish.jpg";
 
 const InfoCards = () => {
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ const InfoCards = () => {
       category: "fish",
       title: "Cute Fish",
       description: "9 Cutest Fish Species That Will Captivate Your Heart",
-      image: tipsImage,
+      image: fishImage,
     },
     {
       category: "tips",
