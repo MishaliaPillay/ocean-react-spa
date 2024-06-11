@@ -1,6 +1,7 @@
 :root {
   /* Light mode */
   --background: rgb(240, 248, 255);
+  --slide: rgb(10, 2, 97);
   --text: #131418;
   --link: rgb(7, 0, 79);
   --link-hover: #f2f5f7;
@@ -10,9 +11,10 @@
   --dropdown-text: #333;
 }
 .darkTheme {
+  --slide: rgb(240, 248, 255);
   --background: rgb(10, 2, 97);
   --text: #f2f5f7;
-  --link:  rgb(240, 248, 255);
+  --link: rgb(240, 248, 255);
   --link-hover: rgb(0, 136, 255);
   --button-bg: transparent;
   --button-border: #f2f5f7;
@@ -65,17 +67,17 @@ nav {
   align-items: center;
   text-transform: uppercase;
 }
-.nav-links li button {
+.nav-links li button {color: var(--link);
   text-decoration: none;
   margin: 0 0.7vw;
 }
 .nav-links li button:hover {
-  color: var(--link);
+  color: var(--background);
 }
 .nav-links li {
   position: relative;
 }
-button { color: var(--link);
+button {
   z-index: 10;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -93,7 +95,8 @@ button { color: var(--link);
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
 }
-.nav-links li button:hover::before { color: var(--link);
+.nav-links li button:hover::before {
+  color: var(--link);
   width: 80%;
 }
 
@@ -142,12 +145,26 @@ button { color: var(--link);
 }
 
 /* Styling for small screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {.hamburger div {
+  
+  background: var(--slide);
+ 
+}
+  button {
+    color:var(--background);
+    z-index: 10;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+  }
   nav {
     position: fixed;
     z-index: 3;
   }
   .hamburger {
+  
     border: none;
     display: block;
     position: absolute;
@@ -164,7 +181,7 @@ button { color: var(--link);
 
   .nav-links {
     position: fixed;
-    background: aliceblue;
+    background-color: var(--background);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -225,11 +242,11 @@ button { color: var(--link);
   transform: rotate(45deg) translate(-5px, -6px);
 }
 .nav-links li button.active {
-  color: var(--link); /* Or any color you want for the active link */
+  color: var(--link);
 }
 
 .nav-links li button.active::before {
-  color: var(--link);
+  color: var(--background);
   width: 100%;
 }
 .dropdown {
