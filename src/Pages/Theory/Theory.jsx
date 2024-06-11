@@ -5,8 +5,15 @@ import "./Theory.css"; // Ensure you have the CSS file imported
 const Theory = () => {
   return (
     <>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#077fe8"
+          fillOpacity="1"
+          d="M0,96L40,117.3C80,139,160,181,240,170.7C320,160,400,96,480,64C560,32,640,32,720,74.7C800,117,880,203,960,202.7C1040,203,1120,117,1200,101.3C1280,85,1360,139,1400,165.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
       <section className="introParagraph ">
-        <h3 classname="thirdHeading">Theory Section</h3>
+        <h3 className="thirdHeading">Theory Section</h3>
         <article className="blogContent">
           <p className="blurbParagraph ">
             Here we showcase essays and independant research.
@@ -16,7 +23,7 @@ const Theory = () => {
       <section className="blogPost">
         <article className="blogContent">
           <summary>
-            <h3 classname="thirdHeading">
+            <h3 className="thirdHeading">
               Critical Analysis Essay on Net/Web Art
             </h3>
             <p className="blogDate">20 April 2024</p>
@@ -34,7 +41,7 @@ const Theory = () => {
             “It&apos;s doing It”, is a relevant and effective example of Net Art
             that can inspire and inform the designers of today.
           </p>
-          <h2 classname="secondHeading">What is Net Art?</h2>
+          <h2 className="secondHeading">What is Net Art?</h2>
           <p className="blurbParagraph ">
             For one to understand Net Art one needs to break the bounds of what
             media forms art can be created in (Ricci, 2020). Conventionally art
@@ -62,7 +69,7 @@ const Theory = () => {
             code the artist has no control over the resulting artwork, thus
             unique and interesting visuals arise.
           </p>
-          <h2 classname="secondHeading">
+          <h2 className="secondHeading">
             Explain “it&apos;s doing It” and its relevance for designers.
           </h2>
           <p className="blurbParagraph ">
@@ -192,7 +199,7 @@ const Theory = () => {
             relevant to designers as well as users as it informs both groups of
             the somewhat randomized results that these algorithms give.
           </p>
-          <h2 classname="secondHeading">
+          <h2 className="secondHeading">
             How does the choice of medium affect the message?
           </h2>
           <p className="blurbParagraph ">
@@ -225,7 +232,7 @@ const Theory = () => {
               Figure 10 Drop down menu
             </figcaption>
           </figure>
-          <h2 classname="secondHeading">
+          <h2 className="secondHeading">
             What role does the Internet play as a medium?
           </h2>
           <p className="blurbParagraph ">
@@ -253,7 +260,7 @@ const Theory = () => {
             reap the benefits of learning from the content of what these artists
             have created.
           </p>
-          <h2 classname="secondHeading">
+          <h2 className="secondHeading">
             Explain the Intermediality of the Internet.
           </h2>
           <p className="blurbParagraph ">
@@ -300,7 +307,7 @@ const Theory = () => {
               </figcaption>
             </figure>
           </article>
-          <h2 classname="secondHeading">What is material modality?</h2>
+          <h2 className="secondHeading">What is material modality?</h2>
           <p className="blurbParagraph ">
             This modality looks at the physical aspects that the user/ audience
             has to engage with to access the work (Bruhn and Schirrmacher, 2022,
@@ -311,7 +318,7 @@ const Theory = () => {
             advantage as it increases accessibility, users with devices can gain
             access anywhere.
           </p>
-          <h2 classname="secondHeading">What is the Sensorial modality?</h2>
+          <h2 className="secondHeading">What is the Sensorial modality?</h2>
           <p className="blurbParagraph ">
             Interactions are sensory experiences, to interact with the screen
             the visual sense is engaged and to use the mouse the tactile sense
@@ -325,7 +332,7 @@ const Theory = () => {
             can open a link to “it's doing it” and be able to say that they are
             interacting with the original.
           </p>
-          <h2 classname="secondHeading">
+          <h2 className="secondHeading">
             What is the Spatiotemporal modality?
           </h2>
           <p className="blurbParagraph ">
@@ -342,7 +349,7 @@ const Theory = () => {
             only made possible by semiotics as they help encode the meaning of
             space and time in this Net Art.
           </p>
-          <h2 classname="secondHeading">What is the Semiotic modality?</h2>
+          <h2 className="secondHeading">What is the Semiotic modality?</h2>
           <p className="blurbParagraph ">
             The Net Art is made up of text and images, these media are signs
             that evoke certain responses from users based on convenience (Bruhn
@@ -359,7 +366,7 @@ const Theory = () => {
             and content. This helps designers understand how the computer
             interprets these non-technical word choices.
           </p>
-          <h2 classname="secondHeading">Conclusion</h2>
+          <h2 className="secondHeading">Conclusion</h2>
           <p className="blurbParagraph  ">
             After analyzing the Internet as a medium it is determined that this
             was an effective choice for displaying and creating the Net Art,
@@ -374,93 +381,93 @@ const Theory = () => {
             of checking their code, by displaying it visually, to prevent error
             in misrepresentation.
           </p>
-          <h2 classname="secondHeading">Bibliography:</h2>
+          <h2 className="secondHeading">Bibliography:</h2>
           <ul className="referrences">
-            <li class="p-author">
+            <li className="p-author">
               Bruhn, J. and Schirrmacher, B. (eds) (2022) Intermedial Studies:
               An Introduction to Meaning Across Media. Taylor & Francis.
               Available at: https://doi.org/10.4324/9781003174288 (Accessed: 25
               April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Carrier, D. (2020) The Work of Art in the Age of the Internet,
               Hyperallergic. Available at:
               http://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-Internet/
               (Accessed: 23 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Chatel, M. (2019a) ‘Net Art, Post-Internet Art, New Aesthetics:
               The Fundamentals of Art on the Internet&apos;, DANAE.IO, 2
               December. Available at:
               https://medium.com/danae/net-art-post-Internet-art-new-aesthetics-the-fundamentals-of-art-on-the-Internet-55dcbd9d6a5
               (Accessed: 23 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Chatel, M. (2019b) ‘What is Digital Art? Definition and Scope of
               the New Media&apos;, DANAE.IO, 2 December. Available at:
               https://medium.com/danae/what-is-digital-art-definition-and-scope-of-the-new-media-f645058cfd78
               (Accessed: 23 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               David, M.S. and Mariswamy, Dr.H.K. (2014) ‘Internet as a Medium of
               Communication in Modern Society&apos;, Communication Today, 31
               March. Available at:
               https://communicationtoday.net/2014/03/31/Internet-as-a-medium-of-communication-in-modern-society/
               (Accessed: 25 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Durham, M.G. and Kellner, D. (eds) (2006) Media and cultural
               studies: keyworks. Rev. ed. Malden, MA: Blackwell (Keyworks in
               cultural studies, 2).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Hyperallergic (2015) Best of 2015: Our Top 10 Works of Internet
               Art, Hyperallergic. Available at:
               http://hyperallergic.com/263538/best-of-2015-our-top-10-works-of-Internet-art/
               (Accessed: 24 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               It&apos;s doing it! (2015-2016). Available at:
               https://www.itsdoing.it/#date=01_24_2016 (Accessed: 25 April
               2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Mailloux, S. (1983) ‘Convention and Context&apos;, New Literary
               History, 14(2), p. 399. Available at:
               https://doi.org/10.2307/468693 .
             </li>
-            <li class="p-author">
+            <li className="p-author">
               McLuhan, M. (2006) ‘Chapter - 8- The Medium is the Message&apos;,
               in M.G. Durham and D. Kellner (eds) Media and cultural studies:
               keyworks. Rev. ed. Malden, MA: Blackwell (Keyworks in cultural
               studies, 2).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Osei-Hwere, E. and Osei-Hwere, P. (2023) ‘The Internet and Digital
               Media&apos;. Available at:
               https://oer.pressbooks.pub/mediacommunication/chapter/the-Internet-and-digital-media/
               (Accessed: 24 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               O&apos;Sullivan, J. and Grigar, D. (2019) ‘The Origins of
               Electronic Literature as Net/Web Art&apos;, in Brügger, N. and
               Milligan, I., The SAGE Handbook of Web History. 1 Oliver&apos;s
               Yard, 55 City Road London EC1Y 1SP: SAGE Publications Ltd, pp.
               428-440. Available at: https://doi.org/10.4135/9781526470546.n29 .
             </li>
-            <li class="p-author">
+            <li className="p-author">
               O&apos;Toole, F. (2019) The New Museum Hits “Save” on Net Art,
               Hyperallergic. Available at:
               http://hyperallergic.com/485466/the-new-museum-hits-save-on-net-art/
               (Accessed: 24 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Ricci, B. (2020) ‘Net Art and How The Internet Has Created A New
               Medium&apos;, Artland Magazine, 17 July. Available at:
               https://magazine.artland.com/agents-of-change-Internet-net-art-how-the-world-wide-web-has-affected-the-way-we-make-art/
               (Accessed: 24 April 2024).
             </li>
-            <li class="p-author">
+            <li className="p-author">
               Stallabrass, J. (2003) ‘The Aesthetics of Net.art&apos;, Qui
               Parle, 14(1), pp. 49-72. Available at:
               https://doi.org/10.1215/quiparle.14.1.49 .
@@ -471,7 +478,7 @@ const Theory = () => {
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
-            <h3 classname="thirdHeading">Mobile first vs Web First Design</h3>
+            <h3 className="thirdHeading">Mobile first vs Web First Design</h3>
             <p className="blogDate">10 May 2024</p>
           </summary>
 
@@ -502,7 +509,7 @@ const Theory = () => {
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
-            <h3 classname="thirdHeading">Acceptable file size for video </h3>
+            <h3 className="thirdHeading">Acceptable file size for video </h3>
             <p className="blogDate">21 May 2021</p>
           </summary>
 

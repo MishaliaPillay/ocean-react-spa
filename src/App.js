@@ -16,6 +16,8 @@ import "./App.css"; // Import the CSS file
 import Footer from "./Components/Footer/Footer";
 import PollutionStats from "./Pages/Home/PollutionStats";
 import CuteFish from "./Pages/InfoCards/PagesInfoCards/CuteFish/CuteFish";
+import ThemeProvider from "./Context/ThemeContext";
+
 
 const App = () => {
   const pages = [
@@ -27,29 +29,31 @@ const App = () => {
   ];
 
   return (
-    <main className="app">
-      <BrowserRouter>
-        <Navbar pages={pages} />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/art" element={<Art />} />
-          <Route path="/design" element={<Design />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/theory" element={<Theory />} />
-          <Route path="/seaturtle" element={<SeaTurtle />} />
-          <Route path="/sharks" element={<Sharks />} />
-          <Route path="/whales" element={<Whales />} />
-          <Route path="/dolphins" element={<Dolphins />} />
-          <Route path="/tips" element={<Tips />} />
-          <Route path="/infocards" element={<InfoCards />} />
-          <Route path="/pollutionstats" element={<PollutionStats />} />
-          <Route path="/fish" element={<CuteFish />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </main>
+    <ThemeProvider>
+      <main className="app">
+        <BrowserRouter>
+          <Navbar pages={pages} />
+        
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/art" element={<Art />} />
+            <Route path="/design" element={<Design />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/theory" element={<Theory />} />
+            <Route path="/seaturtle" element={<SeaTurtle />} />
+            <Route path="/sharks" element={<Sharks />} />
+            <Route path="/whales" element={<Whales />} />
+            <Route path="/dolphins" element={<Dolphins />} />
+            <Route path="/tips" element={<Tips />} />
+            <Route path="/infocards" element={<InfoCards />} />
+            <Route path="/pollutionstats" element={<PollutionStats />} />
+            <Route path="/fish" element={<CuteFish />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </main>
+    </ThemeProvider>
   );
 };
 

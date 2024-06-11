@@ -1,3 +1,20 @@
+:root {
+  --dark-blue: #32325d;
+  --gray: #f8f8f8;
+  --background-color: #fff;
+  --card-background-color: #fff;
+  --card-title-color: #32325d;
+  --box-shadow-color: rgba(0, 0, 0, 0.25);
+}
+
+.darkTheme {
+  --dark-blue: #dcdcdc;
+  --gray: #1c1c1c;
+  --background-color: #2e2e2e;
+  --card-background-color: #444;
+  --card-title-color: #dcdcdc;
+  --box-shadow-color: rgba(255, 255, 255, 0.1);
+}
 /* Colors */
 :root {
   --dark-blue: #32325d;
@@ -19,7 +36,6 @@ html {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
-
   display: flex;
   flex-wrap: wrap;
   padding-right: 40px;
@@ -49,10 +65,10 @@ html {
 .card-item {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--card-background-color);
   width: 100%;
   border-radius: 6px;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px var(--box-shadow-color);
   overflow: hidden;
   transition: transform 0.5s;
 }

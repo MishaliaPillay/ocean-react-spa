@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import whale from "./whale.png";
 import { CaretCircleDown } from "@phosphor-icons/react";
+import ThemeSet from "../../Context/ThemeSet";
 const Navbar = ({ pages }) => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -96,6 +97,7 @@ const Navbar = ({ pages }) => {
             </li>
           </ul>
         </li>
+        <ThemeSet />
       </ul>
     </nav>
   );

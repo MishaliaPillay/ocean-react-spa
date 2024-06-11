@@ -4,8 +4,15 @@ import Map from "./Map";
 const Art = () => {
   return (
     <>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#077fe8"
+          fillOpacity="1"
+          d="M0,96L40,117.3C80,139,160,181,240,170.7C320,160,400,96,480,64C560,32,640,32,720,74.7C800,117,880,203,960,202.7C1040,203,1120,117,1200,101.3C1280,85,1360,139,1400,165.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
       <section className="introParagraph ">
-        <h3 classname="thirdHeading">Internet Art</h3>
+        <h3 className="thirdHeading">Internet Art</h3>
         <article className="blogContent">
           <p className="blurbParagraph ">
             Welcome to my exploration of art in the digital age! This space is
@@ -18,9 +25,9 @@ const Art = () => {
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
-            <h3 classname="thirdHeading">Preparatory Work for Internet Art </h3>
+            <h3 className="thirdHeading">Preparatory Work for Internet Art </h3>
           </summary>
-          <h2 classname="secondHeading">Description</h2>
+          <h2 className="secondHeading">Description</h2>
           <p className="blurbParagraph ">
             The internet art that will be made for this website site is like
             Heatmap 2.0. This will use data that is about how much plastic waste
@@ -29,7 +36,7 @@ const Art = () => {
             the data a lot better as the user can immediately situate stats to a
             specific region.
           </p>
-          <h2 classname="secondHeading">Further Information</h2>
+          <h2 className="secondHeading">Further Information</h2>
           <p className="blurbParagraph ">
             This dataset is from a website called Kaggle and they make datasets
             for machine learning enthusiasts. They do this because they
@@ -43,7 +50,7 @@ const Art = () => {
             practicing ways to conserve the ocean as in the article on this
             website.
           </p>
-          <h2 classname="secondHeading">Technical constraints</h2>
+          <h2 className="secondHeading">Technical constraints</h2>
           <p className="blurbParagraph ">
             The data format is in a CSV format. There are two ways to overcome
             this, the first is to use libraries like “papaparse” which converts
@@ -65,7 +72,7 @@ const Art = () => {
             displays information when a user clicks on a marker or another map
             element.
           </p>
-          <h2 classname="secondHeading">References Discussion</h2>
+          <h2 className="secondHeading">References Discussion</h2>
           <p className="blurbParagraph ">
             The reference images show different ways of displaying plastic waste
             contributors, these range from info graphic to pie charts. Based on
