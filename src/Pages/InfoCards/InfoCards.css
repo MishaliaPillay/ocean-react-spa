@@ -11,7 +11,7 @@
   --dark-blue: #dcdcdc;
   --gray: #1c1c1c;
   --background-color: #2e2e2e;
-  --card-background-color: #444;
+  --card-background-color: #131313;
   --card-title-color: #dcdcdc;
   --box-shadow-color: rgba(255, 255, 255, 0.1);
 }
@@ -61,7 +61,9 @@ html {
     width: 100%; /* Set width to 100% for screens under 40rem */
   }
 }
-
+.card-intro{
+  color: var(--card-title-color);
+}
 .card-item {
   display: flex;
   flex-direction: column;
@@ -88,7 +90,7 @@ html {
 .card-title {
   font-size: 25px;
   line-height: 1.1em;
-  color: var(--dark-blue);
+  color: var(--card-title-color);
   margin-bottom: 0.2em;
 }
 
