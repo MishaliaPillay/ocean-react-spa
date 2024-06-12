@@ -17,8 +17,39 @@ import continentsData from "../../Data/Contients.json";
 import continentsGeoJSON from "../../Data/Borders.json"; // Import the GeoJSON data
 import trashIconUrl from "../../Images/Conservation/trash.png"; // Import your trash icon
 
+import bottleIconUrl from "../../Images/Conservation/bottle.png";
+import capsIconUrl from "../../Images/Conservation/bottle cap.png";
+import budsIconUrl from "../../Images/Conservation/cigarette.png";
+import candyIconUrl from "../../Images/Conservation/wrapper.jpeg";
+import strawIconUrl from "../../Images/Conservation/straw.png";
+
 const trashIcon = new Icon({
   iconUrl: trashIconUrl,
+  iconSize: [20, 20],
+});
+
+const bottleIcon = new Icon({
+  iconUrl: bottleIconUrl,
+  iconSize: [20, 20],
+});
+
+const capsIcon = new Icon({
+  iconUrl: capsIconUrl,
+  iconSize: [20, 20],
+});
+
+const budsIcon = new Icon({
+  iconUrl: budsIconUrl,
+  iconSize: [20, 20],
+});
+
+const candyIcon = new Icon({
+  iconUrl: candyIconUrl,
+  iconSize: [20, 20],
+});
+
+const strawIcon = new Icon({
+  iconUrl: strawIconUrl,
   iconSize: [20, 20],
 });
 
@@ -220,6 +251,101 @@ const Map = () => {
                   key={index}
                   position={[entity.Latitude, entity.Longitude]}
                   icon={trashIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Bottle Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={bottleIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Caps Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={capsIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Buds Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={budsIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Candy Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={candyIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Straw Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={strawIcon}
                 >
                   <Popup>
                     {entity.Entity}
