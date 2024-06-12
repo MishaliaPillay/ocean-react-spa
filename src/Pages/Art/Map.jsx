@@ -3,13 +3,24 @@ import {
   MapContainer,
   TileLayer,
   CircleMarker,
+  Marker,
   Popup,
   GeoJSON,
   Tooltip,
+  LayersControl,
+  LayerGroup,
 } from "react-leaflet";
+import { Icon } from "leaflet"; // Import Icon from leaflet
+
 import countriesData from "../../Data/DataArt.json";
 import continentsData from "../../Data/Contients.json";
 import continentsGeoJSON from "../../Data/Borders.json"; // Import the GeoJSON data
+import trashIconUrl from "../../Images/Conservation/trash.png"; // Import your trash icon
+
+const trashIcon = new Icon({
+  iconUrl: trashIconUrl,
+  iconSize: [20, 20],
+});
 
 const Map = () => {
   const [filter, setFilter] = useState(""); // State for filter
@@ -23,29 +34,22 @@ const Map = () => {
     const maxOpacity = 1;
 
     if (type === "continent") {
-      // Continent marker
       let opacityContinent = share / 20; // Opacity between 0 and 1
       opacityContinent = Math.min(opacityContinent, maxOpacity);
-
       return `rgba(0, 255, 0, ${opacityContinent})`; // Green color with fixed opacity
     } else {
-      // Country marker
       let opacity = share / 0.1; // Opacity between 0 and 1
       opacity = Math.min(opacity, maxOpacity);
-
       return `rgba(255, 0, 0, ${opacity})`; // Red color with varying opacity
     }
   };
 
-  const filteredData = () => {
+  const filteredData = (filter) => {
     if (filter === "countries") {
-      // Show only country data
       return { countries: countriesData, continents: [] };
     } else if (filter === "continents") {
-      // Show only continent data
       return { countries: [], continents: continentsData };
     } else {
-      // Show all data
       return { countries: countriesData, continents: continentsData };
     }
   };
@@ -118,7 +122,7 @@ const Map = () => {
     }
   };
 
-  const { countries, continents } = filteredData();
+  const { countries, continents } = filteredData(filter);
 
   return (
     <>
@@ -153,47 +157,87 @@ const Map = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <LayersControl position="topright">
+          <LayersControl.Overlay name="Heatmap Markers" checked>
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <CircleMarker
+                  key={index}
+                  center={[entity.Latitude, entity.Longitude]}
+                  radius={6}
+                  fillColor={getMarkerColor(entity, "country")}
+                  fillOpacity={0.7}
+                  weight={1}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </CircleMarker>
+              ))}
+              {continents.map((entity, index) => (
+                <CircleMarker
+                  key={index}
+                  center={[entity.Latitude, entity.Longitude]}
+                  radius={6}
+                  fillColor={getMarkerColor(entity, "continent")}
+                  fillOpacity={0.7}
+                  weight={1}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </CircleMarker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+          <LayersControl.Overlay name="Trash Icon Markers">
+            <LayerGroup>
+              {countries.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={trashIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+              {continents.map((entity, index) => (
+                <Marker
+                  key={index}
+                  position={[entity.Latitude, entity.Longitude]}
+                  icon={trashIcon}
+                >
+                  <Popup>
+                    {entity.Entity}
+                    <br />
+                    Share of Global Plastics Emitted to Ocean:{" "}
+                    {entity["Share of global plastics emitted to ocean"]}%
+                  </Popup>
+                  <Tooltip>{entity.Entity}</Tooltip>
+                </Marker>
+              ))}
+            </LayerGroup>
+          </LayersControl.Overlay>
+        </LayersControl>
         <GeoJSON
           data={continentsGeoJSON}
           style={getContinentStyle}
           onEachFeature={onEachContinent}
         />
-        {countries.map((entity, index) => (
-          <CircleMarker
-            key={index}
-            center={[entity.Latitude, entity.Longitude]}
-            radius={6}
-            fillColor={getMarkerColor(entity, "country")}
-            fillOpacity={0.7}
-            weight={1}
-          >
-            <Popup>
-              {entity.Entity}
-              <br />
-              Share of Global Plastics Emitted to Ocean:{" "}
-              {entity["Share of global plastics emitted to ocean"]}%
-            </Popup>
-            <Tooltip>{entity.Entity}</Tooltip>
-          </CircleMarker>
-        ))}
-        {continents.map((entity, index) => (
-          <CircleMarker
-            key={index}
-            center={[entity.Latitude, entity.Longitude]}
-            radius={6}
-            fillColor={getMarkerColor(entity, "continent")}
-            fillOpacity={0.7}
-            weight={1}
-          >
-            <Popup>
-              {entity.Entity}
-              <br />
-              Share of Global Plastics Emitted to Ocean:{" "}
-              {entity["Share of global plastics emitted to ocean"]}%
-            </Popup>
-            <Tooltip>{entity.Entity}</Tooltip>
-          </CircleMarker>
-        ))}
       </MapContainer>
     </>
   );

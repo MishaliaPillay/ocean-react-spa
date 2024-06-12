@@ -6,6 +6,7 @@ import InfoCards from "../InfoCards/InfoCards";
 import { ArrowDown } from "@phosphor-icons/react";
 import PollutionStats from "./PollutionStats";
 import OceanFacts from "./OceanFacts";
+
 const Home = () => {
   return (
     <section className="home">
@@ -115,6 +116,7 @@ const Home = () => {
         <h2 className="headings">Random Ocean Facts</h2>
         <OceanFacts />
       </section>
+    
     </section>
   );
 };

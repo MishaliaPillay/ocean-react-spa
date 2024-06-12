@@ -10,7 +10,15 @@
   width: 80px; /* Adjusted width */
 }
 
-label {
+
+
+.toggle-switch { 
+  margin-top: 10px;
+  position: relative;
+  width: 80px; /* Adjusted width */
+}
+
+.toggle-switch-label { /* Added */
   position: absolute;
   width: 100%;
   height: 40px; /* Adjusted height */
@@ -19,7 +27,7 @@ label {
   cursor: pointer;
 }
 
-input {
+.toggle-switch-input { /* Added */
   display: none;
 }
 
@@ -31,7 +39,7 @@ input {
   transition: 0.3s;
 }
 
-input:checked ~ .slider {
+.toggle-switch-input:checked ~ .slider { /* Updated selector */
   background-color: var(--light);
 }
 
@@ -48,7 +56,7 @@ input:checked ~ .slider {
   transition: 0.3s;
 }
 
-input:checked ~ .slider::before {
+.toggle-switch-input:checked ~ .slider::before { /* Updated selector */
   transform: translateX(40px); /* Adjusted translation */
   background-color: var(--dark);
   box-shadow: none;

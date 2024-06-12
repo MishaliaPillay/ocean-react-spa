@@ -7,11 +7,12 @@ const ThemeSet = () => {
 
   return (
     <article className="toggle-switch">
-      <label>
-        <input
+      <label className="toggle-switch-label"> {/* Added class name */}
+        <input 
           type="checkbox"
           onChange={toggleTheme}
           checked={themeMode === "lightTheme"}
+          className="toggle-switch-input"
         />
         <span className="slider"></span>
       </label>
