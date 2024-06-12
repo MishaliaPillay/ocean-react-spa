@@ -7,7 +7,8 @@ import {
   GeoJSON,
   Tooltip,
 } from "react-leaflet";
-import data from "../../Data/DataArt.json";
+import countriesData from "../../Data/DataArt.json";
+import continentsData from "../../Data/Contients.json";
 import continentsGeoJSON from "../../Data/Borders.json"; // Import the GeoJSON data
 
 const Map = () => {
@@ -17,28 +18,18 @@ const Map = () => {
     setFilter(value);
   };
 
-  const getMarkerColor = (entity) => {
-    const continents = [
-      "Africa",
-      "Asia",
-      "Europe",
-      "North America",
-      "South America",
-      "Australia",
-      "Antarctica",
-    ];
-
+  const getMarkerColor = (entity, type) => {
     const share = entity["Share of global plastics emitted to ocean"];
     const maxOpacity = 1;
 
-    if (continents.includes(entity.Entity)) {
+    if (type === "continent") {
       // Continent marker
       let opacityContinent = share / 20; // Opacity between 0 and 1
       opacityContinent = Math.min(opacityContinent, maxOpacity);
 
       return `rgba(0, 255, 0, ${opacityContinent})`; // Green color with fixed opacity
     } else {
-      // Other marker
+      // Country marker
       let opacity = share / 0.1; // Opacity between 0 and 1
       opacity = Math.min(opacity, maxOpacity);
 
@@ -48,35 +39,14 @@ const Map = () => {
 
   const filteredData = () => {
     if (filter === "countries") {
-      // Filter data for countries excluding the 7 continents
-      return data.filter(
-        (entity) =>
-          ![
-            "Africa",
-            "Asia",
-            "Europe",
-            "North America",
-            "South America",
-            "Australia",
-            "Antarctica",
-          ].includes(entity.Entity)
-      );
+      // Show only country data
+      return { countries: countriesData, continents: [] };
     } else if (filter === "continents") {
-      // Filter data for only the 7 continents
-      return data.filter((entity) =>
-        [
-          "Africa",
-          "Asia",
-          "Europe",
-          "North America",
-          "South America",
-          "Australia",
-          "Antarctica",
-        ].includes(entity.Entity)
-      );
+      // Show only continent data
+      return { countries: [], continents: continentsData };
     } else {
       // Show all data
-      return data;
+      return { countries: countriesData, continents: continentsData };
     }
   };
 
@@ -148,6 +118,8 @@ const Map = () => {
     }
   };
 
+  const { countries, continents } = filteredData();
+
   return (
     <>
       <section>
@@ -186,12 +158,30 @@ const Map = () => {
           style={getContinentStyle}
           onEachFeature={onEachContinent}
         />
-        {filteredData().map((entity, index) => (
+        {countries.map((entity, index) => (
           <CircleMarker
             key={index}
             center={[entity.Latitude, entity.Longitude]}
             radius={6}
-            fillColor={getMarkerColor(entity)}
+            fillColor={getMarkerColor(entity, "country")}
+            fillOpacity={0.7}
+            weight={1}
+          >
+            <Popup>
+              {entity.Entity}
+              <br />
+              Share of Global Plastics Emitted to Ocean:{" "}
+              {entity["Share of global plastics emitted to ocean"]}%
+            </Popup>
+            <Tooltip>{entity.Entity}</Tooltip>
+          </CircleMarker>
+        ))}
+        {continents.map((entity, index) => (
+          <CircleMarker
+            key={index}
+            center={[entity.Latitude, entity.Longitude]}
+            radius={6}
+            fillColor={getMarkerColor(entity, "continent")}
             fillOpacity={0.7}
             weight={1}
           >

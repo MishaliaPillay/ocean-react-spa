@@ -1,0 +1,52 @@
+[
+  {
+    "Entity": "Africa",
+    "Code": "",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 7.98931654,
+    "Latitude": 1.6508,
+    "Longitude": 17.6874
+  },
+  {
+    "Entity": "Asia",
+    "Code": "",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 80.99356991,
+    "Latitude": 34.0479,
+    "Longitude": 100.6197
+  },
+  {
+    "Entity": "Australia",
+    "Code": "AUS",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 0.003267113,
+    "Latitude": -25.274398,
+    "Longitude": 133.775136
+  },
+  {
+    "Entity": "Europe",
+    "Code": "",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 0.595431351,
+    "Latitude": 54,
+    "Longitude": 25
+  },
+
+  {
+    "Entity": "North America",
+    "Code": "",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 4.499120942,
+    "Latitude": 45,
+    "Longitude": -100
+  },
+
+  {
+    "Entity": "South America",
+    "Code": "",
+    "Year": 2019,
+    "Share of global plastics emitted to ocean": 5.513253248,
+    "Latitude": -15,
+    "Longitude": -60
+  }
+]
