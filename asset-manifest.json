@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ocean-react-spa/static/css/main.5e3ba4ab.css",
-    "main.js": "/ocean-react-spa/static/js/main.c753cc1e.js",
+    "main.css": "/ocean-react-spa/static/css/main.47675c8d.css",
+    "main.js": "/ocean-react-spa/static/js/main.cbb92172.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
     "static/media/orca.jpg": "/ocean-react-spa/static/media/orca.eea9aff7446c0d48ee66.jpg",
     "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
@@ -23,6 +23,7 @@
     "static/media/bluntnose_sixgill_shark.jpg": "/ocean-react-spa/static/media/bluntnose_sixgill_shark.91fd14695d73e8c94452.jpg",
     "static/media/long_beaked_common_dolphin.jpg": "/ocean-react-spa/static/media/long_beaked_common_dolphin.e98049ff9ef2dd85383a.jpg",
     "static/media/humpback_whale.jpg": "/ocean-react-spa/static/media/humpback_whale.fc5fe19ed5bc517f8329.jpg",
+    "static/media/trash.png": "/ocean-react-spa/static/media/trash.0c868d14fdc5d88f0b7f.png",
     "static/media/Userflow.png": "/ocean-react-spa/static/media/Userflow.8a618dcd80dcb9badae3.png",
     "static/media/long_finned_pilot_whale.jpg": "/ocean-react-spa/static/media/long_finned_pilot_whale.45d0214f3ad52cab28b1.jpg",
     "static/media/Home2.png": "/ocean-react-spa/static/media/Home2.791b2f3cf02251e98403.png",
@@ -90,12 +91,12 @@
     "static/media/clownfish.jpg": "/ocean-react-spa/static/media/clownfish.7a7832e391402efccc3a.jpg",
     "static/media/north_pacific_right_whale.jpg": "/ocean-react-spa/static/media/north_pacific_right_whale.3adf2b8d96c1f676ea84.jpg",
     "index.html": "/ocean-react-spa/index.html",
-    "main.5e3ba4ab.css.map": "/ocean-react-spa/static/css/main.5e3ba4ab.css.map",
-    "main.c753cc1e.js.map": "/ocean-react-spa/static/js/main.c753cc1e.js.map",
+    "main.47675c8d.css.map": "/ocean-react-spa/static/css/main.47675c8d.css.map",
+    "main.cbb92172.js.map": "/ocean-react-spa/static/js/main.cbb92172.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e3ba4ab.css",
-    "static/js/main.c753cc1e.js"
+    "static/css/main.47675c8d.css",
+    "static/js/main.cbb92172.js"
   ]
 }
