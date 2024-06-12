@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/ocean-react-spa/static/css/main.47675c8d.css",
-    "main.js": "/ocean-react-spa/static/js/main.cbb92172.js",
+    "main.js": "/ocean-react-spa/static/js/main.70f1e3fb.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
     "static/media/orca.jpg": "/ocean-react-spa/static/media/orca.eea9aff7446c0d48ee66.jpg",
     "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
+    "static/media/bottle.png": "/ocean-react-spa/static/media/bottle.fcf0ebbbbed4ad3dfcbe.png",
     "static/media/gray_whale.jpg": "/ocean-react-spa/static/media/gray_whale.e6fbfe131dcec077ada7.jpg",
     "static/media/sei_whale.jpg": "/ocean-react-spa/static/media/sei_whale.b9182c875b6203a9ca23.jpg",
     "static/media/selfie.png": "/ocean-react-spa/static/media/selfie.1af125dc304d9e108947.png",
@@ -54,7 +55,9 @@
     "static/media/Dropdownmenu.png": "/ocean-react-spa/static/media/Dropdownmenu.9ba85a9f0bca687fb103.png",
     "static/media/blainvilles_beaked_whale.jpg": "/ocean-react-spa/static/media/blainvilles_beaked_whale.2e17aada6825c43b6adf.jpg",
     "static/media/prompt5.png": "/ocean-react-spa/static/media/prompt5.3690265f45d63f597ea9.png",
+    "static/media/cigarette.png": "/ocean-react-spa/static/media/cigarette.eb4178e0b277db5b5559.png",
     "static/media/prompt6.png": "/ocean-react-spa/static/media/prompt6.62cd0ecf20fea1c838c0.png",
+    "static/media/bottle cap.png": "/ocean-react-spa/static/media/bottle cap.40a49e60130853669e9a.png",
     "static/media/beluga_whale.jpg": "/ocean-react-spa/static/media/beluga_whale.579c0252fe4cddc4dfe3.jpg",
     "static/media/Phone nav.png": "/ocean-react-spa/static/media/Phone nav.12d6ebaefddb8eae09af.png",
     "static/media/Referrence2.png": "/ocean-react-spa/static/media/Referrence2.8d7117ebce575c4f7f92.png",
@@ -65,6 +68,7 @@
     "static/media/atlantic_humpbacked_dolphin.jpg": "/ocean-react-spa/static/media/atlantic_humpbacked_dolphin.5cbdac5ae756d9a27234.jpg",
     "static/media/common_thresher_shark.jpg": "/ocean-react-spa/static/media/common_thresher_shark.677a90dddf6b25f63df8.jpg",
     "static/media/sperm_whale.jpg": "/ocean-react-spa/static/media/sperm_whale.284b7b4868f23be8d355.jpg",
+    "static/media/straw.png": "/ocean-react-spa/static/media/straw.e5c75f2fd0c170a95e18.png",
     "static/media/brydes_whale.jpg": "/ocean-react-spa/static/media/brydes_whale.345e4cf03cddb8ba9e43.jpg",
     "static/media/hawksbill_sea_turtle.jpg": "/ocean-react-spa/static/media/hawksbill_sea_turtle.24c96863366cb450acc4.jpg",
     "static/media/leatherback_sea_turtle.jpg": "/ocean-react-spa/static/media/leatherback_sea_turtle.e4a138900d7b7a477e2b.jpg",
@@ -85,6 +89,7 @@
     "static/media/kemps_ridley_sea_turtle.jpg": "/ocean-react-spa/static/media/kemps_ridley_sea_turtle.c1b7a397df3a4bfae423.jpg",
     "static/media/olive_ridley_sea_turtle.jpg": "/ocean-react-spa/static/media/olive_ridley_sea_turtle.3d87d6789fa7993607ce.jpg",
     "static/media/bowhead_whale.jpg": "/ocean-react-spa/static/media/bowhead_whale.9c9d19ff1a10f94ece6e.jpg",
+    "static/media/wrapper.jpeg": "/ocean-react-spa/static/media/wrapper.4f7080c9082d6cdb60b4.jpeg",
     "static/media/BlueTang.jpg": "/ocean-react-spa/static/media/BlueTang.6004ed58d1adda54bd39.jpg",
     "static/media/killer_whale.jpg": "/ocean-react-spa/static/media/killer_whale.7cd7b7fb862ff8257b56.jpg",
     "static/media/BluefinNotho.jpg": "/ocean-react-spa/static/media/BluefinNotho.c80ba09f843bb4097459.jpg",
@@ -92,11 +97,11 @@
     "static/media/north_pacific_right_whale.jpg": "/ocean-react-spa/static/media/north_pacific_right_whale.3adf2b8d96c1f676ea84.jpg",
     "index.html": "/ocean-react-spa/index.html",
     "main.47675c8d.css.map": "/ocean-react-spa/static/css/main.47675c8d.css.map",
-    "main.cbb92172.js.map": "/ocean-react-spa/static/js/main.cbb92172.js.map",
+    "main.70f1e3fb.js.map": "/ocean-react-spa/static/js/main.70f1e3fb.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47675c8d.css",
-    "static/js/main.cbb92172.js"
+    "static/js/main.70f1e3fb.js"
   ]
 }
