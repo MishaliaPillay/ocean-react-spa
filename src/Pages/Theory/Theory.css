@@ -14,8 +14,8 @@
 
 .darkTheme {
   --text-color: #dcdcdc;
-  --background-color: #1c1c1c;
-  --blogPost-background: #2e2e2e;
+  --background-color: #000000;
+  --blogPost-background: #000000;
   --border-color: transparent;
   --box-shadow-color: rgba(255, 255, 255, 0.1);
   --heading-color: #dcdcdc;
@@ -42,8 +42,13 @@ h4 {
   color: var(--heading-color);
 }
 
-
-.blurbParagraph {
+ p.referrences{
+  color: var(--text-color);
+}
+.p-author{
+  color: var(--text-color);
+} 
+.blurbParagraph { 
   line-height: 1.9em;
   margin: 2em 0;
   font-size: 15px;
@@ -53,11 +58,11 @@ h4 {
 .blogPost {
   width: 80%;
   max-width: 1100px;
-  background: var(--blogPost-background);
+  background: var(  --paragraph-background);
   margin: 20px auto 0;
   background: linear-gradient(
-        var(--blogPost-background),
-        var(--blogPost-background)
+        var(  --paragraph-background),
+        var(  --paragraph-background)
       )
       padding-box,
     linear-gradient(to right, #244ae3, #04d7de) border-box;

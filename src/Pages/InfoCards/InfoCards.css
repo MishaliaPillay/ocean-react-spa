@@ -5,20 +5,17 @@
   --card-background-color: #fff;
   --card-title-color: #32325d;
   --box-shadow-color: rgba(0, 0, 0, 0.25);
+  --shadow-color-1-light: rgba(50, 50, 93, 0.25);
+  --shadow-color-2-light: rgba(0, 0, 0, 0.3);
 }
 
 .darkTheme {
   --dark-blue: #dcdcdc;
   --gray: #1c1c1c;
   --background-color: #2e2e2e;
-  --card-background-color: #131313;
+  --card-background-color: #311000;
   --card-title-color: #dcdcdc;
   --box-shadow-color: rgba(255, 255, 255, 0.1);
-}
-/* Colors */
-:root {
-  --dark-blue: #32325d;
-  --gray: #f8f8f8;
 }
 
 /* Mobile first */
@@ -61,7 +58,7 @@ html {
     width: 100%; /* Set width to 100% for screens under 40rem */
   }
 }
-.card-intro{
+.card-intro {
   color: var(--card-title-color);
 }
 .card-item {
@@ -69,8 +66,9 @@ html {
   flex-direction: column;
   background-color: var(--card-background-color);
   width: 100%;
-  border-radius: 6px; 
-  box-shadow: 0 20px 40px -14px var(--box-shadow-color);
+  border-radius: 6px;
+  box-shadow: var(--shadow-color-1-light) 0px 13px 27px -5px,
+    var(--shadow-color-2-light) 0px 8px 16px -8px;
   overflow: hidden;
   transition: transform 0.5s;
 }

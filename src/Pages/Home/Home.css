@@ -21,8 +21,8 @@
   --background-color: #000;
   --home-title-color: #fff;
   --home-title-text-shadow: rgba(0, 0, 0, 0.6);
-  --video-container-background: #1e1e1e;
-  --video-container-box-shadow: 0px 8px 24px 0px rgba(255, 255, 255, 0.5);
+  --video-container-background: #2f64c7fd;
+  --video-container-box-shadow: 0px 8px 24px 0px rgba(0, 100, 186, 1);
   --additional-text-background: rgba(255, 255, 255, 0.5);
   --additional-text-color: black;
   --heading-color: white;

@@ -5,21 +5,25 @@
   --card-background-color: #fff;
   --card-title-color: #32325d;
   --box-shadow-color: rgba(0, 0, 0, 0.316);
+  --shadow-color-1: rgba(50, 50, 93, 0.25);
+  --shadow-color-2: rgba(0, 0, 0, 0.3);
 }
 
 .darkTheme {
   --dark-blue: #dcdcdc;
   --gray: #1c1c1c;
   --background-color: #2e2e2e;
-  --card-background-color: #131313;
+  --card-background-color: #004268;
   --card-title-color: #dcdcdc;
   --box-shadow-color: rgba(255, 255, 255, 0.1);
+  --shadow-color-1: rgba(81, 81, 81, 0.375);
+  --shadow-color-2: rgba(143, 143, 143, 0.5);
 }
 
 /* General styles */
 body {
   background: #fbfbfb;
-  font-family: "Merriweather", serif;
+  
   font-size: 16px;
   color: #777;
 }
@@ -69,7 +73,8 @@ h4 {
   width: 100%;
   border-radius: 6px;
   border: 4px solid transparent;
-  box-shadow: 0 50px 100px -20px var(--box-shadow-color);
+  box-shadow: var(--shadow-color-1) 0px 13px 27px -5px,
+    var(--shadow-color-2) 0px 8px 16px -8px;
   overflow: hidden;
   transition: transform 0.5s;
 }
@@ -78,7 +83,10 @@ h4 {
   cursor: pointer;
   transform: scale(1.05);
 }
-
+.darkTheme .box {
+  box-shadow: var(--shadow-color-1-dark) 0px 13px 27px -5px,
+    var(--shadow-color-2-dark) 0px 8px 16px -8px;
+}
 .card-info {
   display: flex;
   flex-direction: column;
@@ -245,7 +253,8 @@ h4 {
   font-size: 15px;
   font-weight: var(--blurbParagraph-font-weight);
 }
-.blogPostt {padding-top: 40px;
+.blogPostt {
+  padding-top: 40px;
   width: 80%;
   max-width: 1100px;
   background: var(--blogPost-background);

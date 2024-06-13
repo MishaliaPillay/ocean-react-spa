@@ -22,12 +22,25 @@ main {
 
   flex-grow: 1;
 }
-html {
-  --s: 1px; /* control the size*/
-  --c1: #ffffff;
-  --c2: #ebffff;
+/* Light Mode Variables */
+:root {
+  --s: 1px; /* control the size */
+  --c1: #ffffff; /* light mode color 1 */
+  --c2: #ebffff; /* light mode color 2 */
+  --g: #0000 66%, var(--c1) 68% 98%, #0000; /* gradient for light mode background */
+}
 
-  --g: #0000 66%, var(--c1) 68% 98%, #0000;
+/* Dark Mode Variables */
+.darkTheme {
+  --s: 1px; /* control the size */
+  --c1: #0e0e0e; /* dark mode color 1 */
+  --c2: #000000; /* dark mode color 2 */
+  --g: #0000 66%, var(--c1) 68% 98%, #0000; /* gradient for dark mode background */
+}
+
+/* Common Styles for Both Modes */
+html,
+body {
   background: radial-gradient(30% 30% at 0% 30%, var(--g)) var(--s)
       calc(9 * var(--s)),
     radial-gradient(30% 30% at 100% 30%, var(--g)) var(--s) calc(-1 * var(--s)),
@@ -35,20 +48,10 @@ html {
     radial-gradient(30% 30% at 30% 0%, var(--g)) var(--c2);
   background-size: calc(20 * var(--s)) calc(20 * var(--s));
 }
-body{
-  --s: 1px; /* control the size*/
-  --c1: #ffffff;
-  --c2: #ebffff;
-  
-  --g:#0000 66%,var(--c1) 68% 98%,#0000;
-  background:
-    radial-gradient(30% 30% at 0%   30%,var(--g))
-     var(--s) calc(9*var(--s)),
-    radial-gradient(30% 30% at 100% 30%,var(--g))
-     var(--s) calc(-1*var(--s)),
-    radial-gradient(30% 30% at 30% 100%,var(--g))
-     calc(10*var(--s)) 0,
-    radial-gradient(30% 30% at 30% 0%  ,var(--g))
-     var(--c2);
-  background-size: calc(20*var(--s)) calc(20*var(--s));
+
+/* Example of applying dark mode to body */
+body.darkTheme { 
+  --c1: #0e0e0e; /* dark mode color 1 */
+  --c2: #000000; /* dark mode color 2 */
+  --g: #0000 66%, var(--c1) 68% 98%, #0000; /* gradient for dark mode background */
 }

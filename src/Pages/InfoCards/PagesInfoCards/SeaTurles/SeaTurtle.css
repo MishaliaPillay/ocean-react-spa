@@ -14,7 +14,7 @@
 .darkTheme {
   --background-color: #2e2e2e;
   --text-color: #dcdcdc;
-  --blurb-background-color: #444444;
+  --blurb-background-color: #000000;
   --blurb-border-color: transparent;
   --shadow-color: rgba(255, 255, 255, 0.1);
   --card-title-color: #dcdcdc;

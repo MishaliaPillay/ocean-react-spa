@@ -21,7 +21,7 @@ const Art = () => {
             creations, and art that thrives on connection and accessibility.
           </p>
         </article>
-      </section>
+      </section> <Map />
       <section className="blogPost ">
         <article className="blogContent">
           <summary>
@@ -112,7 +112,7 @@ const Art = () => {
           </figure>
         </article>
       </section>
-      <Map />
+     
     </>
   );
 };
