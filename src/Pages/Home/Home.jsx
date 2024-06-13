@@ -102,7 +102,7 @@ const Home = () => {
         ></path>
       </svg>
       <section>
-        <h2 className="headings">Why we care</h2>
+    
         <PollutionStats />
       </section>{" "}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -113,7 +113,7 @@ const Home = () => {
         ></path>
       </svg>
       <section>
-        <h2 className="headings">Random Ocean Facts</h2>
+ 
         <OceanFacts />
       </section>
     

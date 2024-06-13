@@ -17,7 +17,8 @@ import Footer from "./Components/Footer/Footer";
 import PollutionStats from "./Pages/Home/PollutionStats";
 import CuteFish from "./Pages/InfoCards/PagesInfoCards/CuteFish/CuteFish";
 import ThemeProvider from "./Context/ThemeContext";
-
+import ToTop from "./Components/ToTheTop/ToTop";
+import NotFound from "./Pages/NotFound/NotFound";
 
 const App = () => {
   const pages = [
@@ -31,9 +32,9 @@ const App = () => {
   return (
     <ThemeProvider>
       <main className="app">
-        <BrowserRouter>
+        <BrowserRouter basename="/ocean-react-spa">
           <Navbar pages={pages} />
-        
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/art" element={<Art />} />
@@ -48,8 +49,10 @@ const App = () => {
             <Route path="/infocards" element={<InfoCards />} />
             <Route path="/pollutionstats" element={<PollutionStats />} />
             <Route path="/fish" element={<CuteFish />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
+          <ToTop />
+
           <Footer />
         </BrowserRouter>
       </main>

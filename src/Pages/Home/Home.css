@@ -171,6 +171,7 @@ ul li {
   border: 4px solid var(--paragraph-border-color);
   padding: 10px;
   margin: 10%;
+  margin-top: 0%;
 }
 
 .paragraphStyles li {

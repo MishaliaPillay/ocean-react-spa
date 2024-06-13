@@ -36,7 +36,7 @@ const OceanFacts = () => {
 
   return (
     <section className="paragraphStyles ">
-      <h1 className="littleHeading">Ocean Facts</h1>
+      <h2 className="littleHeading">Ocean Facts</h2>
 
       <button
         className="factsgenerate"

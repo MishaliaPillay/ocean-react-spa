@@ -1,0 +1,40 @@
+.error-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  padding: 0 20px; /* Padding to ensure responsiveness */
+}
+
+.errorImg {
+  margin-left: 20%;
+  max-width: 20%; /* Adjust this value to make the image smaller */
+  height: auto;
+  flex: 1;
+}
+
+.errorText {
+  margin-left: 20px;
+  flex: 1;
+  text-align: center; /* Center align text */
+}
+
+@media (max-width: 768px) {
+  .error-container {
+    margin-top: 100px;
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .errorImg {
+    margin-left: 0%;
+    max-width: 20%; /* Smaller image on small screens */
+  }
+
+  .errorText {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

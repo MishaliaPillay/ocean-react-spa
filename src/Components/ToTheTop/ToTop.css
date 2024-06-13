@@ -1,0 +1,74 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background: aliceblue;
+    color: rgb(0, 0, 93);
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Arrange items vertically */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .back-to-top:hover {
+    font-weight: bold;
+  }
+  
+  .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background: aliceblue;
+    color: rgb(0, 0, 93);
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Arrange items vertically */
+    padding: 10px; /* Add padding for better spacing */
+    width: 80px; /* Set a fixed width */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+  }
+  
+  .back-to-top:hover {
+    font-weight: bold;
+  }
+  
+  .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Ensure text is centered */
+  }
+  
+  .button-content span {
+    font-weight: normal; /* Ensure the text starts as normal weight */
+  }
+  
+  .back-to-top:hover .button-content span {
+    font-weight: bold; /* Only change the font-weight on hover */
+  }
+  
+  .button-content span {
+    font-weight: normal; /* Ensure the text starts as normal weight */
+  }
+  
+  .back-to-top:hover .button-content span {
+    font-weight: bold; /* Only change the font-weight on hover */
+  }
+  
