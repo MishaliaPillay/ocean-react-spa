@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import oceanFactsData from "../../Data/101Facts.json";
 import * as PhosphorIcons from "@phosphor-icons/react";
-
+import { MagnifyingGlass } from "@phosphor-icons/react";
 // Component to display a single fact
 const Fact = ({ fact, IconComponent }) => (
   <li className="fact">
@@ -43,6 +43,7 @@ const OceanFacts = () => {
         onClick={getRandomFacts}
         style={{ cursor: "pointer" }}
       >
+        <MagnifyingGlass size={25} />
         More Facts
       </button>
 

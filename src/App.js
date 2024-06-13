@@ -19,6 +19,7 @@ import CuteFish from "./Pages/InfoCards/PagesInfoCards/CuteFish/CuteFish";
 import ThemeProvider from "./Context/ThemeContext";
 import ToTop from "./Components/ToTheTop/ToTop";
 import NotFound from "./Pages/NotFound/NotFound";
+import DesignBlogs from "./Pages/Design/DesignBlogs";
 
 const App = () => {
   const pages = [
@@ -41,7 +42,8 @@ const App = () => {
             <Route path="/design" element={<Design />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/theory" element={<Theory />} />
-            <Route path="/seaturtle" element={<SeaTurtle />} />
+            <Route path="/seaturtle" element={<SeaTurtle />} />{" "}
+            <Route path="/design/:id" element={<DesignBlogs />} />
             <Route path="/sharks" element={<Sharks />} />
             <Route path="/whales" element={<Whales />} />
             <Route path="/dolphins" element={<Dolphins />} />

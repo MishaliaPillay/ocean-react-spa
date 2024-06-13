@@ -42,33 +42,11 @@ h4 {
   color: var(--heading-color);
 }
 
-h1 {
-  font-size: 2em;
-  font-weight: 700;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 30px 0;
-}
-
-h2 {
-  font-size: 1.8em;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 1.6em;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 1.4em;
-}
 
 .blurbParagraph {
   line-height: 1.9em;
   margin: 2em 0;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: var(--blurbParagraph-font-weight);
 }
 
