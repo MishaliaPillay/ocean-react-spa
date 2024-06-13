@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import whale from "./whale.png";
+import turtle from "./turtlelogo.jpg";
 import { CaretCircleDown } from "@phosphor-icons/react";
 import ThemeSet from "../../Context/ThemeSet";
 const Navbar = ({ pages }) => {
@@ -24,8 +24,8 @@ const Navbar = ({ pages }) => {
 
   return (
     <nav>
-      <section className="logo">
-        <img src={whale} alt="whale" />
+      <section className="logoo">
+        <img src={turtle} alt="turtle" />
       </section>
       <section
         className={`hamburger ${isOpen ? "toggle" : ""}`}
@@ -87,12 +87,19 @@ const Navbar = ({ pages }) => {
               >
                 Tips
               </button>
-            </li>
+            </li>{" "}
             <li>
               <button
                 onClick={() => navigateTo({ name: "Whales", route: "whales" })}
               >
                 Whales
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigateTo({ name: "Fish", route: "fish" })}
+              >
+                Fish
               </button>
             </li>
           </ul>

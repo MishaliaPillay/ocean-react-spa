@@ -41,7 +41,7 @@ nav {
   height: 3.8rem;
   width: 100vw;
   background-color: var(--background);
-  
+
   display: flex;
   position: fixed;
   z-index: 2000;
@@ -67,7 +67,8 @@ nav {
   align-items: center;
   text-transform: uppercase;
 }
-.nav-links li button {color: var(--link);
+.nav-links li button {
+  color: var(--link);
   text-decoration: none;
   margin: 0 0.7vw;
 }
@@ -143,15 +144,19 @@ button {
 .hamburger {
   display: none;
 }
-
-/* Styling for small screens */
-@media screen and (max-width: 800px) {.hamburger div {
-  
-  background: var(--slide);
- 
+.logoo img{  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
 }
+/* Styling for small screens */
+@media screen and (max-width: 800px) {
+  .hamburger div {
+    background: var(--slide);
+  }
   button {
-    color:var(--background);
+    color: var(--background);
     z-index: 10;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
@@ -164,7 +169,6 @@ button {
     z-index: 3;
   }
   .hamburger {
-  
     border: none;
     display: block;
     position: absolute;
@@ -294,7 +298,6 @@ button {
 
 /* Dark mode */
 body.dark-mode {
- 
   color: var(--text);
 }
 
