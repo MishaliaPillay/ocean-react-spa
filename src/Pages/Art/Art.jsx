@@ -94,7 +94,30 @@ const Art = () => {
             />
             <figcaption className="blogImgCaption">Marker</figcaption>
           </figure>
-          <h2 className="secondHeading">References Discussion</h2>
+          <h2 className="secondHeading">Layers</h2>
+          <p className="blurbParagraph ">
+            After I found a meaningful way of displaying the data, I needed to
+            find a way to transform this from an advanced data visualization
+            into a net art, while still maintaining the core value of this
+            website which is to educate and inform. This is where I decided to
+            utilize the layers element along with the marker element from
+            React-Leaflet. I decided to do research on what are the most
+            commonly disposed of plastic products that are found in the ocean
+            and to get pngs of each of these products. I replaced the markers
+            with these pngs, and the user is able to select which markers they
+            prefer to look at . This is also related to the target audience of
+            this website. In the design section of this website, it was
+            specified that this website is made to be accessible to all age
+            groups and users from different backgrounds. To elaborate on this
+            and give an example we must look at the original markers used which
+            are the circle markers, these are saturated with information, from
+            the colours to the placements to the overall look. People who have
+            experience with heatmaps are able to understand from first glance
+            what the markers are trying to show. To allow for customizability
+            for other audiences the png serves as an informative and fun way to
+            explore the data.
+          </p>
+          <h2 className="secondHeading">Heatmap</h2>
           <p className="blurbParagraph ">
             The reference images show different ways of displaying plastic waste
             contributors, these range from info graphic to pie charts. Based on
