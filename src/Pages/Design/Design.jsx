@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import designData from "../../Data/Design.json";
 import "./Design.css";
 
@@ -9,7 +9,10 @@ const Design = () => {
   useEffect(() => {
     setDesignContent(designData.designContent);
   }, []);
-
+  const navigate = useNavigate();
+  const navigateToSection = (sectionIndex) => {
+    navigate(`/design/${sectionIndex}`);
+  };
   return (
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -38,9 +41,12 @@ const Design = () => {
                 <section className="cardInfor">
                   <h2 className="cardTitlee">{section.title}</h2>
                   <p className="blurbParagraph">{section.explanation}</p>
-                  <Link to={`/design/${sectionIndex}`} className="readMore">
+                  <button
+                    className="readMore"
+                    onClick={() => navigateToSection(sectionIndex)}
+                  >
                     Read More
-                  </Link>
+                  </button>
                 </section>
               </section>
             </article>
