@@ -23,7 +23,7 @@
 /* General styles */
 body {
   background: #fbfbfb;
-  
+
   font-size: 16px;
   color: #777;
 }
@@ -230,6 +230,9 @@ h4 {
 /* Image gallery styles */
 .image-gallery {
   display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -238,6 +241,9 @@ h4 {
 }
 
 .image-gallery img {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
   max-width: 100%;
   border-radius: 4px;
 }
@@ -245,13 +251,17 @@ h4 {
 .image-gallery figcaption {
   text-align: center;
   font-size: 14px;
-  color: #555;
+  color: var(--text-color);
 }
 .blurbParagraphh {
+  color: var(--text-color);
   line-height: 1.9em;
   margin: 2em 0;
   font-size: 15px;
   font-weight: var(--blurbParagraph-font-weight);
+}
+.blogImgCaption {
+  color: var(--text-color);
 }
 .blogPostt {
   padding-top: 40px;
@@ -278,7 +288,13 @@ h4 {
   font-weight: 700;
   color: var(--text-color);
 }
+img {
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  max-height: 500px; /* Adjust the value as needed */
+  width: auto; /* Ensure images maintain aspect ratio */
 
+}
 summary .blogsummmary {
   width: 100%;
   font-size: 15px;

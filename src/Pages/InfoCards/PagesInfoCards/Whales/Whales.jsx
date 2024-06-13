@@ -21,19 +21,21 @@ const Whales = () => {
       <article className="introParagrapgh">
         <article className="blogContent">
           <h1 className="thirdHeading">
-            7 Unique Dolphin Types: The Ocean’s Most Captivating Creatures
+            20 Types of Whales (and Where to Find Them)
           </h1>
           <p className="blurbParagraph">
-            Dolphins are well known to be some of the friendliest, most
-            fun-loving marine mammals, not to mention their incredibly high
-            level of intelligence, hunting abilities, and unique communication
-            styles. There are 43 species of dolphin that currently exist on the
-            planet, of which 38 are ocean bound, with the remaining five species
-            making their homes in freshwater rivers. Dolphins can be found in a
-            large variety of shapes and sizes scattered throughout the world’s
-            waterways. If you are a dolphin fan, then the following dolphin
-            types are sure to get your excitement levels shooting through the
-            roof.
+            There are plenty of animals that live in the world’s four oceans,
+            but among the largest are whales — but there’s not just one singular
+            type of whale. There are a multitude of species of whale, and they
+            live in all of the oceans worldwide, from the Beluga whale that
+            prefers the frigid waters of the Arctic Ocean to the Humpback whale
+            that spends the winters in the tropical waters near Hawaii. Whales
+            are marine mammals that live in water but need to surface regularly
+            to be able to breathe, so it’s possible for avid whale watchers to
+            get sightings of many different types of whales. Here are 20 types
+            of whales, including some of the most popular species and some that
+            are more unheard of, and the best places in the world to try and
+            spot them.
           </p>
         </article>
       </article>
