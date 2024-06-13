@@ -1,19 +1,25 @@
+// Function to get the marker color based on the entity and its type enity being reigions
 export const getMarkerColor = (entity, type) => {
   const share = entity["Share of global plastics emitted to ocean"];
   const maxOpacity = 1;
 
+  // If the type is "continent", calculate opacity based on it share  and return  a green color
   if (type === "continent") {
-    let opacityContinent = share / 20; // Opacity between 0 and 1
-    opacityContinent = Math.min(opacityContinent, maxOpacity);
-    return `rgba(0, 255, 0, ${opacityContinent})`; // Green color with varying opacity
+    let opacityContinent = share / 20;
+    opacityContinent = Math.min(opacityContinent, maxOpacity); // check opacity does not exceed max
+    return `rgba(0, 255, 0, ${opacityContinent})`; // calculated opacity for markers
   } else {
-    let opacity = share / 0.1; // Opacity between 0 and 1
-    opacity = Math.min(opacity, maxOpacity);
-    return `rgba(255, 0, 0, ${opacity})`; // Red color with varying opacity
+    //if not continnet run below function
+    let opacity = share / 0.1;
+    opacity = Math.min(opacity, maxOpacity); // check opacity does not exceed max
+    return `rgba(255, 0, 0, ${opacity})`; // calculated opacity for markers
   }
 };
 
+// the style for each continent based on data form border . json
+//this gives am outline and fill
 export const getContinentStyle = (feature) => {
+  // Switch statement to determine the style based on the continent name
   switch (feature.properties.CONTINENT) {
     case "Africa":
       return {
@@ -74,6 +80,7 @@ export const getContinentStyle = (feature) => {
   }
 };
 
+// This create a popup which check the name of the continet the mouse is on
 export const onEachContinent = (feature, layer) => {
   const continentName = feature.properties.CONTINENT;
   if (continentName) {

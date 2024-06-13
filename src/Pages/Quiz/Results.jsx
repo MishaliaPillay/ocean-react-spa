@@ -1,13 +1,12 @@
 import React from "react";
 
-// Component to render quiz results
 const Results = ({
-  quizData, // The quiz data containing all the Q&A
-  sectionIndex, // The index of the current quiz section
-  userAnswers, // Array of answers selected by  user
-  handleBackToSections, // Function to navigate back to the section selection view
+  quizData, // the quiz data containing all the Q&A
+  sectionIndex, // the index of the current quiz section
+  userAnswers, // array of answers selected by  user
+  handleBackToSections, // navigate back to the section selection view
 }) => {
-  // Extract the current section questions using the section index
+  // check current section questions using the section index
   const currentSection =
     quizData.questions[0][Object.keys(quizData.questions[0])[sectionIndex]];
 
@@ -15,7 +14,6 @@ const Results = ({
     <section className="results-container">
       <h2>Quiz Results</h2>
 
-      {/* Iterate over user answers to display each question result */}
       {userAnswers.map((answer, index) => (
         <section key={index}>
           <p className="heading">
@@ -23,7 +21,6 @@ const Results = ({
             {answer === currentSection[index].answer ? "Correct" : "Incorrect"}
           </p>
 
-          {/* If the user's answer was incorrect, display the correct answer explanation */}
           {answer !== currentSection[index].answer && (
             <p>{currentSection[index].explanation}</p>
           )}

@@ -34,9 +34,9 @@ const Design = () => {
         {designContent.length > 0 ? (
           designContent.map((section, sectionIndex) => (
             <article className="cards" key={sectionIndex}>
-              <section className="card-item">
-                <section className="card-info">
-                  <h2 className="card-title">{section.title}</h2>
+              <section className="cardItems">
+                <section className="cardInfor">
+                  <h2 className="cardTitlee">{section.title}</h2>
                   <p className="blurbParagraph">{section.explanation}</p>
                   <Link to={`/design/${sectionIndex}`} className="readMore">
                     Read More

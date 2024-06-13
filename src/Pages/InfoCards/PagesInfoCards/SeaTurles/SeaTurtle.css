@@ -5,7 +5,7 @@
   --blurb-background-color: #ffffff;
   --blurb-border-color: transparent;
   --shadow-color: rgba(0, 0, 0, 0.05);
-  --card-title-color: #373737;
+  --cardTitlee-color: #373737;
   --summary-color: #555555;
   --summary-date-color: #909090;
   --blog-image-caption-color: #888888;
@@ -17,7 +17,7 @@
   --blurb-background-color: #000000;
   --blurb-border-color: transparent;
   --shadow-color: rgba(255, 255, 255, 0.1);
-  --card-title-color: #dcdcdc;
+  --cardTitlee-color: #dcdcdc;
   --summary-color: #cccccc;
   --summary-date-color: #aaaaaa;
   --blog-image-caption-color: #bbbbbb;

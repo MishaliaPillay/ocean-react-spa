@@ -15,7 +15,7 @@ const Quiz = () => {
   const [showExplanation, setShowExplanation] = useState(false);
   const [showResults, setShowResults] = useState(false);
 
-  // Function to start the quiz for a given section
+  //  starts the quiz for a given section
   const startQuiz = (index) => {
     setSectionIndex(index);
     setQuestionIndex(0);
@@ -25,7 +25,7 @@ const Quiz = () => {
     setShowResults(false);
   };
 
-  // Function to handle option selection
+  //option selection checks wat uset picked
   const handleOptionSelect = (option) => {
     if (!selectedOption) {
       setSelectedOption(option);
@@ -33,7 +33,7 @@ const Quiz = () => {
     }
   };
 
-  // Function to handle advancing to the next question
+  // Function to handle moving to the next question
   const handleNextQuestion = () => {
     setUserAnswers((prevAnswers) => [...prevAnswers, selectedOption]);
     setSelectedOption("");
@@ -47,7 +47,7 @@ const Quiz = () => {
     }
   };
 
-  // Function to return to the section selection view
+  // to return to the section selection view
   const handleBackToSections = () => {
     setSectionIndex(null);
     setQuestionIndex(0);
@@ -57,7 +57,7 @@ const Quiz = () => {
     setShowResults(false);
   };
 
-  // Main component render logic
+
   return (
     <section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

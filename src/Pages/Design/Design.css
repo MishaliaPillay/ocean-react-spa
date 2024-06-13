@@ -3,7 +3,7 @@
   --gray: #f8f8f8;
   --background-color: #fff;
   --card-background-color: #fff;
-  --card-title-color: #32325d;
+  --cardTitlee-color: #32325d;
   --box-shadow-color: rgba(0, 0, 0, 0.316);
   --shadow-color-1: rgba(50, 50, 93, 0.25);
   --shadow-color-2: rgba(0, 0, 0, 0.3);
@@ -14,7 +14,7 @@
   --gray: #1c1c1c;
   --background-color: #2e2e2e;
   --card-background-color: #004268;
-  --card-title-color: #dcdcdc;
+  --cardTitlee-color: #dcdcdc;
   --box-shadow-color: rgba(255, 255, 255, 0.1);
   --shadow-color-1: rgba(81, 81, 81, 0.375);
   --shadow-color-2: rgba(143, 143, 143, 0.5);
@@ -66,7 +66,7 @@ h4 {
   }
 }
 
-.card-item {
+.cardItems {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* This ensures the card content is spread out */
@@ -79,7 +79,7 @@ h4 {
   transition: transform 0.5s;
 }
 
-.card-item:hover {
+.cardItems:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -87,22 +87,22 @@ h4 {
   box-shadow: var(--shadow-color-1-dark) 0px 13px 27px -5px,
     var(--shadow-color-2-dark) 0px 8px 16px -8px;
 }
-.card-info {
+.cardInfor {
   display: flex;
   flex-direction: column;
-  flex-grow: 1; /* Makes the card-info take up available space */
+  flex-grow: 1; /* Makes the cardInfor take up available space */
   padding: 1rem;
   line-height: 1.5em;
 }
 
-.card-title {
+.cardTitlee {
   font-size: 25px;
   line-height: 1.1em;
-  color: var(--card-title-color);
+  color: var(--cardTitlee-color);
   margin-bottom: 0.2em;
 }
 
-.card-image {
+.cardImages {
   height: 250px;
   overflow: hidden;
   background-size: cover;
@@ -293,7 +293,6 @@ img {
   margin: 0 auto; /* Centers the image horizontally */
   max-height: 500px; /* Adjust the value as needed */
   width: auto; /* Ensure images maintain aspect ratio */
-
 }
 summary .blogsummmary {
   width: 100%;

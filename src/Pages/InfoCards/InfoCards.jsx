@@ -61,18 +61,18 @@ const InfoCards = () => {
       {cardData.map((card, index) => (
         <section className="cards" key={index}>
           <article
-            className="card-item"
+            className="cardItems"
             data-category={card.category}
             onClick={() => navigateTo(card.category)}
           >
             <section
-              className="card-image"
+              className="cardImages"
               style={{
                 backgroundImage: `url(${card.image})`,
               }}
             ></section>
-            <section className="card-info">
-              <h2 className="card-title">{card.title}</h2>
+            <section className="cardInfor">
+              <h2 className="cardTitlee">{card.title}</h2>
               <p className="card-intro">{card.description}</p>
             </section>
           </article>
