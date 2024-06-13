@@ -70,7 +70,7 @@ const Quiz = () => {
       <section className="quiz-container">
         {sectionIndex === null && (
           <>
-            <h1 className="heading">Choose a Section to Start Quiz</h1>
+            <h1 className="secondHeadingg">Choose a Section to Start Quiz</h1>
             <section className="section-container">
               <SectionCards quizData={quizData} startQuiz={startQuiz} />
             </section>
