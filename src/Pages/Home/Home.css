@@ -98,7 +98,8 @@ video {
   display: none; /* Initially hide additional text */
 }
 
-.factsgenerate { z-index: 1;
+.factsgenerate {
+  z-index: 1;
   margin-top: 20px;
   margin-right: 50px;
   float: right;
@@ -176,7 +177,7 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .littleHeading + .factsgenerate + ul {
     display: block;
     width: 100%;
@@ -235,9 +236,18 @@ ul li {
 }
 
 .paragraphStyles {
-  background: var(--paragraph-background);
+  background: linear-gradient(
+        var(--blogPost-background),
+        var(--blogPost-background)
+      )
+      padding-box,
+    linear-gradient(to right, #244ae3, #04d7de) border-box;
   border-radius: 30px;
-  border: 4px solid var(--paragraph-border-color);
+  border: 4px solid var(--border-color);
+  box-shadow: 0 0 25px var(--box-shadow-color);
+
+  border-radius: 30px;
+
   padding: 10px;
   margin: 10%;
   margin-top: 0%;
