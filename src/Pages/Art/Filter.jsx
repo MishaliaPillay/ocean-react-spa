@@ -1,5 +1,5 @@
 import React from "react";
-
+//this is for the filter for the map it has a prop handleFilterChange
 const Filter = ({ handleFilterChange }) => {
   return (
     <section className="buttonContainer">

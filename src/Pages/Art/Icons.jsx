@@ -5,7 +5,7 @@ import capsIconUrl from "../../Images/Conservation/bottle cap.png";
 import budsIconUrl from "../../Images/Conservation/cigarette.png";
 import candyIconUrl from "../../Images/Conservation/wrapper.jpeg";
 import strawIconUrl from "../../Images/Conservation/straw.png";
-
+// these are icons tha replace the markers
 export const trashIcon = new Icon({
   iconUrl: trashIconUrl,
   iconSize: [20, 20],
