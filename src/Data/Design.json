@@ -172,42 +172,42 @@
         "title": "What changed?",
         "description": "Areas that I improved on concerning Information Architecture are mostly in the design section. It followed a similar layout to the rest of the website’s blogs; however, it contains more than twice the amount of content and it involves multiple areas of interest. This meant that it needed a different design, I decided to replace the layout which had all the blogs one after the other and replace them with cards similar to the home page. These cards had a heading for which section they direct the user to and a short description. When the user clicks on a card it alters the page to show them the specific “blog” that they have requested. To help the user know where to proceed there is a back button and a next button that the user is able to navigate through the blog list in the design section. This makes the information in the design section easier to digest as the user is presented with smaller chunks of information. ",
         "description2": "Reference: Hannah, J. (2023). What is information architecture? - UX Design Institute. [online] www.uxdesigninstitute.com. Available at: https://www.uxdesigninstitute.com/blog/what-is-information-architecture/.",
-      "images": [
-        
-        ]
+        "images": []
       }
     },
     {
       "title": "Feedback- ‌User Interface Design  ",
-      "explanation": "In this section, we will look at the goals of the website and visual designs. We will unpack fonts and color choices.",
+      "explanation": "It is the point of contact between humans and computers. Design affect the look and feel of the website.  ",
       "part1": {
-        "title": "Goal and Aesthetic",
-        "description": "Creates a sense of immersion and exploration, aligning with the interactive learning aspect",
-        "images": []
-      },
-      "part2": {
-        "title": "Font Choices",
-        "description": "Poppins font is used for the majority of the content on this website and Dream Outland Pro is used for smaller headings for some sections ",
-        "description2": "Poppins font was chosen since Sans-serif fonts like Poppins are generally considered easier to read on screens compared to serif fonts. It is also a well-balanced sans-serif font that works well for both headings and body text thus versatility was a factor in this choice.",
-        "description3": "Dreamland Pro is a display font, and these fonts are often chosen for headings because they can add a touch of personality and interest. Dreamland Pro's playful style might be intended to make the learning experience more engaging, especially for younger audiences.",
-        "images": []
-      },
-      "part3": {
-        "title": "Implementation Notes",
-        "description": "In order to implement the process in the image below, I had to break up each box into its own script and then I had to break it down further. An example of this was that for the cards I called each Json data in its own script then I brought all those components into an InfoCard.jsx file. This makes work more manageable and readable for the next time I have to return to this code.",
-        "images": []
-      },
-      "part4": {
-        "title": "Visual Design",
-        "description": "This website uses svgs waves  which correlates with the ocean theme while also  giving the website a more playful look. This wave theme is used frequently and is shown by the animated footer that looks like waves moving across the screen.Another aspect of this wave theme used in this website is in the responsive navbar. When the screen size is smaller how the background of the navbar opening emulates a wave that is swiping across the screen. ",
-        "description2": "The colour palette chosen for this website is a lighter blue and white background which fits with the ocean theme and it works well with the images which are of sea life the have some blues in the background. ",
-        "description3": " Light blue evokes shallows, dark blue represents depths, white provides clean background, and black adds contrast.",
+        "title": "",
+        "description": "This involves the clarity of communication with the user. ",
         "images": [
           {
-            "src": "colourChoices.png",
-            "caption": "Colour Choices"
+            "src": "ui.png",
+            "caption": "UI Process"
           }
         ]
+      },
+      "part2": {
+        "title": "",
+        "description": "An example is a button, although they come in many designs, simple style tells the user that it is something that can be interacted with. This is in the form of hover effects with changes in text weight, background colours and borders. Manipulating this element to show the user that this component on a website is a button and it gives them visual feedback and makes the website look more lively. The buttons previously on this website weren’t as easy identifiable like in the image below ",
+        "description2": "Reference: Coursera. (n.d.). What Is UI Design? Definition, Tips, Best Practices. [online] Available at: https://www.coursera.org/articles/ui-design.",
+        "images": [
+          {
+            "src": "button.png",
+            "caption": "Previous Button styles"
+          }
+        ]
+      },
+      "part3": {
+        "title": "Button Breakdown",
+        "description": "",
+        "images": [{ "src": "buttonstyle.png", "caption": "Button styles" }]
+      },
+      "part4": {
+        "title": "",
+        "description": " ",
+        "images": []
       }
     },
     {
