@@ -244,7 +244,7 @@
       "explanation": "Consistency in web design creates a uniform appearance, feel, and usability across all pages of a website and it shouldn't be overlooked. ",
       "part1": {
         "title": "",
-        "description": "‌In order to make this website more immersive and to create a flow I needed to implement more consistent designs. I did this by adding the svg waves from the home page to every page on the website and I styled all the buttons in the same manner. This helps with setting up the user's expectations of behavior. Since the user knows that when they see the button design on an element it is something that they can click, and they will get some response from the site. Another way that I created a consistent design is the use of cards from the home page. However I tailored it to the design section and used text and buttons instead of text and images, but every other aspect of its design is the same. ",
+        "description": "‌In order to make this website more immersive and to create a flow I needed to implement more consistent designs. I did this by adding the SVG waves from the home page to every page on the website and I styled all the buttons in the same manner. This helps with setting up the user's expectations of behavior. Since the user knows that when they see the button design on an element it is something that they can click, and they will get some response from the site. Another way that I created a consistent design is the use of cards from the home page. However I tailored it to the design section and used text and buttons instead of text and images, but every other aspect of its design is the same. ",
         "images": [
           {
             "src": "consis.png",
@@ -314,9 +314,7 @@
       "part1": {
         "title": "Cards in Design Section",
         "description": " I have changed quite a few areas on this website. Most of the changes that I have made have been prompted by the feedback that I received in assignment 3 , the rest is due to research. To elebaroate on this, I have added another article and I have made quiz questions for it as well . This makes the cards in the home page feel complete . This is because it holds three cards next to each other. I previously only had 5 cards , this  left an empty space and gave an incomplete feeling . Also how can this website claim to be about the ocean and not include anything about fish. The article tahta I chose to add is on cute fish . This fist in with the goal of the website which is to educate and make learning fun – the articles on sea life are all eye catching articles that compare and inform in an esay to digets manner.  ",
-        "images": [
-         
-        ]
+        "images": []
       },
       "part2": {
         "title": "",

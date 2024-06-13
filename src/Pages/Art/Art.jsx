@@ -125,7 +125,7 @@ const Art = () => {
             aspect since it made the total share 200% and since there are
             outliers such as the Philippines having 36 % and Asia having 80% it
             mean that almost all the markers had no color. I had to separate the
-            data into 2 Json files which fixed the coloring issue. The users
+            data into 2 JSON files which fixed the coloring issue. The users
             needed to distinguish which markers belong to which dataset and thus
             I made the countries data red and the continent data green so at
             first glance they know to separate the markers into 2 sets.
