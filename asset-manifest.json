@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ocean-react-spa/static/css/main.4c73dcd1.css",
-    "main.js": "/ocean-react-spa/static/js/main.83c1226b.js",
+    "main.js": "/ocean-react-spa/static/js/main.a52c0585.js",
     "static/js/453.1b972755.chunk.js": "/ocean-react-spa/static/js/453.1b972755.chunk.js",
     "static/media/orca.jpg": "/ocean-react-spa/static/media/orca.eea9aff7446c0d48ee66.jpg",
     "static/media/SeaTurtle.mp4": "/ocean-react-spa/static/media/SeaTurtle.9469cc75c02c25576948.mp4",
@@ -10,6 +10,7 @@
     "static/media/sei_whale.jpg": "/ocean-react-spa/static/media/sei_whale.b9182c875b6203a9ca23.jpg",
     "static/media/selfie.png": "/ocean-react-spa/static/media/selfie.1af125dc304d9e108947.png",
     "static/media/prompt8.png": "/ocean-react-spa/static/media/prompt8.a7da26a11ea6ddcf8a8d.png",
+    "static/media/marker.png": "/ocean-react-spa/static/media/marker.f8f0c4d67f6075a139db.png",
     "static/media/prompt3.png": "/ocean-react-spa/static/media/prompt3.0b6c805628570439a851.png",
     "static/media/Referrence3.png": "/ocean-react-spa/static/media/Referrence3.4312568ac2836ef48f43.png",
     "static/media/prompt1.png": "/ocean-react-spa/static/media/prompt1.9e65ca97aee9cd4a3fb2.png",
@@ -109,11 +110,11 @@
     "static/media/north_pacific_right_whale.jpg": "/ocean-react-spa/static/media/north_pacific_right_whale.3adf2b8d96c1f676ea84.jpg",
     "index.html": "/ocean-react-spa/index.html",
     "main.4c73dcd1.css.map": "/ocean-react-spa/static/css/main.4c73dcd1.css.map",
-    "main.83c1226b.js.map": "/ocean-react-spa/static/js/main.83c1226b.js.map",
+    "main.a52c0585.js.map": "/ocean-react-spa/static/js/main.a52c0585.js.map",
     "453.1b972755.chunk.js.map": "/ocean-react-spa/static/js/453.1b972755.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c73dcd1.css",
-    "static/js/main.83c1226b.js"
+    "static/js/main.a52c0585.js"
   ]
 }
