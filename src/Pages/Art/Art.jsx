@@ -119,42 +119,18 @@ const Art = () => {
           </p>
           <h2 className="secondHeading">Heatmap</h2>
           <p className="blurbParagraph ">
-            The reference images show different ways of displaying plastic waste
-            contributors, these range from info graphic to pie charts. Based on
-            the lectures in class it is best to stay away from pie charts as
-            they aren&apos;t always the most reliable and when done incorrectly
-            it keeps the user guessing the values of each segment. What sets my
-            internet art aside from the infographic is that it will be on a
-            website and it will be interactive. The user can hover and see data
-            stats and filter regions based on continents. This may lead to some
-            surprising discoveries; an example is If the user believes that
-            America produces the most amount of plastic waste but the data may
-            reveal otherwise.
+            Technical challenge: The dataset has a share of continents and
+            countries. All the continents added up give a value of 100% and all
+            the country’s data added is 100%. This caused issues for the heatmap
+            aspect since it made the total share 200% and since there are
+            outliers such as the Philippines having 36 % and Asia having 80% it
+            mean that almost all the markers had no color. I had to separate the
+            data into 2 Json files which fixed the coloring issue. The users
+            needed to distinguish which markers belong to which dataset and thus
+            I made the countries data red and the continent data green so at
+            first glance they know to separate the markers into 2 sets.
           </p>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/art example 2.jpg`)}
-              alt="Example 1"
-            />
-            <figcaption className="blogImgCaption">Example 1</figcaption>
-          </figure>
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/art example.jpg`)}
-              alt="Example 2"
-            />
-            <figcaption className="blogImgCaption">Example 2</figcaption>
-          </figure>{" "}
-          <figure>
-            <img
-              className="blogImg"
-              src={require(`../../Images/Essay/highest-polluters-shareable.jpg`)}
-              alt="Example 3"
-            />
-            <figcaption className="blogImgCaption">Example 3</figcaption>
-          </figure>
+         
         </article>
       </section>
     </>
