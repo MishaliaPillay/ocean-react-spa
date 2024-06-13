@@ -78,7 +78,7 @@ const Quiz = () => {
         )}
         {sectionIndex !== null && !showResults && (
           <>
-            <button className="factsBack" onClick={handleBackToSections}>
+            <button className="quizButton" onClick={handleBackToSections}>
               <ArrowCircleLeft size={30} />
               Back to Sections
             </button>
@@ -95,7 +95,7 @@ const Quiz = () => {
         )}
         {showResults && (
           <>
-            <button className="facts" onClick={handleBackToSections}>
+            <button className="quizButton" onClick={handleBackToSections}>
               <ArrowCircleLeft size={30} />
               Back to Sections
             </button>

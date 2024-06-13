@@ -29,11 +29,6 @@ const Results = ({
           )}
         </section>
       ))}
-
-      {/* Button to navigate back to the section selection */}
-      <button className="back-button" onClick={handleBackToSections}>
-        Back to Sections
-      </button>
     </section>
   );
 };

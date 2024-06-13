@@ -4,7 +4,7 @@
   --background-color: #fff;
   --card-background-color: #fff;
   --card-title-color: #32325d;
-  --box-shadow-color: rgba(0, 0, 0, 0.25);
+  --box-shadow-color: rgba(0, 0, 0, 0.316);
 }
 
 .darkTheme {
@@ -69,7 +69,7 @@ h4 {
   width: 100%;
   border-radius: 6px;
   border: 4px solid transparent;
-  box-shadow: 0 20px 40px -14px var(--box-shadow-color);
+  box-shadow: 0 50px 100px -20px var(--box-shadow-color);
   overflow: hidden;
   transition: transform 0.5s;
 }

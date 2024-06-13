@@ -69,7 +69,7 @@ html {
   flex-direction: column;
   background-color: var(--card-background-color);
   width: 100%;
-  border-radius: 6px;
+  border-radius: 6px; 
   box-shadow: 0 20px 40px -14px var(--box-shadow-color);
   overflow: hidden;
   transition: transform 0.5s;

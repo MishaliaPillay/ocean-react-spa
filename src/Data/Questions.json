@@ -319,7 +319,116 @@
           "answer": "Fish",
           "explanation": "Bottlenose Dolphins primarily feed on fish, using their sharp teeth and agile hunting skills to catch prey."
         }
-      ]
+      ],"Fish": [
+    {
+      "id": 1,
+      "question": "What is a unique feature of Clownfish?",
+      "options": [
+        "They can change color",
+        "They live in symbiosis with sea anemones",
+        "They can glow in the dark",
+        "They have a flat body"
+      ],
+      "answer": "They live in symbiosis with sea anemones",
+      "explanation": "Clownfish live in symbiosis with sea anemones, finding safety and shelter within their stinging tentacles and providing protection by driving away potential predators."
+    },
+    {
+      "id": 2,
+      "question": "What makes Mandarinfish especially captivating?",
+      "options": [
+        "Their ability to fly",
+        "Their vibrant colors and intricate patterns",
+        "Their large size",
+        "Their loud calls"
+      ],
+      "answer": "Their vibrant colors and intricate patterns",
+      "explanation": "Mandarinfish are mesmerizing due to their vibrant palette of colors and intricate patterns, making them look like a living work of art."
+    },
+    {
+      "id": 3,
+      "question": "What is a notable behavior of male Betta Fish?",
+      "options": [
+        "They create bubble nests",
+        "They dig holes in the sand",
+        "They change color to camouflage",
+        "They glow in the dark"
+      ],
+      "answer": "They create bubble nests",
+      "explanation": "Male Betta Fish are known for their unique behavior of creating bubble nests where they keep their eggs and protect them."
+    },
+    {
+      "id": 4,
+      "question": "What is the primary habitat of Butterflyfish?",
+      "options": [
+        "Freshwater rivers",
+        "Coral reefs",
+        "Deep sea trenches",
+        "Polar waters"
+      ],
+      "answer": "Coral reefs",
+      "explanation": "Butterflyfish inhabit warm, tropical waters, particularly coral reefs, where they can be seen gracefully swimming among the corals."
+    },
+    {
+      "id": 5,
+      "question": "What unique defense mechanism do Pufferfish have?",
+      "options": [
+        "Changing color",
+        "Puffing up to a round shape",
+        "Emitting electric shocks",
+        "Shooting ink"
+      ],
+      "answer": "Puffing up to a round shape",
+      "explanation": "Pufferfish can puff up to create an adorable round shape, which serves as a defense mechanism to deter predators."
+    },
+    {
+      "id": 6,
+      "question": "What is special about Seahorse reproduction?",
+      "options": [
+        "Females carry the eggs",
+        "Males carry and nurture the embryos",
+        "They reproduce asexually",
+        "They lay eggs on land"
+      ],
+      "answer": "Males carry and nurture the embryos",
+      "explanation": "In Seahorses, it is the males that carry and nurture the developing embryos in their pouch, showcasing a rare example of paternal care."
+    },
+    {
+      "id": 7,
+      "question": "What is the distinctive feature of Flowerhorn Cichlids?",
+      "options": [
+        "They have a large hump on their forehead",
+        "They have transparent bodies",
+        "They can fly out of the water",
+        "They have long, trailing fins"
+      ],
+      "answer": "They have a large hump on their forehead",
+      "explanation": "Flowerhorn Cichlids are known for the pronounced nuchal hump on their forehead, which varies in size and gives them a unique and charming appearance."
+    },
+    {
+      "id": 8,
+      "question": "Where are Bluefin Nothos typically found?",
+      "options": [
+        "In the deep ocean",
+        "In seasonal pools and temporary water bodies",
+        "In fast-flowing rivers",
+        "In icy Arctic waters"
+      ],
+      "answer": "In seasonal pools and temporary water bodies",
+      "explanation": "Bluefin Nothos are native to seasonal pools and temporary water bodies in Africa, particularly Mozambique and Zimbabwe."
+    },
+    {
+      "id": 9,
+      "question": "Which movie popularized the Blue Tang?",
+      "options": [
+        "Finding Nemo",
+        "The Little Mermaid",
+        "Shark Tale",
+        "Ponyo"
+      ],
+      "answer": "Finding Nemo",
+      "explanation": "The Blue Tang gained significant popularity in popular culture as the character 'Dory' in the animated movie 'Finding Nemo' and its sequel 'Finding Dory.'"
+    }
+  ]
     }
   ]
 }

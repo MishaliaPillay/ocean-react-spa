@@ -42,7 +42,7 @@ const Question = ({
         </section>
       )}
       <button
-        className="facts"
+        className="quizButton"
         onClick={handleNextQuestion}
         disabled={!selectedOption}
       >
