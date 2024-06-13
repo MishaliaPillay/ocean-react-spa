@@ -66,7 +66,7 @@ const Art = () => {
             Circle Maker. This was perfect for my net art. Circle Maker has an
             outline and a fill for the centre and through code these colours can
             be manipulated. In my planning for this artwork, I called it a heat
-            map.20 because of plotting points but the addition of the Circle
+            map 2.0 because of plotting points but the addition of the Circle
             Maker makes this a more accurate way of describing my net art since
             I was able to dynamically change the colour of the markers by
             checking a locations share of plastics waste and altering the colour
@@ -130,7 +130,6 @@ const Art = () => {
             I made the countries data red and the continent data green so at
             first glance they know to separate the markers into 2 sets.
           </p>
-         
         </article>
       </section>
     </>
